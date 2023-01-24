@@ -39,15 +39,15 @@ get_header(); ?>
 <?php $locale = get_locale(); if($locale == 'ja'):?>
 		<section class="c-section__home c-section__home__ctr  c-bnr c-bnr__clm02 c-bnr__main">
 			<ul>
-				<li><a href="<?php echo home_url('/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/ticket.jpg" alt="早割リフト券購入 全国送料＆事務手数料無料"></a></li>
-				<li><a href="<?php echo home_url('/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/coupon.jpg" alt="割引クーポン入手 プリントしてすぐ利用可能"></a></li>
+				<li><a href="<?php echo home_url('/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/ticket.png" alt="早割リフト券購入 全国送料＆事務手数料無料"></a></li>
+				<li><a href="<?php echo home_url('/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/coupon.png" alt="割引クーポン入手 プリントしてすぐ利用可能"></a></li>
 			</ul>
 		</section>
 <?php else:?>
 		<section class="c-section__home c-section__home__ctr  c-bnr c-bnr__clm02 c-bnr__main">
 			<ul>
-				<li><a href="<?php echo home_url('/en/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/ticket.jpg" alt="ADVANCE TICKET No International Shipping Domestic Bank Transfer Only"></a></li>
-				<li><a href="<?php echo home_url('/en/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/coupon.jpg" alt="COUPON Available right after printing"></a></li>
+				<li><a href="<?php echo home_url('/en/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/ticket.png" alt="ADVANCE TICKET No International Shipping Domestic Bank Transfer Only"></a></li>
+				<li><a href="<?php echo home_url('/en/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/coupon.png" alt="COUPON Available right after printing"></a></li>
 			</ul>
 		</section>
 <?php endif;?>

@@ -106,7 +106,7 @@
         display: table;
         table-layout: fixed;
         border-collapse: separate;
-        border-spacing: 5px 0;
+        //border-spacing: 5px 0;
         width: 100%;
         li {
           text-align: center;
@@ -116,14 +116,28 @@
             display: block;
             width: 100%;
             position: relative;
-            padding: .8em 0;
+            //padding: .8em 0;
             font-weight: 700;
-            border: 1px solid $color-cyan;
+            height: 3.5rem;
+            display: block;
+            display:flex; flex-direction:column; justify-content:center; align-items:center;
+            background: #eee;
+            vertical-align: bottom;
+            //border: 1px solid $color-cyan;
+            border-bottom: 2px solid #2B98CE;
 
           }
           &.is-active {
-            background: $color-cyan;
+            //background: $color-cyan;
             color: $color-white;
+            a {
+              background: $color-cyan;
+              color: $color-white;
+              height: 4rem;
+              padding: 1.2rem 0 0rem;
+              display: block;
+              vertical-align: bottom;
+            }
 
           }
         }
@@ -139,7 +153,7 @@
       overflow: hidden;
       display: block;
       width: 100%;
-      font-size: rem(20);
+      font-size: rem(16);
       font-weight: 700;
       padding: 1em;
       margin: 0 auto 2rem;

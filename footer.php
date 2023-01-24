@@ -14,11 +14,11 @@
 				<li><a href="<?php echo home_url('/en'); ?>">ENGLISH</a></li>
 			</ul>
 			<ul>
-				<li><a href="<?php echo home_url('/ticket'); ?>">早割リフト券購入</a></li>
-				<li><a href="<?php echo home_url('/coupon'); ?>">割引クーポン入手</a></li>
-				<li><a href="<?php echo home_url('/hotel-voucher'); ?>">提携ホテル</a></li>
-				<li><a href="<?php echo home_url('/shop-voucher'); ?>">提携ショップ</a></li>
-				<li><a href="<?php echo home_url('/news'); ?>">新着情報</a></li>
+				<li><a href="<?php echo home_url('/ticket'); ?>">LIFT TICKETS</a></li>
+				<li><a href="<?php echo home_url('/coupon'); ?>">LIFT COUPONS</a></li>
+				<li><a href="<?php echo home_url('/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
+				<li><a href="<?php echo home_url('/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
+				<li><a href="<?php echo home_url('/news'); ?>">NEWS</a></li>
 			</ul>
 			<ul>
 				<li><a target="_blank" href="https://www.snownavi.com/wp/contact" class="c-arw">お問い合わせ</a></li>
@@ -49,16 +49,16 @@
 				<li><a href="<?php echo home_url('/en'); ?>">EN</a></li>
 			</ul>
 			<ul>
-				<li><a href="<?php echo home_url('/en/ticket'); ?>">Ticket</a></li>
-				<li><a href="<?php echo home_url('/en/coupon'); ?>">Coupon</a></li>
-				<li><a href="<?php echo home_url('/en/hotel-voucher'); ?>">Hotel Voucher</a></li>
-				<li><a href="<?php echo home_url('/en/shop-voucher'); ?>">Shop Voucher</a></li>
-				<li><a href="<?php echo home_url('/en/news'); ?>">News</a></li>
+				<li><a href="<?php echo home_url('/en/ticket'); ?>">LIFT TICKETS</a></li>
+				<li><a href="<?php echo home_url('/en/coupon'); ?>">LIFT COUPONS</a></li>
+				<li><a href="<?php echo home_url('/en/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
+				<li><a href="<?php echo home_url('/en/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
+				<li><a href="<?php echo home_url('/en/news'); ?>">NEWS</a></li>
 			</ul>
 			<ul>
-				<li><a target="_blank" href="https://www.snownavi.com/wp/en/contact" class="c-arw">Contact Us</a></li>
-				<li><a target="_blank" href="https://www.snownavi.com/wp/en/company">About Us</a></li>
-				<li><a target="_blank" href="https://www.snownavi.com/wp/en/privacy">Privacy Policy</a></li>
+				<li><a target="_blank" href="https://www.snownavi.com/wp/en/contact" class="c-arw">CONTACT US</a></li>
+				<li><a target="_blank" href="https://www.snownavi.com/wp/en/company">ABOUT US</a></li>
+				<li><a target="_blank" href="https://www.snownavi.com/wp/en/privacy">PRIVACY POLICY</a></li>
 			</ul>
 		</nav>
 		<div class="l-footer__logo">

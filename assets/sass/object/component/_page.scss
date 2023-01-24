@@ -196,29 +196,36 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    border-bottom: 3px solid $color-cyan;
     li {
       width: 50%;
       text-align: center;
       a {
-        display: block;
         color: #9F9F9F;
-        font-size: rem(16);
+        font-size: rem(14);
         font-weight: 700;
         background: $color-white;
-        padding: 1rem 0;
+        display:flex; flex-direction:column; justify-content:center; align-items:center;
+        border-bottom: 2px solid $color-cyan;
+        padding: 0.1rem 0 0;
+        height: 2.6rem;
         @include mq(lap) {
-          font-size: rem(20);
+          border-bottom: 3px solid $color-cyan;
+          font-size: rem(16);
+          padding: 0.1rem 0 0;
+          height: 3rem;
         }
       }
       &.is-active {
         a {
           color: $color-white;
           background: $color-cyan;
-          font-size: rem(18);
-          line-height: 1.6;
+          font-size: rem(14);
+          padding: 0.4rem 0 0;
+          height: 3rem;
           @include mq(lap) {
-            font-size: rem(26);
+            font-size: rem(16);
+            padding: 0.3rem 0 0;
+            height: 3.5rem;
           }
         }
       }

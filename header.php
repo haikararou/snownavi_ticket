@@ -71,7 +71,7 @@ $my_body_class = 'category category_' . $category[0]->category_nicename . '';
 			<a href="<?php echo home_url('/'); ?>">
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="234.2" height="34.78" viewBox="0 0 234.2 34.78">
 					<path class="cls-1" d="M28.06,31.21c-1.19,2.08-4.67,3.1-10.41,3.1h-16C.6,34.31.09,33.76.09,32.66A3.47,3.47,0,0,1,.3,31.12c.21-.42.68-.59,1.36-.59h16c4.29,0,6.46-.81,6.46-2.42V25.94c0-1.58-2.08-2.43-6.25-2.51q-10.65-.32-11.61-.51C2.08,22.24,0,20.37,0,17.35V15.48c0-3,1.66-5,4.89-5.87A41.48,41.48,0,0,1,13.48,9a1.46,1.46,0,0,1,1.66,1.62v.51a1.47,1.47,0,0,1-1.66,1.66c-.09,0-.38,0-.89,0H11.44c-4.55,0-6.81.89-6.81,2.67v1.75c0,1.1.94,1.83,2.81,2.17a31.39,31.39,0,0,0,4.08.17h6.17a18.8,18.8,0,0,1,7,1.14c2.68,1.07,4,2.81,4,5.11V28A6.58,6.58,0,0,1,28.06,31.21Z"/><path class="cls-1" d="M56.93,34.31A8.77,8.77,0,0,1,55,34.19a1.43,1.43,0,0,1-.89-1.53V20c0-.89-.73-1.53-2.26-1.78a27.33,27.33,0,0,0-3.27-.09H41.46a28.77,28.77,0,0,0-3.36.09c-1.53.3-2.3.89-2.3,1.83V32.66a1.46,1.46,0,0,1-1.66,1.65,8.56,8.56,0,0,1-1.87-.12,1.45,1.45,0,0,1-.89-1.53V20.07c0-3.79,3.36-5.66,10.08-5.66H48.6q9.94,0,9.95,5.62V32.66A1.45,1.45,0,0,1,56.93,34.31Z"/><path class="cls-1" d="M85,33.12a14.77,14.77,0,0,1-6.34,1.19H71.39a16,16,0,0,1-6.51-1.23c-2.42-1.06-3.65-2.72-3.65-5V20.79c0-2.21,1.23-3.87,3.65-5.06a15,15,0,0,1,6.51-1.32H78.7c6.47,0,9.7,2.09,9.7,6.34v7.36A5.26,5.26,0,0,1,85,33.12ZM84,20.45c0-1.57-1.83-2.34-5.4-2.34H71.43a11.74,11.74,0,0,0-3.57.47c-1.49.51-2.21,1.23-2.21,2.21v7.32c0,1,.77,1.65,2.3,2.08a12.45,12.45,0,0,0,3.52.42h7.11a10.15,10.15,0,0,0,3.27-.46c1.4-.47,2.13-1.15,2.13-2Z"/><path class="cls-1" d="M120.93,32.53a2.7,2.7,0,0,1-2.64,1.4,2.65,2.65,0,0,1-2.59-1.36l-6.47-12.12-6.59,12.16a3.3,3.3,0,0,1-5.4-.08L89.29,16.75a2.53,2.53,0,0,1-.25-1c0-.93.68-1.4,2-1.4,1.19,0,2,.3,2.33,1l6.72,13,6.55-12.08a2.71,2.71,0,0,1,2.55-1.49,2.62,2.62,0,0,1,2.47,1.45l6.59,12.12,6.67-13c.34-.64,1.11-1,2.34-1s2,.47,2,1.4a2.1,2.1,0,0,1-.29,1Z"/><path class="cls-1" d="M157.58,34.31a8.89,8.89,0,0,1-1.92-.12,1.45,1.45,0,0,1-.89-1.53V20c0-.89-.72-1.53-2.25-1.78a27.53,27.53,0,0,0-3.28-.09H142.1a28.77,28.77,0,0,0-3.36.09c-1.53.3-2.29.89-2.29,1.83V32.66a1.47,1.47,0,0,1-1.66,1.65,8.5,8.5,0,0,1-1.87-.12,1.44,1.44,0,0,1-.9-1.53V20.07c0-3.79,3.36-5.66,10.08-5.66h7.14q10,0,9.95,5.62V32.66A1.45,1.45,0,0,1,157.58,34.31Z"/><path class="cls-1" d="M182.07,34.31H171.35A13.33,13.33,0,0,1,165.4,33c-2.25-1.07-3.4-2.56-3.4-4.47V26a5,5,0,0,1,3.23-4.68,13.64,13.64,0,0,1,6-1.23h15.48c-.21-1.36-2.17-2.08-5.91-2.08-.42,0-.89,0-1.49,0s-.93,0-1.06,0a1.46,1.46,0,0,1-1.62-1.66V16a1.45,1.45,0,0,1,1.62-1.62,33.6,33.6,0,0,1,8,.68c3.18.9,4.8,2.73,4.8,5.45v7.78C191,32.32,188,34.31,182.07,34.31Zm-11-10.5a8.58,8.58,0,0,0-2.81.51c-1.27.43-1.91,1-1.91,1.66v2.51c0,.72.64,1.27,2,1.7a9.88,9.88,0,0,0,2.9.42h10.88c1.91,0,3.23-.25,3.83-.76a3.27,3.27,0,0,0,.76-2.55c0-.3,0-.81,0-1.58V23.81Z"/><path class="cls-1" d="M209.49,33.93a2.13,2.13,0,0,1-1.66.85,2.07,2.07,0,0,1-1.61-.81l-14-16.92a2,2,0,0,1-.6-1.32c0-.93.77-1.4,2.38-1.4a2.46,2.46,0,0,1,2,.68l11.91,14.5L219.7,15a2.35,2.35,0,0,1,2-.68c1.57,0,2.34.47,2.34,1.4a2,2,0,0,1-.6,1.32Z"/><path class="cls-1" d="M229.9,34.31a5.45,5.45,0,0,1-1.87-.17c-.55-.17-.85-.68-.85-1.48V15.94a1.44,1.44,0,0,1,1.62-1.61,7.51,7.51,0,0,1,1.87.13,1.38,1.38,0,0,1,.85,1.48V32.66A1.43,1.43,0,0,1,229.9,34.31Z"/><path class="cls-1" d="M234.2,4.85A4.85,4.85,0,1,1,229.35,0,4.85,4.85,0,0,1,234.2,4.85Z"/></svg>
-				<p>全国のスキー場の格安、お得な 早割リフト券販売サイト</p>
+				<p>全国のスキー場の格安、お得な<br>早割リフト券販売サイト</p>
 			</a>
 		<?php else:?>
 			<a href="<?php echo home_url('/en'); ?>">
@@ -127,17 +127,17 @@ c-0.5-1.3-1.5-2.3-2.8-2.8c-0.7-0.3-1.5-0.4-2.3-0.4C13,0.5,12.6,0.5,10,0.5z"/>
 			</ul>
 			<?php $locale = get_locale(); if($locale == 'ja'):?>
 			<ul>
-				<li><a href="<?php echo home_url('/ticket'); ?>">早割リフト券購入</a></li>
-				<li><a href="<?php echo home_url('/coupon'); ?>">割引クーポン入手</a></li>
-				<li><a href="<?php echo home_url('/hotel-voucher'); ?>">提携ホテル</a></li>
-				<li><a href="<?php echo home_url('/shop-voucher'); ?>">提携ショップ</a></li>
+				<li><a href="<?php echo home_url('/ticket'); ?>">LIFT TICKETS</a></li>
+				<li><a href="<?php echo home_url('/coupon'); ?>">LIFT COUPONS</a></li>
+				<li><a href="<?php echo home_url('/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
+				<li><a href="<?php echo home_url('/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
 			</ul>
 			<?php else:?>
 			<ul>
-				<li><a href="<?php echo home_url('/en/ticket'); ?>">Ticket</a></li>
-				<li><a href="<?php echo home_url('/en/coupon'); ?>">Coupon</a></li>
-				<li><a href="<?php echo home_url('/en/hotel-voucher'); ?>">Hotel Voucher</a></li>
-				<li><a href="<?php echo home_url('/en/shop-voucher'); ?>">Shop Voucher</a></li>
+				<li><a href="<?php echo home_url('/en/ticket'); ?>">LIFT TICKETS</a></li>
+				<li><a href="<?php echo home_url('/en/coupon'); ?>">LIFT COUPONS</a></li>
+				<li><a href="<?php echo home_url('/en/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
+				<li><a href="<?php echo home_url('/en/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
 			</ul>
 			<?php endif;?>
 		</div>
@@ -147,15 +147,15 @@ c-0.5-1.3-1.5-2.3-2.8-2.8c-0.7-0.3-1.5-0.4-2.3-0.4C13,0.5,12.6,0.5,10,0.5z"/>
 				<div class="l-header__nav__box">
 					<?php $locale = get_locale(); if($locale == 'ja'):?>
 					<ul>
-						<li><a href="<?php echo home_url('/'); ?>">トップ</a></li>
-						<li><a href="<?php echo home_url('/en'); ?>">ENGLISH</a></li>
+						<li><a href="<?php echo home_url('/'); ?>">TOP</a></li>
+						<li><a href="<?php echo home_url('/en'); ?>">ENGLISH TOP</a></li>
 					</ul>
 					<ul>
-						<li><a href="<?php echo home_url('/ticket'); ?>">早割リフト券購入</a></li>
-						<li><a href="<?php echo home_url('/coupon'); ?>">割引クーポン入手</a></li>
-						<li><a href="<?php echo home_url('/hotel-voucher'); ?>">提携ホテル</a></li>
-						<li><a href="<?php echo home_url('/shop-voucher'); ?>">提携ショップ</a></li>
-						<li><a href="<?php echo home_url('/news'); ?>">新着情報</a></li>
+						<li><a href="<?php echo home_url('/ticket'); ?>">LIFT TICKETS</a></li>
+						<li><a href="<?php echo home_url('/coupon'); ?>">LIFT COUPONS</a></li>
+						<li><a href="<?php echo home_url('/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
+						<li><a href="<?php echo home_url('/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
+						<li><a href="<?php echo home_url('/news'); ?>">NEWS</a></li>
 					</ul>
 					<ul>
 						<li><a target="_blank" href="https://www.snownavi.com/wp/contact" class="c-arw">お問い合わせ</a></li>
@@ -168,16 +168,16 @@ c-0.5-1.3-1.5-2.3-2.8-2.8c-0.7-0.3-1.5-0.4-2.3-0.4C13,0.5,12.6,0.5,10,0.5z"/>
 						<li><a href="<?php echo home_url('/en'); ?>">EN</a></li>
 					</ul>
 					<ul>
-						<li><a href="<?php echo home_url('/en/ticket'); ?>">Ticket</a></li>
-						<li><a href="<?php echo home_url('/en/coupon'); ?>">Coupon</a></li>
-						<li><a href="<?php echo home_url('/en/hotel-voucher'); ?>">Hotel Voucher</a></li>
-						<li><a href="<?php echo home_url('/en/shop-voucher'); ?>">Shop Voucher</a></li>
-						<li><a href="<?php echo home_url('/en/news'); ?>">News</a></li>
+						<li><a href="<?php echo home_url('/en/ticket'); ?>">LIFT TICKETS</a></li>
+						<li><a href="<?php echo home_url('/en/coupon'); ?>">LIFT COUPONS</a></li>
+						<li><a href="<?php echo home_url('/en/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
+						<li><a href="<?php echo home_url('/en/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
+						<li><a href="<?php echo home_url('/en/news'); ?>">NEWS</a></li>
 					</ul>
 					<ul>
-						<li><a target="_blank" href="https://www.snownavi.com/wp/en/contact" class="c-arw">Contact Us</a></li>
-						<li><a target="_blank" href="https://www.snownavi.com/wp/en/company">About Us</a></li>
-						<li><a target="_blank" href="https://www.snownavi.com/wp/en/privacy">Privacy Policy</a></li>
+						<li><a target="_blank" href="https://www.snownavi.com/wp/en/contact" class="c-arw">CONTACT US</a></li>
+						<li><a target="_blank" href="https://www.snownavi.com/wp/en/company">ABOUT US</a></li>
+						<li><a target="_blank" href="https://www.snownavi.com/wp/en/privacy">PRIVACY POLICY</a></li>
 					</ul>
 					<?php endif;?>
 					<ul>
