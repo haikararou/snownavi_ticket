@@ -1,0 +1,17 @@
+// 関数の登録
+
+//  font-size rem の計算
+//--------------------------------------------
+@function rem($pixels, $basefontsize: 16) {
+  @return $pixels / $basefontsize * 1rem;
+}
+
+
+//  カラムの計算
+//--------------------------------------------
+$column_margin: 3%;
+$column2_width: calc((100% - 3%) / 2);
+$column3_width: calc((100% - 6%) / 3);
+$column4_width: calc((100% - 9%) / 4);
+$column5_width: calc((100% - 12%) / 5);
+$column6_width: calc((100% - 15%) / 6);

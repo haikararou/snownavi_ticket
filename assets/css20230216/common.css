@@ -3295,7 +3295,6 @@ ul.astarisk li span {
   }
   body.index .l-header__sitelogo {
     color: #fff;
-    margin-top: 10px;
   }
   body.index .l-header__sitelogo svg {
     fill: #fff;
@@ -3423,7 +3422,6 @@ body.index .header-scroll .l-header__pcnav #icn_instagram03 path {
 }
 .p-index__swiper {
   padding-bottom: 0 !important;
-  max-height: 680px;
 }
 .p-index__swiper__text {
   margin-bottom: 1rem;

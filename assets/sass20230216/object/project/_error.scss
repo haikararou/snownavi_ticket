@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+@use '../../global' as *;
+
+/*
+error
+-----------------------------------------------------*/
+.p-error.l-main {
+    background: url(../img/common/error_bg.gif);
+
+    .l-main__container {
+        background: $color-white;
+        padding: 5vw;
+
+        @include mq(lap) {
+            padding: 3vw 0vw 5vw 5vw;
+        }
+
+        .l-main__inner.-maincolumn-std {
+            width: 100%;
+
+            @include mq(lap) {
+                width: 90%;
+            }
+        }
+
+
+
+        .c-title-main {
+            margin-bottom: 5vw;
+        }
+    }
+}

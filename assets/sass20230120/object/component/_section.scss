@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+@use '../../global' as *;
+
+
+.c-section {
+  padding-bottom: 2.5rem;
+  h1 {
+    font-size: rem(24);
+    font-weight: 700;
+    line-height: 1.64;
+    margin-bottom: 5rem;
+    @include mq(lap) {
+      font-size: rem(30);
+    }
+  }
+  h2 {
+    font-size: rem(28);
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,64 @@
+@charset 'UTF-8';
+@use '../global' as *;
+
+/*clearfix*/
+.clearfix::after {content: "";display: table;clear: both;}
+
+/*----------
+  main
+----------*/
+.c-main {
+	padding: 5rem 0 8rem;
+	&__wrapper {
+		max-width: 1120px;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+.c-post {
+	@include mq(lap) {
+		display: flex;
+		justify-content: space-between;
+	}
+	.c-conts {
+		margin-bottom: 3rem;
+		@include mq(lap) {
+			width: 67%;
+		}
+	}
+	.c-sidebar {
+		@include mq(lap) {
+			width: 25%;
+		}
+	}
+}
+
+
+ul.astarisk { font-size: rem(13); list-style-type: none; margin-bottom: 2rem; }
+ul.astarisk li { position: relative; line-height: 1.6; padding: 0 0 0 1em; margin-bottom: 3px; background: none; }
+ul.astarisk li:before { content:'※'; position: absolute; border-radius: 0; top: 0; left: 0; width: 1em; height: 1em; background: none; }
+ul.astarisk li span { color: #f50000; }
+
+
+a[href*="tel:"] {
+	@include mq(lap) {
+		pointer-events: none;
+		cursor: default;
+		text-decoration: none;
+	}
+}
+
+.c-sp {
+	display: block;
+	@include mq(lap) {
+		display: none;
+	}
+}
+.c-pc {
+	display: none;
+	@include mq(lap) {
+		display: block;
+	}
+}

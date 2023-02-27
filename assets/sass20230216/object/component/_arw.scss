@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+@use '../../global' as *;
+
+/*----------
+  arw
+----------*/
+.c-arw {
+  position: relative;
+  display: inline-block;
+  padding-right: 2em;
+  vertical-align: middle;
+  text-decoration: none;
+  &:after {
+    position: absolute;
+    content: "";
+    top: calc(50% - 3px);
+    right: 1em;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid $color-white;
+    border-right: 2px solid $color-white;
+    transform: rotate(45deg);
+    transition: .3s;
+  }
+  &:hover:after {
+    right: .8em;
+  }
+}

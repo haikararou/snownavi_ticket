@@ -1,0 +1,334 @@
+@charset 'UTF-8';
+@use '../global' as *;
+// @use '../foundation/' as *;
+
+
+/*
+  header
+-----------------------------------------------------*/
+
+body {
+  font-size: rem(14);
+  padding-top: 60px;
+  @include mq(tab) {
+    font-size: rem(16);
+  }
+  @include mq(lap) {
+    padding-top: 90px;
+  }
+}
+
+
+.l-header {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 110;
+  background: $color-white;
+  box-shadow: 0 3px 3px -5px rgba(0,0,0,.5);
+  fill: $color-black;
+  color: $color-black;
+  &__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    @include mq(lap) {
+      justify-content: center;
+      height: 90px;
+    }
+  }
+  &__sitelogo {
+    position: relative;
+    fill: $color-black;
+    color: $color-black;
+    padding-left: 5%;
+    margin-left: 6px;
+    @include mq(lap) {
+      padding-left: 0%;
+      width: 50%;
+      box-sizing: border-box;
+      margin-left: 0;
+    }
+    a {
+      transition: .3s;
+      &:hover {
+        opacity: .6;
+      }
+      @include mq(lap) {
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      svg {
+        display: block;
+        width: 160px;
+        height: 24px;
+        @include mq(lap) {
+          width: 200px;
+          height: 30px;
+        }
+      }
+      p {
+        display: none;
+        text-align: left;
+        @include mq(lap) {
+          display: block;
+          //width: 14.5em;
+          margin-left: 3%;
+          font-size: rem(11);
+          line-height: 1.2rem;
+        }
+      }
+    }
+  }
+  &__pcnav {
+    display: none;
+    @include mq(lap) {
+      display: block;
+      width: calc(100% - 96px - 50%);
+      margin: 0 130px 0 0;
+      text-align: right;
+      fill: $color-black;
+      color: $color-black;
+      ul {
+        li {
+          display: inline-block;
+          //margin-left: .6em;
+          font-weight: 500;
+          a {
+            img {
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: .5em;
+              width: 1em;
+            }
+          }
+        }
+        &:first-of-type {
+          font-size: rem(12);
+          margin-bottom: 1em;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: end;
+          gap: 0 1.6rem;
+          li:nth-child(1){
+            margin-right: 1rem;
+          }
+        }
+        &:last-of-type {
+          font-size: rem(15);
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: end;
+          gap: 0 2rem;
+          font-family: "Viga", sans-serif;
+        }
+      }
+      #icn_twitter,
+      #icn_facebook,
+      #icn_instagram01 {
+        fill: $color-black;
+      }
+    }
+  }
+  &__hamburger {
+    z-index: 110;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    background: $color-black;
+    cursor: pointer;
+    @include mq(lap) {
+      width: 96px;
+      height: 90px;
+    }
+    span {
+      width: 28px;
+      height: 1px;
+      background: $color-white;
+      position: absolute;
+      -webkit-transition: 0.4s ease-in-out;
+      -moz-transition: 0.4s ease-in-out;
+      transition: 0.4s ease-in-out;
+      &:nth-child(1) {
+        top: 24px;
+        right: calc(50% - 17px);
+        @include mq(lap) {
+          top: 40px;
+        }
+      }
+      &:nth-child(2) {
+        top: 34px;
+        left: calc(50% - 17px);
+        @include mq(lap) {
+          top: 50px;
+        }
+      }
+    }
+    &:hover span {
+      &:nth-child(1),
+      &:nth-child(2) {
+        // width: 42px;
+        width: 34px;
+      }
+    }
+    &.open {
+      display: block;
+      span {
+        &:nth-child(1),
+        &:nth-child(2) {
+          width: 34px;
+          top: 30px;
+          left: 14px;
+          @include mq(lap) {
+            top: 50px;
+            left: 28px;
+          }
+        }
+        &:nth-child(1) {
+          transform: rotate(135deg);
+        }
+        &:nth-child(2) {
+          transform: rotate(-135deg);
+        }
+      }
+    }
+  }
+  &__nav {
+    display: none;
+    background: $color-black;
+    padding: 0 5% 144px;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    overflow-y: auto;
+    @include mq(lap) {
+      top: 0;
+    }
+    &::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+    &::-webkit-scrollbar-track {
+      border-radius: 5px;
+      box-shadow: 0 0 4px rgb(29, 3, 3) inset;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background: $color-white;
+    }
+    &__scroll {
+      width: 100%;
+      margin: 112px auto 0;
+      opacity: 0;
+      @include mq(tab) {
+        margin: 0;
+      }
+    }
+    &__box {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      @include mq(lap) {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      @include mq(lap) {
+        display: block;
+      }
+      li {
+        vertical-align: middle;
+        width: 50%;
+        margin: .5rem 0;
+        @include mq(lap) {
+          width: 100%;
+          margin: 1.5em 0;
+        }
+        a {
+          display: block;
+          color: $color-white;
+          transition: .3s;
+          &:hover {
+            opacity: .6;
+          }
+          img {
+            display: inline-block;
+            width: 1.25rem;
+            vertical-align: middle;
+            @include mq(lap) {
+              margin-left: .5rem;
+            }
+          }
+        }
+      }
+      &:nth-of-type(3) {
+        li:first-child {
+          width: 100%;
+          margin: 1em 0;
+          @include mq(lap) {
+              width: 190px;
+          }
+          a {
+            position: relative;
+            padding: .5em;
+            padding-right: 1.5em;
+            border: 1px solid $color-white;
+            text-align: center;
+          }
+        }
+      }
+      &:last-of-type {
+        margin-top: 2rem;
+        justify-content: center;
+        @include mq(lap) {
+          display: none;
+        }
+        li {
+          width: 1.25rem;
+          margin: 0 1rem;
+        }
+      }
+    }
+    &.open {
+      @include mq(tab) {
+        display: flex!important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.__english {
+  .l-header {
+    &__sitelogo {
+      a {
+        p {
+          @include mq(lap) {
+            width: 31.5em;
+          }
+        }
+      }
+    }
+  }
+}

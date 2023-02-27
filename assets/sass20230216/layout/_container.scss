@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+@use '../global' as *;
+
+/*
+ l-container
+-----------------------------------------------------*/
+
+.l-container {
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+.l-container__inner {
+  width: 95%;
+  margin: 0 0 0 auto;
+  @include mq(vr) {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,124 @@
+@charset 'UTF-8';
+@use '../../global' as *;
+
+/*
+news
+-----------------------------------------------------*/
+
+/*
+  'tab': 768px,
+  'lap': 1024px,
+*/
+
+/*----------
+news
+----------*/
+.news_list {
+
+&__heading {
+        font-size: rem(24)!important;
+        font-weight: 700;
+        line-height: 1.64;
+        margin-bottom: 2rem!important;
+        font-family: "Oswald", sans-serif;
+        color: inherit;
+        padding: 0;
+        @include mq(tab) {
+            font-size: rem(32)!important;
+        }
+        @include mq(lap) {
+            font-size: rem(48)!important;
+            margin-bottom: 4.8rem!important;
+        }
+        span {
+            display: block;
+            font-size: 0.75rem;
+            line-height: 1.2;
+            font-weight: 700;
+            @include mq(tab) {
+                font-size: 0.875rem;
+            }
+            @include mq(lap) {
+                font-size: 1rem;
+            }
+        }
+}
+
+&__post {
+    ul {
+    margin-bottom: 2.3rem;
+    li {
+        display: block;
+        position: relative;
+        margin-top: -1px;
+        &:before,
+        &:after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 1rem;
+        height: 1rem;
+        }
+        &:before {
+        bottom: 0;
+        left: 0;
+        border-bottom: 1px solid $color-litegray;
+        border-left: 1px solid $color-litegray;
+        }
+        &:after {
+        bottom: 0;
+        right: 0;
+        border-bottom: 1px solid $color-litegray;
+        border-right: 1px solid $color-litegray;
+        }
+        a {
+        display: block;
+        position: relative;
+        padding: 1rem;
+        &:before,
+        &:after {
+            position: absolute;
+            display: block;
+            content: "";
+            width: 1rem;
+            height: 1rem;
+        }
+        &:before {
+            top: 0;
+            left: 0;
+            border-top: 1px solid $color-litegray;
+            border-left: 1px solid $color-litegray;
+        }
+        &:after {
+            top: 0;
+            right: 0;
+            border-top: 1px solid $color-litegray;
+            border-right: 1px solid $color-litegray;
+        }
+        dl {
+            @include mq(lap) {
+            display: flex;
+            }
+            dt {
+            @include mq(lap) {
+                width: 10em;
+            }
+            }
+            dd {
+            @include mq(lap) {
+                width: calc(100% - 10em);
+            }
+            }
+        }
+        }
+    }
+    }
+}
+
+.c-news {
+    width: 100%;
+}
+
+
+
+}
