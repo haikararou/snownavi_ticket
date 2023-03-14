@@ -37,12 +37,14 @@ get_header(); ?>
 		</section>
 
 <?php $locale = get_locale(); if($locale == 'ja'):?>
+	<!-- <div class="c-bnr__main_out"> -->
 		<section class="c-section__home c-section__home__ctr  c-bnr c-bnr__clm02 c-bnr__main">
 			<ul>
-				<li><a href="<?php echo home_url('/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/ticket.png" alt="早割リフト券購入 全国送料＆事務手数料無料"></a></li>
-				<li><a href="<?php echo home_url('/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/coupon.png" alt="割引クーポン入手 プリントしてすぐ利用可能"></a></li>
+				<li><a href="<?php echo home_url('/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/ticket.png" alt="早割リフト券 全国送料＆事務手数料無料"></a></li>
+				<li><a href="<?php echo home_url('/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/coupon.png" alt="割引クーポン プリントしてすぐ利用可能"></a></li>
 			</ul>
 		</section>
+	<!-- </div> -->
 <?php else:?>
 		<section class="c-section__home c-section__home__ctr  c-bnr c-bnr__clm02 c-bnr__main">
 			<ul>
