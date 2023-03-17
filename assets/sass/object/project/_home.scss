@@ -146,7 +146,11 @@
   swiper
   ----------*/
   &__black {
-    background: $color-bg-gray;
+    background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
+    background-repeat: no-repeat;
+    background-position: 20% 100%, 15% 100%, 115% 70%, 70% 110%, 0% 80%;
+    background-size: 360px, 292px, 360px, 580px, 140px;
+    background-color: $color-bg-gray;
   }
 
 

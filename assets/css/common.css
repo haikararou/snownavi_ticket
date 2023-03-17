@@ -2307,7 +2307,6 @@ ul.astarisk li span {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
-  background: #fff;
 }
 .c-bnr ul li a {
   display: block;
@@ -3404,7 +3403,11 @@ body.index .header-scroll .l-header__pcnav #icn_instagram03 path {
   padding: 0;
 }
 .p-index__black {
-  background: #F5F5F5;
+  background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
+  background-repeat: no-repeat;
+  background-position: 20% 100%, 15% 100%, 115% 70%, 70% 110%, 0% 80%;
+  background-size: 360px, 292px, 360px, 580px, 140px;
+  background-color: #F5F5F5;
 }
 .p-index__swiper {
   padding-bottom: 0 !important;
