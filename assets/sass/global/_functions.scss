@@ -10,8 +10,13 @@
 //  カラムの計算
 //--------------------------------------------
 $column_margin: 3%;
-$column2_width: calc((100% - 3%) / 2);
-$column3_width: calc((100% - 6%) / 3);
-$column4_width: calc((100% - 9%) / 4);
-$column5_width: calc((100% - 12%) / 5);
-$column6_width: calc((100% - 15%) / 6);
+// $column2_width: calc((100% - 3%) / 2);
+// $column3_width: calc((100% - 6%) / 3);
+// $column4_width: calc((100% - 9%) / 4);
+// $column5_width: calc((100% - 12%) / 5);
+// $column6_width: calc((100% - 15%) / 6);
+$column2_width: 48.5%;
+$column3_width: 31.33%;
+$column4_width: 22.75%;
+$column5_width: 17.5%;
+$column6_width: 14.17%;
