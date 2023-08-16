@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+@use '../global' as *;
+// @use '../foundation/' as *;
+
+/*
+spacer
+-----------------------------------------------------*/
+.l-spacer {
+  &.-medium {
+    padding-top: 15vw;
+
+    &.-both {
+      padding-bottom: 15vw;
+    }
+  }
+  &.-mid-small {
+    padding-top: 10vw;
+
+    &.-both {
+      padding-bottom: 10vw;
+    }
+  }
+  &.-small {
+    padding-top: 10vw;
+
+    &.-both {
+      padding-bottom: 5vw;
+    }
+  }
+
+  &.-em1 {
+    margin-top: 1em;
+  }
+  &.-em2 {
+    margin-top: 2em;
+  }
+  &.-em3 {
+    margin-top: 3em;
+  }
+}
+
