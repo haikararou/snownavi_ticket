@@ -592,8 +592,8 @@ body {
     font-family: "Viga", sans-serif;
   }
   .l-header__pcnav #icn_twitter,
-.l-header__pcnav #icn_facebook,
-.l-header__pcnav #icn_instagram01 {
+  .l-header__pcnav #icn_facebook,
+  .l-header__pcnav #icn_instagram01 {
     fill: #000;
   }
 }
@@ -1707,7 +1707,7 @@ ul.astarisk li span {
 }
 @media screen and (min-width: 768px) {
   .c-gooddeal__head h2,
-.c-gooddeal__head h3 {
+  .c-gooddeal__head h3 {
     font-size: 1.5rem;
   }
 }
@@ -1906,7 +1906,7 @@ ul.astarisk li span {
 }
 @media screen and (min-width: 1024px) {
   .swiper-button-next,
-.swiper-button-prev {
+  .swiper-button-prev {
     top: 50% !important;
   }
 }
@@ -2148,7 +2148,7 @@ ul.astarisk li span {
 }
 @media screen and (min-width: 768px) {
   .wp-pagenavi span,
-.wp-pagenavi a {
+  .wp-pagenavi a {
     width: 3rem;
     height: 3rem;
   }
@@ -2165,10 +2165,10 @@ ul.astarisk li span {
 }
 @media screen and (min-width: 768px) {
   .wp-pagenavi span.prev, .wp-pagenavi span.next, .wp-pagenavi span.previouspostslink, .wp-pagenavi span.nextpostslink,
-.wp-pagenavi a.prev,
-.wp-pagenavi a.next,
-.wp-pagenavi a.previouspostslink,
-.wp-pagenavi a.nextpostslink {
+  .wp-pagenavi a.prev,
+  .wp-pagenavi a.next,
+  .wp-pagenavi a.previouspostslink,
+  .wp-pagenavi a.nextpostslink {
     width: 3rem;
     height: 3rem;
   }
@@ -2898,7 +2898,7 @@ ul.astarisk li span {
 }
 @media screen and (min-width: 1024px) {
   .c-page .c-form input[type=submit],
-.c-page .c-form button[type=submit] {
+  .c-page .c-form button[type=submit] {
     width: 50%;
   }
 }
@@ -3055,7 +3055,7 @@ ul.astarisk li span {
 }
 @media screen and (min-width: 1024px) {
   .c-page__wrapepr .c-panels p > li a em,
-.c-page__wrapepr .c-panels .c-page__clm04 > li a em {
+  .c-page__wrapepr .c-panels .c-page__clm04 > li a em {
     font-size: 1.125rem;
   }
 }
@@ -3309,13 +3309,13 @@ ul.astarisk li span {
     fill: #fff;
   }
   body.index #icn_twitter,
-body.index #icn_facebook,
-body.index #icn_instagram01 {
+  body.index #icn_facebook,
+  body.index #icn_instagram01 {
     fill: #fff;
   }
   body.index #icn_twitter path,
-body.index #icn_facebook path,
-body.index #icn_instagram01 path {
+  body.index #icn_facebook path,
+  body.index #icn_instagram01 path {
     fill: #fff;
   }
   body.index .header-scroll {
@@ -3336,17 +3336,17 @@ body.index #icn_instagram01 path {
     color: #000;
   }
   body.index .header-scroll .l-header__pcnav #icn_twitter,
-body.index .header-scroll .l-header__pcnav #icn_facebook,
-body.index .header-scroll .l-header__pcnav #icn_instagram01,
-body.index .header-scroll .l-header__pcnav #icn_instagram02,
-body.index .header-scroll .l-header__pcnav #icn_instagram03 {
+  body.index .header-scroll .l-header__pcnav #icn_facebook,
+  body.index .header-scroll .l-header__pcnav #icn_instagram01,
+  body.index .header-scroll .l-header__pcnav #icn_instagram02,
+  body.index .header-scroll .l-header__pcnav #icn_instagram03 {
     fill: #000;
   }
   body.index .header-scroll .l-header__pcnav #icn_twitter path,
-body.index .header-scroll .l-header__pcnav #icn_facebook path,
-body.index .header-scroll .l-header__pcnav #icn_instagram01 path,
-body.index .header-scroll .l-header__pcnav #icn_instagram02 path,
-body.index .header-scroll .l-header__pcnav #icn_instagram03 path {
+  body.index .header-scroll .l-header__pcnav #icn_facebook path,
+  body.index .header-scroll .l-header__pcnav #icn_instagram01 path,
+  body.index .header-scroll .l-header__pcnav #icn_instagram02 path,
+  body.index .header-scroll .l-header__pcnav #icn_instagram03 path {
     fill: #000;
   }
 }
@@ -3403,10 +3403,10 @@ body.index .header-scroll .l-header__pcnav #icn_instagram03 path {
   padding: 0;
 }
 .p-index__black {
-  background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
+  background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15-2.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png"), url("../img/index/bg_pc_line15-2.png");
   background-repeat: no-repeat;
-  background-position: 20% 100%, 15% 100%, 115% 70%, 70% 110%, 0% 80%;
-  background-size: 360px, 292px, 360px, 580px, 140px;
+  background-position: 20% 100%, 15% 100%, 45% 0%, 115% 70%, 70% 110%, 0% 30%, 108% 0%;
+  background-size: 360px, 292px, 292px, 360px, 580px, 140px;
   background-color: #F5F5F5;
 }
 .p-index__swiper {
@@ -3583,7 +3583,7 @@ body.index .header-scroll .l-header__pcnav #icn_instagram03 path {
 }
 @media screen and (min-width: 1024px) {
   .p-index .swiper-button-prev,
-.p-index .swiper-button-next {
+  .p-index .swiper-button-next {
     display: none;
   }
 }
