@@ -217,8 +217,10 @@ body {
     bottom: 0;
     z-index: 100;
     overflow-y: auto;
-    @include mq(lap) {
+    @include mq(tab) {
       top: 0;
+      left: auto;
+      width: 560px;
     }
     &::-webkit-scrollbar {
       width: 10px;
@@ -245,23 +247,28 @@ body {
       max-width: 600px;
       margin: 0 auto;
       @include mq(lap) {
-        display: flex;
-        justify-content: space-between;
+        // display: flex;
+        // justify-content: space-between;
       }
     }
     ul {
+      & + ul {
+        @include mq(lap) {
+          margin-top: 32px;
+        }
+      }
       display: flex;
       flex-wrap: wrap;
       @include mq(lap) {
-        display: block;
+        // display: block;
       }
       li {
         vertical-align: middle;
         width: 50%;
         margin: .5rem 0;
         @include mq(lap) {
-          width: 100%;
-          margin: 1.5em 0;
+          // width: 100%;
+          // margin: 1.5em 0;
         }
         a {
           display: block;
@@ -285,7 +292,7 @@ body {
           width: 100%;
           margin: 1em 0;
           @include mq(lap) {
-              width: 190px;
+              // width: 190px;
           }
           a {
             position: relative;

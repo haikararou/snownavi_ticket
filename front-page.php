@@ -8,7 +8,35 @@ Template Name: トップページのテンプレート
 get_header(); ?>
 
 	<div class="p-index__black">
-		<section class="c-section__home swiper p-index__swiper wrapper">
+		<div class="split-slideshow">
+			<div class="slideshow">
+				<div class="slider">
+				<?php if(have_rows('slider')): ?>
+				<?php while(have_rows('slider')): the_row(); ?>
+				<?php if(get_sub_field('slider_pc')): ?>
+					<?php
+						$pcId = get_sub_field('slider_pc');
+						$pcimg = wp_get_attachment_image_src($pcId);
+						$pcAlt = get_post_meta ( get_post ($pcId) -> ID , '_wp_attachment_image_alt' , true );
+					?>
+					<div class="item"><img src="<?php echo $pcimg[0]; ?>" alt="<?php echo $pcAlt ; ?>"></div>
+				<?php endif; ?>
+				<?php endwhile; ?>
+				<?php endif; ?>
+				</div>
+			</div>
+			<div class="slideshow-text">
+			<?php if(have_rows('slider')): ?>
+			<?php while(have_rows('slider')): the_row(); ?>
+			<?php if(get_sub_field('slider_pc')): ?>
+				<?php if(get_sub_field('slider_h2')): ?><div class="item"><span><?php the_sub_field('slider_h2'); ?></span><?php if(get_sub_field('slider_h3')): ?><br><?php the_sub_field('slider_h3'); ?><?php endif; ?></div><?php endif; ?>
+			<?php endif; ?>
+			<?php endwhile; ?>
+			<?php endif; ?>
+			</div>
+		</div>
+
+		<!-- <section class="c-section__home swiper p-index__swiper wrapper">
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
 				<?php if(have_rows('slider')): ?>
@@ -34,7 +62,7 @@ get_header(); ?>
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-button-next"></div>
 			</div>
-		</section>
+		</section> -->
 
 <?php $locale = get_locale(); if($locale == 'ja'):?>
 	<!-- <div class="c-bnr__main_out"> -->
