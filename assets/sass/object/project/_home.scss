@@ -474,11 +474,13 @@
     color: $color-liteblack;
     @include mq(lap) {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
       padding: 3.5rem 0 7rem;
     }
     &__heading {
       @include mq(lap) {
-        width: 30%;
+        width: 15%;
       }
       h2 {
         line-height: 1;
@@ -494,8 +496,10 @@
       }
     }
     &__post {
+      margin-bottom: 2.3rem;
       @include mq(lap) {
-        width: 70%;
+        width: 45%;
+        margin-bottom: 0;
       }
       .p-index__news__more {
         display: block;
@@ -506,6 +510,9 @@
       }
       ul {
         margin-bottom: 2.3rem;
+        @include mq(lap) {
+          margin-bottom: 0rem;
+        }
         li {
           display: block;
           position: relative;

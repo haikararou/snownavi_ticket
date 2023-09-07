@@ -1422,58 +1422,30 @@ ul.astarisk li span {
   portal
 ----------*/
 .c-portal {
-  background: url("../img/index/bg_portal.jpg") no-repeat 50% 50%;
+  width: 25%;
+  background: url("../img/index/bg_portal.jpg") no-repeat 30% 50%;
   background-size: cover;
 }
 .c-portal a {
   display: block;
   color: #fff;
+  height: 100%;
 }
 .c-portal__wrapper {
-  position: relative;
-  max-width: 925px;
-  width: 95%;
-  height: 136px;
-  margin: 0 0 0 5%;
-  overflow: hidden;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-}
-@media screen and (min-width: 1024px) {
-  .c-portal__wrapper {
-    width: 100%;
-    margin: 0 auto;
-    height: 240px;
-  }
-}
-.c-portal__txt, .c-portal__img {
-  position: absolute;
-  overflow: hidden;
-  height: 136px;
-  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-@media screen and (min-width: 1024px) {
-  .c-portal__txt, .c-portal__img {
-    height: 240px;
-  }
-}
-.c-portal__txt {
-  z-index: 1;
-  width: 80%;
-  left: 0;
-}
-@media screen and (min-width: 1024px) {
-  .c-portal__txt {
-    width: 250px;
-  }
+  height: 100%;
 }
 .c-portal__txt__box img {
   display: block;
@@ -1500,72 +1472,6 @@ ul.astarisk li span {
   font-size: 0.75rem;
   letter-spacing: 0.172em;
   line-height: 1.125rem;
-}
-.c-portal__img {
-  z-index: 2;
-  width: 100%;
-  right: -26vw;
-  overflow: hidden;
-}
-@media screen and (min-width: 1024px) {
-  .c-portal__img {
-    width: 697.4px;
-    right: 40px;
-  }
-}
-.c-portal__img img {
-  display: block;
-  height: 100%;
-  margin: 0 auto;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-}
-.c-portal__img img.pc {
-  display: none;
-}
-@media screen and (min-width: 560px) {
-  .c-portal__img img.pc {
-    display: block;
-  }
-}
-.c-portal__img img.sp {
-  display: block;
-}
-@media screen and (min-width: 560px) {
-  .c-portal__img img.sp {
-    display: none;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .c-portal__img:before, .c-portal__img:after {
-    position: absolute;
-    content: "";
-    display: block;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    width: 64px;
-    height: 64px;
-    -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
-  }
-}
-.c-portal__img:before {
-  right: 0;
-  width: 64px;
-  height: 64px;
-  border: 1px solid #97BFE5;
-  border-radius: 64px;
-}
-.c-portal__img:after {
-  top: calc(50% - 6px);
-  right: 28px;
-  width: 12px;
-  height: 12px;
-  border-top: 2px solid #D3E4F4;
-  border-right: 2px solid #D3E4F4;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
 }
 .c-portal a:hover .c-portal__img img {
   -webkit-transform: scale(1.1);
@@ -3604,12 +3510,17 @@ ul.astarisk li span {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 3.5rem 0 7rem;
   }
 }
 @media screen and (min-width: 1024px) {
   .p-index__news__heading {
-    width: 30%;
+    width: 15%;
   }
 }
 .p-index__news__heading h2 {
@@ -3628,9 +3539,13 @@ ul.astarisk li span {
     display: block;
   }
 }
+.p-index__news__post {
+  margin-bottom: 2.3rem;
+}
 @media screen and (min-width: 1024px) {
   .p-index__news__post {
-    width: 70%;
+    width: 45%;
+    margin-bottom: 0;
   }
 }
 .p-index__news__post .p-index__news__more {
@@ -3644,6 +3559,11 @@ ul.astarisk li span {
 }
 .p-index__news__post ul {
   margin-bottom: 2.3rem;
+}
+@media screen and (min-width: 1024px) {
+  .p-index__news__post ul {
+    margin-bottom: 0rem;
+  }
 }
 .p-index__news__post ul li {
   display: block;

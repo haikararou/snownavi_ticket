@@ -121,46 +121,45 @@ get_header(); ?>
 				<div class="p-index__news__more"><a href="<?php echo home_url('/en/news'); ?>" class="c-arw">More</a></div>
 				<?php endif;?>
 			</div>
+			<?php $locale = get_locale(); if($locale == 'ja'):?>
+			<div class="c-portal">
+				<a target="_blank" href="https://www.snownavi.com/wp/">
+					<div class="c-portal__wrapper">
+						<!-- <div class="c-portal__txt"> -->
+							<div class="c-portal__txt__box">
+								<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
+								<em>情報ポータル</em>
+								<span class="c-sp">白馬・志賀・野沢・妙高・<br>菅平等のスキー場、ホテル、<br>飲食、観光情報</span>
+								<span class="c-pc">白馬・志賀・野沢・妙高・菅平等の<br>スキー場、ホテル、飲食、観光情報</span>
+							</div>
+						<!-- </div> -->
+						<!-- <div class="c-portal__img">
+							<img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal.png" alt="" class="pc"><img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal_sp.png" alt="" class="sp">
+						</div> -->
+					</div>
+				</a>
+			</div>
+			<?php else:?>
+			<div class="c-portal">
+				<a target="_blank" href="https://www.snownavi.com/wp/en">
+					<div class="c-portal__wrapper">
+						<div class="c-portal__txt">
+							<div class="c-portal__txt__box">
+								<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
+								<em>Info Portal</em>
+								<span class="c-sp">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
+								<span class="c-pc">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
+							</div>
+						</div>
+						<!-- <div class="c-portal__img">
+							<img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal.png" alt="" class="pc"><img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal_sp.png" alt="" class="sp">
+						</div> -->
+					</div>
+				</a>
+			</div>
+			<?php endif;?>
 		</section>
 	</div>
-
-<?php $locale = get_locale(); if($locale == 'ja'):?>
-	<section class="c-portal">
-		<a target="_blank" href="https://www.snownavi.com/wp/">
-			<div class="c-portal__wrapper">
-				<div class="c-portal__txt">
-					<div class="c-portal__txt__box">
-						<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
-						<em>情報ポータル</em>
-						<span class="c-sp">白馬・志賀・野沢・妙高・<br>菅平等のスキー場、ホテル、<br>飲食、観光情報</span>
-						<span class="c-pc">白馬・志賀・野沢・妙高・菅平等の<br>スキー場、ホテル、飲食、観光情報</span>
-					</div>
-				</div>
-				<div class="c-portal__img">
-					<img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal.png" alt="" class="pc"><img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal_sp.png" alt="" class="sp">
-				</div>
-			</div>
-		</a>
-	</section>
-<?php else:?>
-	<section class="c-portal">
-		<a target="_blank" href="https://www.snownavi.com/wp/en">
-			<div class="c-portal__wrapper">
-				<div class="c-portal__txt">
-					<div class="c-portal__txt__box">
-						<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
-						<em>Info Portal</em>
-						<span class="c-sp">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
-						<span class="c-pc">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
-					</div>
-				</div>
-				<div class="c-portal__img">
-					<img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal.png" alt="" class="pc"><img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal_sp.png" alt="" class="sp">
-				</div>
-			</div>
-		</a>
-	</section>
-<?php endif;?>
 
 <?php $locale = get_locale(); if($locale == 'ja'):?>
 	<section class="p-index__ticket c-gooddeal">
