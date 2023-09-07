@@ -971,10 +971,10 @@ body.index main {
 
 .c-main {
   padding: 5rem 0 8rem;
-  background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
+  background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line13.png");
   background-repeat: no-repeat;
-  background-position: 90% 0%, 108% 100%, 95% 0%, -30% 40%, 0% 0%;
-  background-size: 360px, 292px, 360px, 580px, 140px;
+  background-position: 90% 0%, 108% 100%, 95% 0%, 0% 0%;
+  background-size: 360px, 292px, 360px, 140px;
   background-color: #F5F5F5;
 }
 .c-main__wrapper {
@@ -987,8 +987,16 @@ body.index main {
 .l-main {
   background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
   background-repeat: no-repeat;
-  background-position: 80% 0%, 108% 100%, 85% 0%, -30% 40%, 0% 0%;
+  background-position: 80% 0%, 18% 42%, 85% 0%, 110% 120%, 0% 0%;
   background-size: 360px, 292px, 360px, 580px, 140px;
+  background-color: #F5F5F5;
+}
+
+body.index .l-main {
+  background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line13.png"), url("../img/index/bg_pc_line16.png");
+  background-repeat: no-repeat;
+  background-position: 10% 50%, 100% 94%, 0% 92%, 111% 92%;
+  background-size: 360px, 292px, 240px, 360px;
   background-color: #F5F5F5;
 }
 
@@ -1422,9 +1430,16 @@ ul.astarisk li span {
   portal
 ----------*/
 .c-portal {
-  width: 25%;
+  width: 100%;
+  padding: 1rem 2rem;
   background: url("../img/index/bg_portal.jpg") no-repeat 30% 50%;
   background-size: cover;
+}
+@media screen and (min-width: 1024px) {
+  .c-portal {
+    width: 25%;
+    padding: 0;
+  }
 }
 .c-portal a {
   display: block;
@@ -1446,6 +1461,51 @@ ul.astarisk li span {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+}
+.c-portal__txt__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media screen and (min-width: 1024px) {
+  .c-portal__txt__box {
+    display: block;
+  }
+}
+.c-portal__txt__box__L {
+  width: 160px;
+}
+@media screen and (min-width: 1024px) {
+  .c-portal__txt__box__L {
+    width: 100%;
+    min-width: none;
+  }
+}
+.c-portal__txt__box__R {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.c-portal__txt__box__R br {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .c-portal__txt__box__R {
+    display: block;
+    width: 100%;
+  }
+  .c-portal__txt__box__R br {
+    display: block;
+  }
 }
 .c-portal__txt__box img {
   display: block;
@@ -3322,7 +3382,7 @@ ul.astarisk li span {
 .p-index__black {
   background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
   background-repeat: no-repeat;
-  background-position: 20% 100%, 15% 100%, 115% 70%, 70% 110%, 0% 80%;
+  background-position: 20% 100%, 15% 100%, 115% 70%, 70% 110%, 0% 20%;
   background-size: 360px, 292px, 360px, 580px, 140px;
   background-color: #F5F5F5;
 }

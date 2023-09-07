@@ -5,7 +5,12 @@
   portal
 ----------*/
 .c-portal {
-  width: 25%;
+  width: 100%;
+  padding: 1rem 2rem;
+  @include mq(lap) {
+    width: 25%;
+    padding: 0;
+  }
   background: url("../img/index/bg_portal.jpg") no-repeat 30% 50%;
   background-size: cover;
   a {
@@ -51,6 +56,32 @@
     //   width: 250px;
     // }
     &__box {
+      display: flex;
+      flex-wrap: wrap;
+      //justify-content: center;
+      @include mq(lap) {
+        display: block;
+      }
+      &__L {
+        width: 160px;
+        @include mq(lap) {
+          width: 100%;
+          min-width: none;
+        }
+      }
+      &__R {
+        display:flex; flex-direction:column; justify-content:center;
+        br {
+          display: none;
+        }
+        @include mq(lap) {
+          display: block;
+          width: 100%;
+          br {
+            display: block;
+          }
+        }
+      }
       img {
         display: block;
         height: rem(12);

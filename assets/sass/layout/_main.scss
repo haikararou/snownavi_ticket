@@ -32,18 +32,25 @@ body.index main {
 		margin-right: auto;
 		margin-left: auto;
 	}
-	background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
+	background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line13.png");
 	background-repeat: no-repeat;
-	background-position: 90% 0%, 108% 100%, 95% 0%, -30% 40%, 0% 0%;
-	background-size: 360px, 292px, 360px, 580px, 140px;
+	background-position: 90% 0%, 108% 100%, 95% 0%, 0% 0%;
+	background-size: 360px, 292px, 360px, 140px;
 	background-color: $color-bg-gray;
 }
 
 .l-main {
 	background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
 	background-repeat: no-repeat;
-	background-position: 80% 0%, 108% 100%, 85% 0%, -30% 40%, 0% 0%;
+	background-position: 80% 0%, 18% 42%, 85% 0%, 110% 120%, 0% 0%;
 	background-size: 360px, 292px, 360px, 580px, 140px;
+	background-color: $color-bg-gray;
+}
+body.index .l-main {
+	background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line13.png"), url("../img/index/bg_pc_line16.png");
+	background-repeat: no-repeat;
+	background-position: 10% 50%, 100% 94%, 0% 92%, 111% 92%;
+	background-size: 360px, 292px, 240px, 360px;
 	background-color: $color-bg-gray;
 }
 

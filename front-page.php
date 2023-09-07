@@ -127,10 +127,14 @@ get_header(); ?>
 					<div class="c-portal__wrapper">
 						<!-- <div class="c-portal__txt"> -->
 							<div class="c-portal__txt__box">
-								<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
-								<em>情報ポータル</em>
-								<span class="c-sp">白馬・志賀・野沢・妙高・<br>菅平等のスキー場、ホテル、<br>飲食、観光情報</span>
-								<span class="c-pc">白馬・志賀・野沢・妙高・菅平等の<br>スキー場、ホテル、飲食、観光情報</span>
+								<div class="c-portal__txt__box__L">
+									<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
+									<em>情報ポータル</em>
+								</div>
+								<div class="c-portal__txt__box__R">
+									<span class="c-sp">白馬・志賀・野沢・妙高・<br>菅平等のスキー場、ホテル、<br>飲食、観光情報</span>
+									<span class="c-pc">白馬・志賀・野沢・妙高・菅平等の<br>スキー場、ホテル、飲食、観光情報</span>
+								</div>
 							</div>
 						<!-- </div> -->
 						<!-- <div class="c-portal__img">
