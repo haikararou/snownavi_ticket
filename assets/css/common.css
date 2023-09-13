@@ -432,32 +432,28 @@ spacer
   header
 -----------------------------------------------------*/
 body {
-  font-size: 0.875rem;
   padding-top: 60px;
+  font-size: 14px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1390px) {
   body {
-    font-size: 1rem;
+    font-size: 16px;
+    padding-top: 91px;
   }
 }
-@media screen and (min-width: 1024px) {
-  body {
-    padding-top: 90px;
-  }
+
+body.index .l-header__wrapper {
+  background: none;
 }
 
 .l-header {
   position: fixed;
-  width: 100vw;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 110;
-  background: #fff;
+  z-index: 101;
   -webkit-box-shadow: 0 3px 3px -5px rgba(0, 0, 0, 0.5);
           box-shadow: 0 3px 3px -5px rgba(0, 0, 0, 0.5);
-  fill: #000;
-  color: #000;
 }
 .l-header__wrapper {
   position: relative;
@@ -470,48 +466,62 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background: #fff;
   height: 60px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1390px) {
+  .l-header__wrapper {
+    height: 91px;
+  }
+}
+@media screen and (min-width: 1390px) {
   .l-header__wrapper {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 90px;
   }
 }
 .l-header__sitelogo {
-  position: relative;
-  fill: #000;
-  color: #000;
-  padding-left: 5%;
-  margin-left: 6px;
+  width: calc(100% - 180px);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1390px) {
   .l-header__sitelogo {
-    padding-left: 0%;
-    width: 50%;
+    width: 42%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    margin-left: 0;
+    margin-left: 2%;
+  }
+}
+@media screen and (min-width: 1390px) {
+  .l-header__sitelogo {
+    margin-right: 8%;
+  }
+}
+@media screen and (min-width: 1390px) {
+  .l-header__sitelogo {
+    margin-right: 6%;
   }
 }
 .l-header__sitelogo a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  max-width: 420px;
 }
 .l-header__sitelogo a:hover {
   opacity: 0.6;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1390px) {
   .l-header__sitelogo a {
-    margin-left: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -519,31 +529,40 @@ body {
 }
 .l-header__sitelogo a svg {
   display: block;
-  width: 160px;
-  height: 24px;
+  width: 60%;
+  max-height: 32px;
+  margin-left: 7%;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 600px) {
+  .l-header__sitelogo a svg {
+    width: 160px;
+    margin-left: 7%;
+  }
+}
+@media screen and (min-width: 1390px) {
   .l-header__sitelogo a svg {
     width: 200px;
-    height: 30px;
+    margin-left: 0;
+    margin-bottom: 4px;
   }
 }
 .l-header__sitelogo a p {
   display: none;
-  text-align: left;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1390px) {
   .l-header__sitelogo a p {
     display: block;
-    margin-left: 3%;
+    /*width: 15.5em;*/
+    margin-left: 5%;
     font-size: 0.6875rem;
+    text-align: left;
     line-height: 1.2rem;
   }
 }
 .l-header__pcnav {
   display: none;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1390px) {
   .l-header__pcnav {
     display: block;
     width: calc(100% - 96px - 50%);
@@ -564,7 +583,7 @@ body {
   }
   .l-header__pcnav ul:first-of-type {
     font-size: 0.75rem;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -610,7 +629,7 @@ body {
   background: #000;
   cursor: pointer;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1390px) {
   .l-header__hamburger {
     width: 96px;
     height: 90px;
@@ -628,7 +647,7 @@ body {
   top: 24px;
   right: calc(50% - 17px);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1390px) {
   .l-header__hamburger span:nth-child(1) {
     top: 40px;
   }
@@ -637,7 +656,7 @@ body {
   top: 34px;
   left: calc(50% - 17px);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1390px) {
   .l-header__hamburger span:nth-child(2) {
     top: 50px;
   }
@@ -653,7 +672,7 @@ body {
   top: 30px;
   left: 14px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1390px) {
   .l-header__hamburger.open span:nth-child(1), .l-header__hamburger.open span:nth-child(2) {
     top: 50px;
     left: 28px;
@@ -681,7 +700,7 @@ body {
   z-index: 100;
   overflow-y: auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .l-header__nav {
     top: 0;
     left: auto;
@@ -706,7 +725,7 @@ body {
   margin: 112px auto 0;
   opacity: 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .l-header__nav__scroll {
     margin: 0;
   }
@@ -778,7 +797,7 @@ body {
   width: 1.25rem;
   margin: 0 1rem;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .l-header__nav.open {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -1559,7 +1578,7 @@ ul.astarisk li span {
 .c-gooddeal + .c-gooddeal {
   padding-top: 1.5rem;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .c-gooddeal {
     padding: 4em 0 0em;
   }
@@ -1622,7 +1641,7 @@ ul.astarisk li span {
   padding: 2rem 5%;
   background: #fff;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .c-gooddeal__wrapper {
     margin-top: -1rem;
     padding: 6rem;
@@ -1640,7 +1659,7 @@ ul.astarisk li span {
 .c-gooddeal__box + .c-gooddeal__box {
   margin-top: 2rem;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .c-gooddeal__box + .c-gooddeal__box {
     margin-top: 3rem;
   }
@@ -1653,7 +1672,7 @@ ul.astarisk li span {
 .c-gooddeal__box__map {
   display: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .c-gooddeal__box__map {
     display: block;
   }
@@ -1683,7 +1702,7 @@ ul.astarisk li span {
   font-size: 1.25rem;
   font-weight: bold;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .c-gooddeal__head h2,
   .c-gooddeal__head h3 {
     font-size: 1.5rem;
@@ -1740,7 +1759,7 @@ ul.astarisk li span {
   font-weight: 700;
   padding: 1em;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .c-gooddeal__area__box h4 {
     font-size: 1.125rem;
   }
@@ -2124,7 +2143,7 @@ ul.astarisk li span {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .wp-pagenavi span,
   .wp-pagenavi a {
     width: 3rem;
@@ -2141,7 +2160,7 @@ ul.astarisk li span {
   width: 2.25rem;
   height: 2.25rem;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .wp-pagenavi span.prev, .wp-pagenavi span.next, .wp-pagenavi span.previouspostslink, .wp-pagenavi span.nextpostslink,
   .wp-pagenavi a.prev,
   .wp-pagenavi a.next,
@@ -3364,6 +3383,11 @@ ul.astarisk li span {
   color: inherit;
   padding: 0;
 }
+@media screen and (min-width: 600px) {
+  .p-index .c-section__home h2 {
+    font-size: 5vw;
+  }
+}
 @media screen and (min-width: 1024px) {
   .p-index .c-section__home h2 {
     font-size: 2.5rem;
@@ -3697,7 +3721,7 @@ ul.astarisk li span {
   background-size: contain;
   height: 70px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .p-index__ticket .c-gooddeal__heading {
     height: 100px;
   }
@@ -3732,7 +3756,7 @@ ul.astarisk li span {
   background-size: contain;
   height: 70px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .p-index__coupon .c-gooddeal__heading {
     height: 100px;
   }
@@ -3891,7 +3915,7 @@ news
   color: inherit;
   padding: 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .news_list__heading {
     font-size: 2rem !important;
   }
@@ -3908,7 +3932,7 @@ news
   line-height: 1.2;
   font-weight: 700;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .news_list__heading span {
     font-size: 0.875rem;
   }

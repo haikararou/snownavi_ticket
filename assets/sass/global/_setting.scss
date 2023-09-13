@@ -9,9 +9,15 @@ $content-width: 1600px !default;
 
 // ブレークポイント
 $breakpoints: (
-  'sp': 375px,
+  //'sp': 375px,
+  'sp': 300px,
   'min': 560px,
-  'tab': 768px,
+  'swp': 600px,
+  'break600': 600px,
+  //'tab': 768px,
+  'tab': 800px,
+  'break840': 840px,
+  'break1100': 1100px,
   'lap': 1024px,
   'desk': 1280px,
   'vr': 1366px,

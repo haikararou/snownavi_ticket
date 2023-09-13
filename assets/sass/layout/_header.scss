@@ -6,89 +6,177 @@
 /*
   header
 -----------------------------------------------------*/
-
+// body {
+//   font-size: rem(14);
+//   padding-top: 60px;
+//   @include mq(tab) {
+//     font-size: rem(16);
+//   }
+//   @include mq(lap) {
+//     padding-top: 90px;
+//   }
+// }
 body {
-  font-size: rem(14);
   padding-top: 60px;
-  @include mq(tab) {
-    font-size: rem(16);
-  }
-  @include mq(lap) {
-    padding-top: 90px;
+  font-size: 14px;
+  @include mq(wide) {
+    font-size: 16px;
+    padding-top: 91px;
   }
 }
 
+body.index .l-header__wrapper {
+  background: none;
+}
 
 .l-header {
   position: fixed;
-  width: 100vw;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 110;
-  background: $color-white;
+  z-index: 101;
   box-shadow: 0 3px 3px -5px rgba(0,0,0,.5);
-  fill: $color-black;
-  color: $color-black;
+  // height: 60px;
+  // @include mq(wide) {
+  //   height: 91px;
+  // }
   &__wrapper {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: $color-white;
     height: 60px;
-    @include mq(lap) {
+    @include mq(wide) {
+      height: 91px;
+    }
+    @include mq(wide) {
       justify-content: center;
-      height: 90px;
     }
   }
   &__sitelogo {
-    position: relative;
-    fill: $color-black;
-    color: $color-black;
-    padding-left: 5%;
-    margin-left: 6px;
-    @include mq(lap) {
-      padding-left: 0%;
-      width: 50%;
+    width: calc(100% - 180px);
+    @include mq(wide) {
+      width: 42%;
       box-sizing: border-box;
-      margin-left: 0;
+      margin-left: 2%;
+    }
+    @include mq(wide) {
+      margin-right: 8%;
+    }
+    @include mq(wide) {
+      margin-right: 6%;
     }
     a {
       transition: .3s;
+      max-width: 420px;
       &:hover {
         opacity: .6;
       }
-      @include mq(lap) {
-        margin-left: 2rem;
+      @include mq(wide) {
         display: flex;
         align-items: center;
+        justify-content: center;
+        text-align: center;
         justify-content: flex-start;
       }
       svg {
         display: block;
-        width: 160px;
-        height: 24px;
-        @include mq(lap) {
+        width: 60%;
+        max-height: 32px;
+        margin-left: 7%;
+        @include mq(swp) {
+          width: 160px;
+          margin-left: 7%;
+        }
+        @include mq(wide) {
           width: 200px;
-          height: 30px;
+          margin-left: 0;
+          margin-bottom: 4px;
         }
       }
       p {
         display: none;
-        text-align: left;
-        @include mq(lap) {
+        @include mq(wide) {
           display: block;
-          //width: 14.5em;
-          margin-left: 3%;
+          /*width: 15.5em;*/
+          margin-left: 5%;
           font-size: rem(11);
+          text-align: left;
           line-height: 1.2rem;
         }
       }
     }
   }
+  // position: fixed;
+  // width: 100vw;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  // z-index: 110;
+  // background: $color-white;
+  // box-shadow: 0 3px 3px -5px rgba(0,0,0,.5);
+  // fill: $color-black;
+  // color: $color-black;
+  // &__wrapper {
+  //   position: relative;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+  //   height: 60px;
+  //   @include mq(lap) {
+  //     justify-content: center;
+  //     height: 90px;
+  //   }
+  // }
+  // &__sitelogo {
+  //   position: relative;
+  //   fill: $color-black;
+  //   color: $color-black;
+  //   padding-left: 5%;
+  //   margin-left: 6px;
+  //   @include mq(lap) {
+  //     padding-left: 0%;
+  //     width: 50%;
+  //     box-sizing: border-box;
+  //     margin-left: 0;
+  //   }
+  //   a {
+  //     transition: .3s;
+  //     &:hover {
+  //       opacity: .6;
+  //     }
+  //     @include mq(lap) {
+  //       margin-left: 2rem;
+  //       display: flex;
+  //       align-items: center;
+  //       justify-content: flex-start;
+  //     }
+  //     svg {
+  //       display: block;
+  //       width: 160px;
+  //       height: 24px;
+  //       @include mq(lap) {
+  //         width: 200px;
+  //         height: 30px;
+  //       }
+  //     }
+  //     p {
+  //       display: none;
+  //       text-align: left;
+  //       @include mq(lap) {
+  //         display: block;
+  //         //width: 14.5em;
+  //         margin-left: 3%;
+  //         font-size: rem(11);
+  //         line-height: 1.2rem;
+  //       }
+  //     }
+  //   }
+  // }
   &__pcnav {
     display: none;
-    @include mq(lap) {
+    @include mq(wide) {
       display: block;
       width: calc(100% - 96px - 50%);
       margin: 0 130px 0 0;
@@ -111,7 +199,7 @@ body {
         }
         &:first-of-type {
           font-size: rem(12);
-          margin-bottom: 1em;
+          margin-bottom: 1.5em;
           display: flex;
           flex-wrap: wrap;
           justify-content: end;
@@ -148,7 +236,7 @@ body {
     padding: 0;
     background: $color-black;
     cursor: pointer;
-    @include mq(lap) {
+    @include mq(wide       ) {
       width: 96px;
       height: 90px;
     }
@@ -163,14 +251,14 @@ body {
       &:nth-child(1) {
         top: 24px;
         right: calc(50% - 17px);
-        @include mq(lap) {
+        @include mq(wide) {
           top: 40px;
         }
       }
       &:nth-child(2) {
         top: 34px;
         left: calc(50% - 17px);
-        @include mq(lap) {
+        @include mq(wide) {
           top: 50px;
         }
       }
@@ -190,7 +278,7 @@ body {
           width: 34px;
           top: 30px;
           left: 14px;
-          @include mq(lap) {
+          @include mq(wide) {
             top: 50px;
             left: 28px;
           }
