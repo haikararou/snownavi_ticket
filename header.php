@@ -6,6 +6,13 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WKZ97XW6');</script>
+<!-- End Google Tag Manager -->
 <?php get_template_part('inc/ga'); ?>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width">
@@ -30,6 +37,17 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
 <?php endif; ?>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T99B97GG95"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-T99B97GG95');
+</script>
+
 </head>
 
 <?php
@@ -48,6 +66,10 @@ $my_body_class = 'category category_' . $category[0]->category_nicename . '';
 <?php $locale = get_locale(); if($locale == 'ja'):?>
 	<?php if(is_home() || is_front_page()): ?>
 	<body <?php echo ( $my_body_class ) ? ' class="' . $my_body_class . '"' : ''; ?> data-barba="wrapper">
+	<?php elseif(is_post_type_archive('coupon')): ?>
+	<body class="coupon">
+	<?php elseif(is_post_type_archive('ticket')): ?>
+	<body class="ticket">
 	<?php elseif(is_post_type_archive('hotel-voucher')): ?>
 	<body class="hotel-voucher page">
 	<?php elseif(is_post_type_archive('shop-voucher')): ?>
@@ -56,6 +78,10 @@ $my_body_class = 'category category_' . $category[0]->category_nicename . '';
 <?php else:?>
 	<?php if(is_home() || is_front_page()): ?>
 	<body <?php echo ( $my_body_class ) ? ' class="' . $my_body_class . ' __english"' : ''; ?> data-barba="wrapper">
+	<?php elseif(is_post_type_archive('coupon')): ?>
+	<body class="coupon">
+	<?php elseif(is_post_type_archive('ticket')): ?>
+	<body class="ticket">
 	<?php elseif(is_post_type_archive('hotel-voucher')): ?>
 	<body class="hotel-voucher page __english">
 	<?php elseif(is_post_type_archive('shop-voucher')): ?>
@@ -65,7 +91,10 @@ $my_body_class = 'category category_' . $category[0]->category_nicename . '';
 	<?php endif; ?>
 <?php endif;?>
 
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKZ97XW6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <?php get_template_part('inc/tag'); ?>
 

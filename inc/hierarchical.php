@@ -39,7 +39,7 @@ $myquery = new WP_Query( $args ); // クエリのセット
     <!-- 繰り返しフィールドの内容ここから -->
     <li>
     <?php if( get_sub_field('ticket_list_url') ): ?>
-        <a href="<?php the_sub_field('ticket_list_url'); ?>">
+        <a href="<?php the_sub_field('ticket_list_url'); ?>" class="waribiki <?php echo esc_html($parent->slug). '_' . esc_html($child->slug). '_' . esc_html($grandson->slug); ?>">
     <?php endif; ?>
         <?php the_sub_field('ticket_list_title'); ?>
     <?php if( get_sub_field('ticket_list_memo') ): ?>
