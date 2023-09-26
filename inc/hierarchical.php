@@ -37,6 +37,7 @@ $myquery = new WP_Query( $args ); // クエリのセット
     <?php if(have_rows('ticket_list')): ?>
     <?php while(have_rows('ticket_list')): the_row(); ?>
     <!-- 繰り返しフィールドの内容ここから -->
+    <?php if( get_sub_field('display') ): ?>
     <li>
     <?php if( get_sub_field('ticket_list_url') ): ?>
         <a href="<?php the_sub_field('ticket_list_url'); ?>" class="waribiki <?php echo esc_html($parent->slug). '_' . esc_html($child->slug). '_' . esc_html($grandson->slug); ?><?php if( get_sub_field('ga4') ): ?> <?php the_sub_field('ga4'); ?><?php endif; ?>"><?php else: ?><div class="no_ticket"><span><span>
@@ -49,6 +50,7 @@ $myquery = new WP_Query( $args ); // クエリのセット
     </a><?php else: ?></span></span></div>
     <?php endif; ?>
     </li>
+    <?php endif; ?>
     <!-- 繰り返しフィールドの内容ここまで -->
     <?php endwhile; ?>
     <?php endif; ?>
