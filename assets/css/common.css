@@ -3179,6 +3179,79 @@ ul.astarisk li span {
   margin-top: 0.5em;
   padding-right: 2rem;
 }
+.slinky-menu .no_ticket {
+  cursor: default;
+  background: #f9f9f9;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: block;
+  position: relative;
+}
+.slinky-menu .no_ticket:before, .slinky-menu .no_ticket:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+}
+.slinky-menu .no_ticket:before {
+  top: 0;
+  left: 0;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+.slinky-menu .no_ticket:after {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.slinky-menu .no_ticket > span {
+  position: relative;
+}
+.slinky-menu .no_ticket > span:before, .slinky-menu .no_ticket > span:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+}
+.slinky-menu .no_ticket > span:before {
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+.slinky-menu .no_ticket > span:after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.slinky-menu .no_ticket > span > span {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 1.4;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+  color: #aaa;
+}
+.slinky-menu .no_ticket > span > span > span {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 0.5em;
+  padding-right: 2rem;
+  color: #aaa;
+}
 .slinky-menu li ul {
   display: none;
   left: 100%;

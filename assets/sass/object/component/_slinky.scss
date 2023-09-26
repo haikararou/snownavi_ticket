@@ -111,6 +111,100 @@
       padding-right: 2rem;
     }
   }
+
+
+
+
+
+
+  .no_ticket {
+    cursor: default;
+    background: #f9f9f9;
+    align-items: center;
+    display: flex;
+    //cursor: pointer;
+    display :block;
+    position: relative;
+    &:before,
+    &:after {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 15px;
+      height: 15px;
+    }
+    &:before {
+      top: 0;
+      left: 0;
+      border-top: 1px solid $color-litegray;
+      border-left: 1px solid $color-litegray;
+    }
+    &:after {
+      top: 0;
+      right: 0;
+      border-top: 1px solid $color-litegray;
+      border-right: 1px solid $color-litegray;
+    }
+    & > span {
+      position: relative;
+      &:before,
+      &:after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 15px;
+        height: 15px;
+      }
+      &:before {
+        bottom: 0;
+        left: 0;
+        border-bottom: 1px solid $color-litegray;
+        border-left: 1px solid $color-litegray;
+      }
+      &:after {
+        bottom: 0;
+        right: 0;
+        border-bottom: 1px solid $color-litegray;
+        border-right: 1px solid $color-litegray;
+      }
+    }
+    & > span > span {
+      position: relative;
+      flex: 1;
+      line-height: 1.4;
+      display: block;
+      font-size: rem(16);
+      font-weight: 700;
+      padding: 1rem;
+      color: #aaa;
+      // &:after {
+      //   position: absolute;
+      //   content: "";
+      //   display: block;
+      //   width: 6px;
+      //   height: 6px;
+      //   top: calc(50% - 3px);
+      //   right: 1rem;
+      //   border-top: 2px solid $color-black;
+      //   border-right: 2px solid $color-black;
+      //   transform: rotate(45deg);
+      //   transition: 0.3s;
+      // }
+    }
+
+    & > span > span > span {
+      display: block;
+      font-size: rem(14);
+      font-weight: 400;
+      margin-top: .5em;
+      padding-right: 2rem;
+      color: #aaa;
+    }
+  }
+
+
+
+
   li ul {
     display: none;
     left: 100%;
