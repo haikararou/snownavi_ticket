@@ -13,7 +13,7 @@
 						<?php if ( have_posts() ): ?>
 						<ul class="hierarchy_01">
 						<?php while ( have_posts() ): the_post(); ?>
-							<li><a href="<?php the_permalink();?>"><?php the_time('Y.m.d'); ?><?php the_title(); ?></a></li>
+							<li><a href="<?php the_permalink();?>"><dl><dt><?php the_time('Y.m.d') ?></dt><dd><?php the_title(); ?></dd></dl></a></li>
 						<?php endwhile; ?>
 						</ul>
 						<?php endif; ?>

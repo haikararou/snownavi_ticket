@@ -97,7 +97,9 @@
   .c-section__home {
     padding-bottom: 2.5rem;
     &__ctr {
-      width: 90%;
+      width: 100%;
+      padding-left: 5%;
+      padding-right: 5%;
       margin-right: auto;
       margin-left: auto;
     }
@@ -213,11 +215,12 @@
 .slideshow {
   position: absolute;
   z-index: 1;
-  top: 60px;
+  top: 59px;
   left: 0;
   width: 100vw;
   height: 100vw;
   max-height: 35vh;
+  max-height: 32vh;
 	@include mq(lap) {
     top: 0;
 		max-height: 62vh;
@@ -239,6 +242,7 @@
     .item {
       height: 100vw;
       max-height: 35vh;
+      max-height: 32vh;
       @include mq(lap) {
         max-height: 62vh;
       }
@@ -480,7 +484,7 @@
     }
     &__heading {
       @include mq(lap) {
-        width: 15%;
+        width: 10%;
       }
       h2 {
         line-height: 1;
@@ -498,7 +502,7 @@
     &__post {
       margin-bottom: 2.3rem;
       @include mq(lap) {
-        width: 45%;
+        width: 50%;
         margin-bottom: 0;
       }
       .p-index__news__more {
@@ -567,12 +571,12 @@
               }
               dt {
                 @include mq(lap) {
-                  width: 10em;
+                  width: 8em;
                 }
               }
               dd {
                 @include mq(lap) {
-                  width: calc(100% - 10em);
+                  width: calc(100% - 8em);
                 }
               }
             }

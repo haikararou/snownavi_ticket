@@ -96,17 +96,18 @@ news
             border-right: 1px solid $color-litegray;
         }
         dl {
+            margin: 0;
             @include mq(lap) {
-            display: flex;
+                display: flex;
             }
             dt {
             @include mq(lap) {
-                width: 10em;
+                width: 8em;
             }
             }
             dd {
             @include mq(lap) {
-                width: calc(100% - 10em);
+                width: calc(100% - 8em);
             }
             }
         }

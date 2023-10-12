@@ -751,7 +751,7 @@
 		</g>
 	</g>
 
-	<a xlink:href="#"><g class="map" id="gala-yuzawa">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_21&d=_135#menu" class="no_link"><g class="map" id="gala-yuzawa">
 		<rect x="690" y="132.5" class="st6" width="68.3" height="14.2"/>
 		<g>
 			<path class="st7" d="M699.3,143.9c-0.5,0.2-1.6,0.5-2.6,0.5c-1.4,0-2.5-0.4-3.2-1.1c-0.8-0.8-1.2-2-1.2-3.5
@@ -779,7 +779,7 @@
 		<circle class="st8" cx="753.5" cy="140.9" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="yuzawakogen">
+	<a xlink:href="https://www.snownavi.co.jp/wp/ticket/?a=_01&b=_25&c=_21&d=_137#menu"><g class="map" id="yuzawakogen">
 		<rect x="688.3" y="150.5" class="st6" width="64.1" height="15.8"/>
 		<g>
 			<path class="st7" d="M690.8,155.4c0.7,0.2,1.6,0.7,2.1,1.1l-0.8,1.2c-0.4-0.4-1.3-0.9-2-1.2L690.8,155.4z M701.3,158.3h-5.2
@@ -808,7 +808,7 @@
 		<circle class="st8" cx="747.6" cy="158.8" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="cupid-valley">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_13&d=_55#menu"><g class="map" id="cupid-valley">
 		<polygon class="st6" points="627.4,86.5 627.4,115.7 651.7,115.7 651.7,148.5 667.1,148.5 667.1,115.7 692.2,115.7 692.2,86.5 		
 			"/>
 		<g>
@@ -840,7 +840,7 @@
 		<circle class="st8" cx="659.2" cy="143.5" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="iwahara">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_21&d=_145#menu"><g class="map" id="iwahara">
 		<rect x="760.6" y="178.1" class="st6" width="40.5" height="17.6"/>
 		<g>
 			<path class="st10" d="M786.1,187.1h-6.2c-0.2,0.4-0.5,0.8-0.8,1.2h6.2v4.5h-1.5v-0.4H779v0.5h-1.4v-2.8c-0.5,0.5-1.2,1-1.8,1.3
@@ -867,7 +867,7 @@
 		<circle class="st8" cx="765.5" cy="188.8" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="minakami-kogen">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_185#menu"><g class="map" id="minakami-kogen">
 		<rect x="821.9" y="186.1" class="st6" width="63.6" height="14.6"/>
 		<g>
 			<path class="st7" d="M839.8,190.5l1,0.4c0,0.1-0.1,0.2-0.2,0.2c-0.5,3-1.8,5.5-3.5,6.7c-0.2-0.4-0.8-0.9-1.2-1.1
@@ -890,7 +890,7 @@
 		<circle class="st8" cx="827.4" cy="195.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="fujiwara">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_187#menu"><g class="map" id="fujiwara">
 		<rect x="817.5" y="205.6" class="st6" width="39.8" height="13.9"/>
 		<g>
 			<path class="st7" d="M843.2,213h-1.1c0.4,0.4,0.8,0.6,1.4,0.8c-0.2,0.2-0.6,0.7-0.8,1c-0.2-0.1-0.4-0.2-0.6-0.3
@@ -915,7 +915,7 @@
 		<circle class="st8" cx="823.2" cy="213.5" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="hodaiju">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_169#menu"><g class="map" id="hodaigi">
 		<rect x="807.4" y="223.3" class="st6" width="51.5" height="14.2"/>
 		<g>
 			<path class="st7" d="M831,234.2h1.8v1.3h-10.3v-1.3h4.3v-1.8H824V231h2.9v-1.3h-3.3v-0.9h-1v-2.9h4.3v-1.4l1.9,0.1
@@ -938,7 +938,7 @@
 		<circle class="st8" cx="812.7" cy="230.3" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="okutone">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_159#menu"><g class="map" id="okutone">
 		<rect x="794.6" y="240" class="st6" width="52" height="14.4"/>
 		<g>
 			<path class="st7" d="M820.2,250.1h-4c0.8,0.9,2.2,1.4,4.3,1.5c-0.3,0.3-0.7,0.9-0.9,1.4c-2.5-0.3-3.9-1-4.8-2.6
@@ -965,7 +965,7 @@
 		<circle class="st8" cx="800" cy="248.2" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="oguna-hotaka">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_171#menu"><g class="map" id="oguna-hotaka">
 		<polygon class="st6" points="821.9,260.3 821.9,268.3 809.5,268.3 809.5,279.7 821.9,279.7 821.9,289.3 860.9,289.3 860.9,260.3 
 					"/>
 		<g>
@@ -1002,7 +1002,7 @@
 		<circle class="st8" cx="814.8" cy="274.5" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="kawaba">
+	<a xlink:href="#" class="no_link"><g class="map" id="kawaba">
 		<polygon class="st6" points="806,290.9 806,279.7 793.7,279.7 793.7,290.9 790.4,290.9 790.4,307.9 818.8,307.9 818.8,290.9 		"/>
 		<g>
 			<path class="st7" d="M793.4,294.2l1.8,0.1c0,0.1-0.1,0.2-0.3,0.2v3.9c0,2.3-0.2,4.8-1.8,6.6c-0.3-0.3-0.8-0.8-1.2-1
@@ -1020,7 +1020,7 @@
 		<circle class="st8" cx="800" cy="285" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="tanbara">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_161#menu"><g class="map" id="tanbara">
 		<polygon class="st6" points="792.6,266.2 780.8,266.2 780.8,277.2 740.5,277.2 740.5,291.7 786.4,291.7 786.4,278 792.6,278 		"/>
 		<g>
 			<path class="st7" d="M749.2,282.2c-0.9,0.3-2.1,0.5-3.3,0.6c-0.5,2.5-1.2,5.2-2.1,7.2l-1.6-0.5c1-1.9,1.6-4.2,2-6.6
@@ -1050,7 +1050,7 @@
 		<circle class="st8" cx="786.4" cy="272.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="white-valley">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_165#menu"><g class="map" id="white-valley">
 		<polygon class="st6" points="736.8,313.2 729.2,270.5 719.6,272.2 727.9,318.7 730.8,318.2 730.8,328.2 807.4,328.2 807.4,313.2 
 					"/>
 		<g>
@@ -1077,7 +1077,7 @@
 		<circle class="st8" cx="725.4" cy="276.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="norn-minakami">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_163#menu"><g class="map" id="norn-minakami">
 		<g>
 			<path class="st7" d="M726.2,333.3c-0.1,0.1-0.2,0.2-0.4,0.2c-2,4.8-4.6,7.6-7.9,9.5c-0.3-0.3-0.8-0.8-1.2-1.1
 				c3.1-1.8,5.8-4.5,7.6-9.3L726.2,333.3L726.2,333.3z"/>
@@ -1100,7 +1100,7 @@
 		<polygon class="st6" points="719,330.6 712.8,278.4 702.5,279.6 709,334 715.7,333.2 715.7,345.2 774.1,345.2 774.1,330.6 		"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="tenjindaira">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_183#menu"><g class="map" id="tenjindaira">
 		<rect x="724.6" y="249.2" class="st6" width="49.5" height="14.9"/>
 		<g>
 			<path class="st7" d="M748.7,257.1h-4c0.8,2,2.2,3.4,4.8,4c-0.3,0.3-0.8,1-1,1.4c-2.3-0.6-3.7-1.9-4.7-3.9c-0.7,1.6-2,3-4.9,3.9
@@ -1118,7 +1118,7 @@
 		<circle class="st8" cx="729.6" cy="255.5" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="akasawa">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_189#menu"><g class="map" id="akasawa">
 		<rect x="673.7" y="250.9" class="st6" width="41.2" height="15.1"/>
 		<g>
 			<path class="st10" d="M679.3,258.9c0,0.1-0.2,0.2-0.3,0.1c-0.4,0.9-1.1,2.2-1.9,3c-0.3-0.3-0.8-0.6-1.2-0.8
@@ -1147,7 +1147,7 @@
 		<circle class="st8" cx="709.6" cy="258.7" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="naeba">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_21&d=_129#menu"><g class="map" id="naeba">
 		<rect x="735.1" y="214.1" class="st6" width="39.9" height="14.6"/>
 		<g>
 			<path class="st10" d="M757.5,216.7h2.7v1.3h-2.7v1.1h-1.4V218h-2.8v1.1h-1.4V218h-2.6v-1.3h2.6v-1.1l1.7,0.1
@@ -1180,7 +1180,7 @@
 		<circle class="st8" cx="740.1" cy="221.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="kanndatsu">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_21&d=_141#menu"><g class="map" id="kanndatsu">
 		<rect x="739.2" y="197.9" class="st6" width="39.8" height="14.4"/>
 		<g>
 			<path class="st10" d="M762.6,201.6h2.6v6.3h-1.4v-0.4h-1.2v3.3h-1.4v-3.3H760v0.5h-1.3v-1.6l-0.7,1.1c-0.2-0.3-0.6-0.7-0.9-1v4.4
@@ -1205,7 +1205,7 @@
 		<circle class="st8" cx="744.5" cy="205.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="naspa">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_21&d=_143#menu"><g class="map" id="naspa">
 		<rect x="680.3" y="183.3" class="st6" width="53.7" height="13.6"/>
 		<g>
 			<path class="st10" d="M689.3,194.8h-1.8l-2-3.8c-0.5-0.9-1-2.1-1.4-3.1h0c0.1,1.1,0.1,2.4,0.1,4.1v2.8h-1.6v-9.2h1.9l1.9,3.7
@@ -1238,7 +1238,7 @@
 		<circle class="st8" cx="729.6" cy="192.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="kagura">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_21&d=_131#menu"><g class="map" id="kagura">
 		<rect x="681.7" y="202.3" class="st6" width="48" height="14.6"/>
 		<g>
 			<path class="st10" d="M688.1,204.2c0,0.2-0.2,0.2-0.4,0.2c-0.1,0.6-0.3,1.6-0.4,2.3c0.3,0,0.7-0.1,1-0.1c2,0,2.6,1.4,2.6,3.2l0,0
@@ -1293,7 +1293,7 @@
 		<circle class="st8" cx="657" cy="231.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="togari-onsen">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_13&d=_59#menu"><g class="map" id="togari-onsen">
 		<polygon class="st6" points="621.6,169.2 621.6,185.4 639.9,185.4 639.9,196.9 651.4,196.9 651.4,185.4 673.7,185.4 673.7,169.2 
 					"/>
 		<g>
@@ -1347,7 +1347,7 @@
 		<circle class="st8" cx="645.5" cy="192.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="tangram">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_15&d=_85#menu"><g class="map" id="tangram">
 		<rect x="579.6" y="196.9" class="st6" width="66.7" height="14.6"/>
 		<g>
 			<path class="st10" d="M601.1,201.1c0,0.1-0.1,0.2-0.2,0.2c-0.5,1.4-1,2.8-1.7,3.8c0.4,0.2,1,0.6,1.3,0.9l-0.9,1.5
@@ -1390,7 +1390,7 @@
 		<circle class="st8" cx="584.6" cy="205.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="madarao">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_15&d=_87#menu"><g class="map" id="madarao">
 		<polygon class="st6" points="599.4,227.4 599.4,215.9 588,215.9 588,227.4 587.2,227.4 587.2,241.8 613.4,241.8 613.4,227.4 		"/>
 		<g>
 			<path class="st7" d="M592,237.8l0.1,1.2c-1.2,0.3-2.4,0.6-3.2,0.8c0,0.1-0.1,0.2-0.2,0.2l-0.3-1.5c0.4-0.1,0.8-0.1,1.3-0.2v-2.8
@@ -1409,7 +1409,7 @@
 		<circle class="st8" cx="593.5" cy="220.7" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="kurohime">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_15&d=_83#menu"><g class="map" id="kurohime">
 		<polygon class="st6" points="575.1,231.4 575.1,217.2 564.5,217.2 564.5,231.4 559.5,231.4 559.5,245.6 585.7,245.6 585.7,231.4 
 					"/>
 		<g>
@@ -1429,7 +1429,7 @@
 		<circle class="st8" cx="569.8" cy="222.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="togakushi">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_13&d=_67#menu"><g class="map" id="togakushi">
 		<polygon class="st6" points="546,249.9 546,234.5 534.7,234.5 534.7,249.9 529.7,249.9 529.7,264.6 556,264.6 556,249.9 		"/>
 		<g>
 			<path class="st7" d="M541.2,254.5v5.3h-1.5v-0.7h-5.8c-0.2,1.4-0.7,2.8-1.8,3.9c-0.2-0.3-0.8-0.8-1.1-1c1.5-1.3,1.6-3.3,1.6-4.8
@@ -1448,7 +1448,7 @@
 		<circle class="st8" cx="540.4" cy="240.3" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="ryuo">
+	<a xlink:href="#" class="no_link"><g class="map" id="ryuo">
 		<rect x="610.1" y="244.4" class="st6" width="38.3" height="14.3"/>
 		<g>
 			<path class="st7" d="M622.2,248.7v1.2h-11.1v-1.2h2.8c-0.1-0.3-0.2-0.8-0.4-1.1l0.3-0.1H612v-1.2h3.9v-0.8l1.8,0.1
@@ -1462,7 +1462,7 @@
 		<circle class="st8" cx="643.3" cy="253.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="yakebitaiyama">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_13&d=_63#menu"><g class="map" id="yakebitaiyama">
 		<rect x="594.5" y="260.3" class="st6" width="50.9" height="15.4"/>
 		<g>
 			<path class="st7" d="M597.4,264.2c0,1.1-0.1,2.4-0.5,3.3l-0.9-0.4c0.4-0.7,0.5-1.9,0.5-3L597.4,264.2L597.4,264.2z M600.9,264.1
@@ -1490,7 +1490,7 @@
 		<circle class="st8" cx="640.2" cy="270.3" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="shiga-kogen">
+	<a xlink:href="#" class="no_link"><g class="map" id="shiga-kogen">
 		<rect x="582.9" y="278.3" class="st6" width="60.2" height="15.9"/>
 		<g>
 			<path class="st7" d="M586.9,286.4c-0.3,1.1-0.8,2.3-1.7,3l-1.2-0.8c0.8-0.6,1.3-1.5,1.6-2.6L586.9,286.4L586.9,286.4z
@@ -1519,7 +1519,7 @@
 		<circle class="st8" cx="638.1" cy="289.2" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="yamaboku">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_13&d=_65#menu"><g class="map" id="yamaboku">
 		<rect x="553.2" y="295.6" class="st6" width="79.9" height="14.5"/>
 		<g>
 			<path class="st7" d="M561.9,297.6l-2.7,5.4v3.8h-1.8V303l-2.6-5.5h2l0.9,2.3c0.3,0.7,0.5,1.2,0.7,1.9h0c0.2-0.6,0.4-1.2,0.7-1.9
@@ -1546,7 +1546,7 @@
 		<circle class="st8" cx="627.6" cy="302.9" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="ninja">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_175#menu"><g class="map" id="ninja">
 		<rect x="561.8" y="311.8" class="st6" width="53.8" height="13.5"/>
 		<g>
 			<path class="st7" d="M572.4,320.8v1.5h-10v-1.5H572.4z M571.2,314.6v1.5h-7.5v-1.5H571.2z"/>
@@ -1564,7 +1564,7 @@
 		<circle class="st8" cx="610.7" cy="318.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="sugadaira">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_173#menu"><g class="map" id="sugadaira">
 		<rect x="593.2" y="327.1" class="st6" width="35.9" height="18.8"/>
 		<g>
 			<path class="st7" d="M602.5,332.4h2.6v1.3h-2.6v0.6H601v-0.6h-2.8v0.6h-1.4v-0.6h-2.5v-1.3h2.5v-0.8l1.7,0.1
@@ -1578,7 +1578,7 @@
 		<circle class="st8" cx="623.4" cy="332.3" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="asama2000">
+	<a xlink:href="#" class="no_link"><g class="map" id="asama2000">
 		<polygon class="st6" points="656.2,362.2 656.2,350.2 645.5,350.2 645.5,362.2 618.4,362.2 618.4,375.8 690.8,375.8 690.8,362.2 
 					"/>
 		<g>
@@ -1609,7 +1609,7 @@
 		<circle class="st8" cx="650.7" cy="355.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="karupri">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_179#menu"><g class="map" id="karupri">
 		<rect x="633.9" y="383.1" class="st6" width="46.1" height="14.4"/>
 		<g>
 			<path class="st7" d="M645.1,385.1l0.9,0.4c0,0.1-0.1,0.1-0.1,0.2c-0.4,1.2-1,2.3-1.8,3.1c0.7,0.4,1.4,0.8,2.3,1
@@ -1629,7 +1629,7 @@
 		<circle class="st8" cx="674.9" cy="391.2" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="manza">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_167#menu"><g class="map" id="manza">
 		<rect x="651.7" y="294.2" class="st6" width="39.4" height="15.1"/>
 		<g>
 			<path class="st7" d="M676,297.8h-5.6c0,0.1-0.2,0.1-0.3,0.1c0,0.6-0.1,1.2-0.1,1.8h4l0.9,0.1c0,0.1,0,0.3,0,0.5
@@ -1646,7 +1646,7 @@
 		<circle class="st8" cx="657" cy="301.8" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="tsumagoi">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_1378#menu"><g class="map" id="tsumagoi">
 		<rect x="646.2" y="313" class="st6" width="38.2" height="14.2"/>
 		<g>
 			<path class="st7" d="M663.8,317.1l0,0.2c-0.1,2.1-0.3,3.8-0.7,5.2c0.5,0.5,0.8,1,1.1,1.5l-0.9,1.1c-0.2-0.4-0.4-0.7-0.8-1.2
@@ -1670,7 +1670,7 @@
 		<circle class="st8" cx="650.7" cy="319.7" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="yunomaru">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_23&d=_181#menu"><g class="map" id="yunomaru">
 		<rect x="640.2" y="331.6" class="st6" width="51.6" height="13.6"/>
 		<g>
 			<path class="st7" d="M655.7,335.4c0.7,0.2,1.6,0.7,2.1,1.1l-0.8,1.2c-0.4-0.4-1.3-0.9-2-1.2L655.7,335.4L655.7,335.4z
@@ -1693,7 +1693,7 @@
 		<circle class="st8" cx="645.5" cy="338.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="akakura-onsen">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_15&d=_75#menu"><g class="map" id="akakura-onsen">
 		<rect x="525.6" y="142.4" class="st6" width="60" height="13.8"/>
 		<g>
 			<path class="st7" d="M530.3,149.8c0,0.1-0.2,0.2-0.3,0.1c-0.4,0.9-1.1,2.2-1.9,3c-0.3-0.3-0.8-0.6-1.2-0.8
@@ -1723,7 +1723,7 @@
 		<circle class="st8" cx="580.4" cy="149.9" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="akakura-kanko">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_15&d=_77#menu"><g class="map" id="akakura-kanko">
 		<rect x="522.9" y="160.7" class="st6" width="60" height="15"/>
 		<g>
 			<path class="st7" d="M527.3,168.8c0,0.1-0.2,0.2-0.3,0.1c-0.4,0.9-1.1,2.2-1.9,3c-0.3-0.3-0.8-0.6-1.2-0.8
@@ -1757,7 +1757,7 @@
 		<circle class="st8" cx="577.2" cy="168.8" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="ikenotaira">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_15&d=_79#menu"><g class="map" id="ikenotaira">
 		<rect x="528.6" y="180.9" class="st6" width="49.3" height="13.8"/>
 		<g>
 			<path class="st7" d="M531.5,185.5c0.8,0.3,1.8,0.7,2.2,1.1l-0.8,1.2c-0.5-0.4-1.4-0.9-2.2-1.3L531.5,185.5L531.5,185.5z
@@ -1779,7 +1779,7 @@
 		<circle class="st8" cx="573" cy="188.8" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="suginohara">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_15&d=_81#menu"><g class="map" id="suginohara">
 		<rect x="521.2" y="198.3" class="st6" width="47.7" height="14"/>
 		<g>
 			<path class="st10" d="M526.5,203.9c0.4,0.4,1.5,1.7,1.8,2.1l-0.9,1.2c-0.2-0.4-0.6-1-0.9-1.5v5h-1.4v-4.8
@@ -1814,7 +1814,7 @@
 		<circle class="st8" cx="563.5" cy="205.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="hiuchi">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_15&d=_69#menu"><g class="map" id="hiuchi">
 		<rect x="468" y="159.2" class="st6" width="39.3" height="14.6"/>
 		<g>
 			<path class="st7" d="M475.6,160.8l1.2,0.1c0,0.2-0.2,0.3-0.4,0.3v3.4c0,1.8,1.1,4.6,4.9,6c-0.3,0.3-0.8,0.9-1,1.4
@@ -1829,7 +1829,7 @@
 		<circle class="st8" cx="501.8" cy="167.8" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="cortina">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_11&d=_37#menu"><g class="map" id="cortina">
 		<rect x="454.4" y="206" class="st6" width="58.9" height="14.6"/>
 		<g>
 			<path class="st10" d="M465.1,209.6v8.3h-1.6v-0.6h-7v-1.4h7V211h-6.9v-1.4L465.1,209.6L465.1,209.6z"/>
@@ -1857,7 +1857,7 @@
 		<circle class="st8" cx="507.8" cy="214" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="hakuba-norikura">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_11&d=_39#menu"><g class="map" id="hakuba-norikura">
 		<rect x="445.1" y="223.2" class="st6" width="61.1" height="14.2"/>
 		<g>
 			<path class="st10" d="M452.6,224.9c0,0.1-0.1,0.2-0.4,0.2c-0.2,0.4-0.4,1-0.6,1.4h4.6v9.3h-1.5v-0.7h-6.2v0.7H447v-9.3h2.9
@@ -1910,7 +1910,7 @@
 		<circle class="st8" cx="500.4" cy="231.9" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="tsugaike">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_11&d=_41#menu"><g class="map" id="tsugaike">
 		<rect x="456.2" y="238.6" class="st6" width="40.1" height="15"/>
 		<g>
 			<path class="st10" d="M461.1,245c0.3,0.4,1.3,1.9,1.5,2.2l-0.8,1.1c-0.2-0.4-0.4-1-0.7-1.5v5.1h-1.3v-4.6c-0.3,1-0.7,1.8-1.2,2.4
@@ -1951,7 +1951,7 @@
 		<circle class="st8" cx="491" cy="247.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="iwatake">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_11&d=_43#menu"><g class="map" id="iwatake">
 		<rect x="456.2" y="256.8" class="st6" width="40.1" height="15"/>
 		<g>
 			<path class="st10" d="M469.1,264.1h-6.2c-0.2,0.4-0.5,0.8-0.8,1.2h6.2v4.5h-1.5v-0.4H462v0.5h-1.4v-2.8c-0.5,0.5-1.1,1-1.8,1.3
@@ -1976,7 +1976,7 @@
 		<circle class="st8" cx="491" cy="265.5" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="happo">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_11&d=_45#menu"><g class="map" id="happo">
 		<rect x="447" y="274.3" class="st6" width="38.6" height="13.6"/>
 		<g>
 			<path class="st10" d="M452.8,279.3c0,0.1-0.1,0.2-0.3,0.2c-0.4,2.5-1.3,5.6-3.3,7.4c-0.3-0.3-0.9-0.8-1.2-1.1
@@ -1999,7 +1999,7 @@
 		<circle class="st8" cx="480.5" cy="282.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="goryu47">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_11&d=_47#menu"><g class="map" id="goryu47">
 		<rect x="432.8" y="293.2" class="st6" width="52.1" height="15.1"/>
 		<g>
 			<path class="st10" d="M443.2,303.9h1.9v1.4h-10.8v-1.4h2.6c0.2-1,0.5-2.1,0.7-3.3h-2.2v-1.4h2.5c0.1-0.7,0.2-1.4,0.4-2.1H435
@@ -2031,7 +2031,7 @@
 		<circle class="st8" cx="479.4" cy="300.2" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="sanosaka">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_11&d=_1374#menu"><g class="map" id="sanosaka">
 		<rect x="423.8" y="310.5" class="st6" width="58.9" height="14.8"/>
 		<g>
 			<path class="st10" d="M435,314.8c-0.9,0.2-2.4,0.4-3.6,0.5c0.4,1.3,1,2.1,2.1,2.6l-1.1,1.3c-0.5-0.4-1.1-0.9-2.6-0.8l-0.4-1.2
@@ -2077,7 +2077,7 @@
 		<circle class="st8" cx="477.3" cy="318.1" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="kashimayari">
+	<a xlink:href="#" class="no_link"><g class="map" id="kashimayari">
 		<rect x="461.6" y="330.4" class="st6" width="48.9" height="14.8"/>
 		<g>
 			<path class="st7" d="M484.7,339.1h-8.4c-0.1,1.7-0.4,3.5-1.2,4.8c-0.2-0.2-0.9-0.6-1.2-0.8c1-1.7,1.1-4.2,1.1-6v-3.5h4.3v-1
@@ -2104,7 +2104,7 @@
 		<circle class="st8" cx="466.8" cy="336" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="tateyama-sanroku">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_27&c=_31&d=_215#menu"><g class="map" id="tateyama-sanroku">
 		<polygon class="st6" points="407.6,305.3 356.3,305.3 356.3,319.7 386.1,319.7 386.1,331.6 398.3,331.6 398.3,319.7 407.6,319.7 
 					"/>
 		<g>
@@ -2130,7 +2130,7 @@
 		<circle class="st8" cx="392.3" cy="326.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="jiigatake">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_11&d=_51#menu"><g class="map" id="jiigatake">
 		<polygon class="st6" points="458.3,353.1 458.3,342.5 447,342.5 447,353.1 437.3,353.1 437.3,368 473,368 473,353.1 		"/>
 		<g>
 			<path class="st7" d="M442.8,356.4c0.4,0.4,0.8,0.6,1.4,0.9c0.6-0.3,1.1-0.6,1.5-1l1.5,0.7c-0.1,0.1-0.2,0.1-0.4,0.1
@@ -2154,7 +2154,7 @@
 		<circle class="st8" cx="453.1" cy="347.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="iox-arosa">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_27&c=_31&d=_213#menu"><g class="map" id="iox-arosa">
 		<polygon class="st6" points="239.5,316.7 239.5,300.9 226,300.9 226,316.7 226,329.4 291.3,329.4 291.3,316.7 		"/>
 		<g>
 			<path class="st7" d="M228.6,318.5h1.8v9.2h-1.8V318.5z"/>
@@ -2179,7 +2179,7 @@
 		<circle class="st8" cx="233" cy="307.1" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="kawai">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_19&d=_1380#menu" class="no_link"><g class="map" id="kawai">
 		<polygon class="st6" points="349.6,375.8 311.1,375.8 311.1,390.8 324.4,390.8 324.4,403.3 334.6,403.3 334.6,390.8 349.6,390.8 
 					"/>
 		<g>
@@ -2199,7 +2199,7 @@
 		<circle class="st8" cx="329.2" cy="397.9" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="hirugao-kogen">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_19&d=_121#menu"><g class="map" id="hirugao-kogen">
 		<polygon class="st6" points="289.1,427.8 216.3,427.8 216.3,441.7 244.6,441.7 244.6,486.7 252.7,486.7 252.7,441.7 289.1,441.7 
 					"/>
 		<g>
@@ -2241,7 +2241,7 @@
 		<circle class="st8" cx="248.5" cy="481.5" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="dyna">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_19&d=_115#menu"><g class="map" id="dyna">
 		<polygon class="st6" points="244.6,457.8 213.5,457.8 213.5,472.1 224.4,472.1 224.4,483.8 236.2,483.8 236.2,472.1 244.6,472.1 
 					"/>
 		<g>
@@ -2259,7 +2259,7 @@
 		<circle class="st8" cx="230.1" cy="478.1" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="skijam">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_27&c=_31&d=_211#menu"><g class="map" id="skijam">
 		<rect x="91" y="450.5" class="st6" width="80.3" height="14.3"/>
 		<g>
 			<path class="st7" d="M101.2,453.3c0,0.1-0.1,0.2-0.2,0.2c-0.7,1.5-1.3,2.7-2.2,4c1.2,1,2.9,2.5,4,3.7l-1.3,1.2
@@ -2283,7 +2283,7 @@
 		<circle class="st8" cx="166.1" cy="458.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="wing-hills">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_19&d=_123#menu"><g class="map" id="wing-hills">
 		<rect x="129.6" y="482.2" class="st6" width="87.1" height="14.7"/>
 		<g>
 			<path class="st10" d="M134.6,484.4l1.9,0.1c0,0.1-0.1,0.3-0.4,0.3v1.7h2.5l0.3-0.1l1.3,0.5c0,0.1-0.1,0.1-0.2,0.2
@@ -2338,7 +2338,7 @@
 		<circle class="st8" cx="212.2" cy="490.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="shiratori-kogen">
+	<a xlink:href="#" class="no_link"><g class="map" id="shiratori-kogen">
 		<polygon class="st6" points="233.3,506.6 233.3,494.5 222.3,494.5 222.3,506.6 204.4,506.6 204.4,521.3 254.1,521.3 254.1,506.6 
 					"/>
 		<g>
@@ -2388,7 +2388,7 @@
 		<circle class="st8" cx="227.9" cy="499.3" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="white-pia">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_19&d=_119#menu"><g class="map" id="white-pia">
 		<rect x="258.7" y="482.2" class="st6" width="78.4" height="14.9"/>
 		<g>
 			<path class="st7" d="M276.1,490c-0.5,1.4-1.2,2.6-2.1,3.5l-1.3-0.8c0.8-0.8,1.5-1.9,2-3.2L276.1,490L276.1,490z M278.7,488.2v5
@@ -2413,7 +2413,7 @@
 		<circle class="st8" cx="263.9" cy="490.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="meiho">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_19&d=_117#menu"><g class="map" id="meiho">
 		<polygon class="st6" points="282.2,515.8 282.2,502.5 268.9,502.5 268.9,515.8 257.8,515.8 257.8,529.5 303.2,529.5 303.2,515.8 
 					"/>
 		<g>
@@ -2442,7 +2442,7 @@
 		<circle class="st8" cx="276" cy="508.3" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="montdeus">
+	<a xlink:href="#" class="no_link"><g class="map" id="montdeus">
 		<polygon class="st6" points="355.2,434.9 297.6,434.9 297.6,448.7 300.1,448.7 300.1,460 311.1,460 311.1,448.7 355.2,448.7 		"/>
 		<g>
 			<path class="st7" d="M304.5,442.2v2.1c0,0.5,0.2,0.8,0.9,0.8h2c0.4,0,1.1,0,1.4-0.1l0,1.4c-0.3,0.1-1,0.1-1.4,0.1h-2.2
@@ -2463,7 +2463,7 @@
 		<circle class="st8" cx="305.9" cy="454.5" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="hida-funayama">
+	<a xlink:href="#" class="no_link"><g class="map" id="hida-funayama">
 		<rect x="323.6" y="452.5" class="st6" width="61.5" height="14.5"/>
 		<g>
 			<path class="st7" d="M348.3,460.5c-0.1,0.1-0.2,0.1-0.3,0.1c-0.3,0.2-0.7,0.6-1.1,0.9c0.5,0.3,1,0.6,1.3,0.8l-0.6,0.7
@@ -2498,7 +2498,7 @@
 		<circle class="st8" cx="329.2" cy="460.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="ontake2240">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_1376#menu" class="no_link"><g class="map" id="ontake2240">
 		<polygon class="st6" points="404.1,532.5 404.1,522.6 391,522.6 391,532.5 377.2,532.5 377.2,547.8 448.1,547.8 448.1,532.5 		"/>
 		<g>
 			<path class="st7" d="M386.9,540.1c0,3.2-1.6,4.9-3.9,4.9c-2.4,0-3.8-2-3.8-4.7s1.5-4.8,3.9-4.8
@@ -2528,7 +2528,7 @@
 		<circle class="st8" cx="397.6" cy="528.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="mt-norikura">
+	<a xlink:href="#" class="no_link"><g class="map" id="mt-norikura">
 		<polygon class="st6" points="469.5,430.3 423.8,430.3 423.8,444 434.6,444 434.6,455.3 446.1,455.3 446.1,444 469.5,444 		"/>
 		<g>
 			<path class="st7" d="M435.5,441.3h-1.7l-0.2-3.6c0-1.2-0.1-2.5-0.1-3.6h0c-0.3,1.1-0.6,2.3-0.9,3.4l-1.1,3.7h-1.3l-1-3.7
@@ -2554,7 +2554,7 @@
 		<circle class="st8" cx="440.3" cy="449.7" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="nomugitoge">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_109#menu"><g class="map" id="nomugitoge">
 		<rect x="453.5" y="456" class="st6" width="51.2" height="14.9"/>
 		<g>
 			<path class="st7" d="M477.7,461.6l0.8,0c-0.3,1.4-0.4,2-0.9,3.2c-1.1-0.2-1.1-0.2-1.2-0.2c0.1-0.4,0.3-1,0.4-1.6H476v3.9
@@ -2578,7 +2578,7 @@
 		<circle class="st8" cx="458.9" cy="463.5" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="fujimi-panorama">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_105#menu"><g class="map" id="fujimi-panorama">
 		<rect x="467" y="492.1" class="st6" width="94.5" height="14.2"/>
 		<g>
 			<path class="st7" d="M475.6,494.1h4.4v2.6h-1.4v-1.4h-7.4v1.4h-1.4v-2.6h4.3V493l1.8,0.1c0,0.1-0.1,0.2-0.3,0.2V494.1z
@@ -2607,7 +2607,7 @@
 		<circle class="st8" cx="555.8" cy="499.3" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="ina">
+	<a xlink:href="#" class="no_link"><g class="map" id="ina">
 		<rect x="488.2" y="521" class="st6" width="38.2" height="14.4"/>
 		<g>
 			<path class="st7" d="M491.2,528.2c-0.3,0.5-0.7,1-1,1.3c-0.1-0.4-0.5-1.1-0.7-1.5c1.1-1.1,2.1-3.1,2.8-5l1.6,0.5
@@ -2626,7 +2626,7 @@
 		<circle class="st8" cx="521.5" cy="528.4" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="blanche">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_89#menu"><g class="map" id="blanche">
 		<rect x="541.4" y="400.3" class="st6" width="64.7" height="17.2"/>
 		<g>
 			<path class="st7" d="M549.5,402.6c0.5,0.4,1.1,1.1,1.4,1.6l-0.3,0.2l1,0.5c0,0.1-0.1,0.2-0.2,0.2c-1.1,4.5-3.1,7-7.1,8.6
@@ -2646,7 +2646,7 @@
 		<circle class="st8" cx="601.3" cy="411.2" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="eco-valley">
+	<a xlink:href="#" class="no_link"><g class="map" id="eco-valley">
 		<rect x="518.6" y="420.5" class="st6" width="85.1" height="14.5"/>
 		<g>
 			<path class="st7" d="M522.2,423.6h8.2v1.4h-3.4v4.9h4.2v1.4h-9.9v-1.4h4.1V425h-3.3V423.6z"/>
@@ -2663,7 +2663,7 @@
 		<circle class="st8" cx="598.1" cy="429.1" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="kurumayama">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_91#menu"><g class="map" id="kurumayama">
 		<rect x="554.9" y="438.2" class="st6" width="40.5" height="14.9"/>
 		<g>
 			<path class="st7" d="M568.2,448v1.3h-4.8v1.6h-1.5v-1.6h-4.7V448h4.7v-0.6h-3.5v-4.9h3.5v-0.6h-4.4v-1.3h4.4v-1l1.8,0.1
@@ -2675,7 +2675,7 @@
 		<circle class="st8" cx="590.2" cy="445.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="royal-hill">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_93#menu"><g class="map" id="royal-hill">
 		<polygon class="st6" points="605.3,468.8 605.3,455.3 592.7,455.3 592.7,468.8 567.8,468.8 567.8,483.4 638.4,483.4 638.4,468.8 
 					"/>
 		<g>
@@ -2699,7 +2699,7 @@
 		<circle class="st8" cx="599.2" cy="460.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="chateraise">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_99#menu"><g class="map" id="chateraise">
 		<rect x="592.7" y="487.6" class="st6" width="78.9" height="15.4"/>
 		<g>
 			<path class="st10" d="M595.7,493.3c1.1,0.3,2.3,0.7,3.1,1.1l-0.7,1.3c-0.8-0.4-2-0.9-3.1-1.2L595.7,493.3z M596,498.9
@@ -2740,7 +2740,7 @@
 		<circle class="st8" cx="666.5" cy="495.3" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="yachiho-kogen">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_103#menu"><g class="map" id="yachiho-kogen">
 		<polygon class="st6" points="711.9,408.1 707.4,409.5 673.2,458.4 681.3,464 711.9,420.3 711.9,422.9 774.1,422.9 774.1,408.1 		
 			"/>
 		<g>
@@ -2773,7 +2773,7 @@
 		<circle class="st8" cx="680.2" cy="457.5" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="koume-reex">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_101#menu"><g class="map" id="koume-reex">
 		<polygon class="st6" points="789.2,433.1 709.4,433.1 706.9,435.9 680.8,476.3 689.1,481.7 710.8,448.1 789.2,448.1 		"/>
 		<line id="_線_50-2" class="st9" x1="687.5" y1="474.7" x2="709.4" y2="440.8"/>
 		<circle class="st8" cx="687.5" cy="474.3" r="4.1"/>
@@ -2805,7 +2805,7 @@
 		</g>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="two-in-one">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_95#menu"><g class="map" id="two-in-one">
 		<rect x="606.4" y="441.7" class="st6" width="44.3" height="16"/>
 		<g>
 			<path class="st7" d="M625.9,453.8h-5.7v-1.1l1-1.1c1.7-1.8,2.7-2.9,2.7-4.2c0-0.8-0.4-1.5-1.4-1.5c-0.7,0-1.3,0.4-1.7,0.7
@@ -2819,9 +2819,8 @@
 		<circle class="st8" cx="611.8" cy="449" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="shirakaba-kogen-kokusai">
-		<polygon class="st6" points="686.9,413.1 611.8,413.1 611.8,427.5 624.3,427.5 624.3,438.2 635.5,438.2 635.5,427.5 686.9,427.5 
-					"/>
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_97#menu"><g class="map" id="shirakaba-kogen-kokusai">
+		<polygon class="st6" points="686.9,413.1 611.8,413.1 611.8,427.5 624.3,427.5 624.3,438.2 635.5,438.2 635.5,427.5 686.9,427.5"/>
 		<g>
 			<path class="st7" d="M619.6,414.9c0,0.1-0.1,0.2-0.3,0.2c-0.2,0.4-0.4,1-0.6,1.4h4.6v9.3h-1.5v-0.7h-6.2v0.7H614v-9.3h2.9
 				c0.2-0.6,0.5-1.4,0.6-2L619.6,414.9L619.6,414.9z M621.7,418h-6.2v2.1h6.2V418z M615.5,423.7h6.2v-2.2h-6.2V423.7z"/>
@@ -2861,7 +2860,7 @@
 		<circle class="st8" cx="629.7" cy="433.3" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="fujiten">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_17&d=_111#menu"><g class="map" id="fujiten">
 		<rect x="697.2" y="635.2" class="st6" width="57.3" height="15.7"/>
 		<g>
 			<g>
@@ -2888,7 +2887,7 @@
 		<circle class="st8" cx="702.5" cy="643.6" r="4.1"/>
 	</g></a>
 
-	<a xlink:href="#"><g class="map" id="maiko">
+	<a xlink:href="<?php echo home_url(); ?>/ticket/?a=_01&b=_25&c=_21&d=_147#menu"><g class="map" id="maiko">
 		<rect x="760.6" y="147.6" class="st6" width="39.4" height="14.7"/>
 		<circle class="st8" cx="765.5" cy="155.9" r="4.1"/>
 		<g>

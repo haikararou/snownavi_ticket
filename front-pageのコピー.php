@@ -36,6 +36,34 @@ get_header(); ?>
 			</div>
 		</div>
 
+		<!-- <section class="c-section__home swiper p-index__swiper wrapper">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+				<?php if(have_rows('slider')): ?>
+				<?php while(have_rows('slider')): the_row(); ?>
+				<?php if(get_sub_field('slider_pc')): ?>
+					<div class="swiper-slide">
+						<?php
+						$pcId = get_sub_field('slider_pc');
+						$pcimg = wp_get_attachment_image_src($pcId);
+						$pcAlt = get_post_meta ( get_post ($pcId) -> ID , '_wp_attachment_image_alt' , true );
+						?>
+						<img src="<?php echo $pcimg[0]; ?>" alt="<?php echo $pcAlt ; ?>">
+						<div class="p-index__swiper__text">
+							<p><span><?php the_sub_field('slider_h2'); ?><?php if(get_sub_field('slider_h3')): ?></span><br><span><?php the_sub_field('slider_h3'); ?></span><?php endif; ?></p>
+							<?php if(get_sub_field('slider_url')): ?><a href="<?php the_sub_field('slider_url'); ?>"><?php endif; ?><?php the_sub_field('slider_txt'); ?><?php if(get_sub_field('slider_url')): ?></a><?php endif; ?>
+						</div>
+					</div>
+				<?php endif; ?>
+				<?php endwhile; ?>
+				<?php endif; ?>
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</section> -->
+
 <?php $locale = get_locale(); if($locale == 'ja'):?>
 	<!-- <div class="c-bnr__main_out"> -->
 		<section class="c-section__home c-section__home__ctr  c-bnr c-bnr__clm02 c-bnr__main">
@@ -162,7 +190,7 @@ get_header(); ?>
 					</div>
 					<div id="map01" class="panel c-tab__area c-gooddeal__map">
 						<div id="ticket__map__nagano">
-							<?php get_template_part('inc/map/ticket_nagano'); ?>
+							<?php get_template_part('inc/map/nagano'); ?>
 						</div>
 					</div>
 				</div>
@@ -188,7 +216,7 @@ get_header(); ?>
 					</div>
 					<div id="map02" class="panel c-tab__area c-gooddeal__map">
 						<div id="ticket__map__japan">
-							<?php get_template_part('inc/map/ticket_japan'); ?>
+							<?php get_template_part('inc/map/japan'); ?>
 						</div>
 					</div>
 				</div>

@@ -106,7 +106,7 @@ wp_enqueue_script( 'animation-js' );
 wp_enqueue_script( 'TweenMax' );
 wp_enqueue_script( 'header-js' );
 wp_enqueue_script( 'tab-js' );
-wp_enqueue_script( 'accordion' );
+wp_enqueue_script( 'accordion-js' );
 wp_enqueue_style( 'swiper-bundle-css' );
 wp_enqueue_script( 'swiper-bundle-js' );
 //wp_enqueue_script( 'swiper-js' );

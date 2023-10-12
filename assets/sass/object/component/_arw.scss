@@ -10,11 +10,12 @@
   padding-right: 2em;
   vertical-align: middle;
   text-decoration: none;
+  font-size: 14px;
   &:after {
     position: absolute;
     content: "";
     top: calc(50% - 3px);
-    right: 1em;
+    right: 0;
     vertical-align: middle;
     width: 6px;
     height: 6px;
@@ -24,6 +25,6 @@
     transition: .3s;
   }
   &:hover:after {
-    right: .8em;
+    right: .3em;
   }
 }

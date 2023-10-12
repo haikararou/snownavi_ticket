@@ -15,12 +15,12 @@
 				<div class="c-panels">
 					<div id="map-nagano" class="panel c-tab__area c-gooddeal__area is-active">
 						<div id="ticket__map__nagano">
-							<?php get_template_part('inc/map/nagano'); ?>
+							<?php get_template_part('inc/map/ticket_nagano'); ?>
 						</div>
 					</div>
 					<div id="map-other" class="panel c-tab__area c-gooddeal__map">
 						<div id="ticket__map__japan">
-							<?php get_template_part('inc/map/japan'); ?>
+							<?php get_template_part('inc/map/ticket_japan'); ?>
 						</div>
 					</div>
 				</div>
@@ -55,12 +55,12 @@
 				<div class="c-panels">
 					<div id="map-nagano" class="panel c-tab__area c-gooddeal__area is-active">
 						<div id="ticket__map__nagano">
-							<?php get_template_part('inc/map/nagano'); ?>
+							<?php get_template_part('inc/map/ticket_nagano_en'); ?>
 						</div>
 					</div>
 					<div id="map-other" class="panel c-tab__area c-gooddeal__map">
 						<div id="ticket__map__japan">
-							<?php get_template_part('inc/map/japan'); ?>
+							<?php get_template_part('inc/map/ticket_japan_en'); ?>
 						</div>
 					</div>
 				</div>

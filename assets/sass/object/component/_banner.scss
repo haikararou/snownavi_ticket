@@ -185,6 +185,9 @@
     z-index: 100;
     max-width: 1120px;
     padding-bottom: 0 !important;
+    margin-top: -2px;
+    border-top: 2px solid #F5F5F5;
+    padding-top: 5vh;
     @include mq(lap) {
       margin-top: -64px;
 		  margin-bottom: 4.375rem;
@@ -192,6 +195,8 @@
       // margin-bottom: 4.375rem;
     }
     @include mq(wide) {
+      border: none;
+      padding-top: 0;
       margin-top: -128px;
 		  margin-bottom: 4.375rem;
     }

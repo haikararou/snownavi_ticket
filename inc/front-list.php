@@ -21,17 +21,19 @@ foreach ( $parents as $parent ) { // 親タームのループを開始
             $myquery = new WP_Query( $args ); // クエリのセット
 ?>
             <?php if ( $myquery->have_posts()): ?>
-                <li><a href="<?php echo home_url(); ?>/<?php echo $post_type_slug; ?>/?a=_01&b=_<?php echo $parent->term_id; ?>&c=_<?php echo $child->term_id; ?>&d=_<?php echo $grandson->term_id; ?>#menu"><?php echo esc_html($grandson->name); ?>
+                <li><a href="<?php echo home_url(); ?>/<?php echo $post_type_slug; ?>/?a=_01&b=_<?php echo $term_id; ?>&c=_<?php echo $child->term_id; ?>&d=_<?php echo $grandson->term_id; ?>#menu"><?php echo esc_html($grandson->name); ?>
             <?php while($myquery->have_posts()): $myquery->the_post(); ?>
                 <!-- <span><?php the_title(); ?></span> -->
                 <?php if(have_rows('ticket_list')): ?>
                 <?php while(have_rows('ticket_list')): the_row(); ?>
                 <!-- 繰り返しフィールドの内容ここから -->
+                <?php if( get_sub_field('display') ): ?>
                 <span><?php the_sub_field('ticket_list_title'); ?>
                 <?php if( get_sub_field('ticket_list_memo') ): ?>
                 <span><?php the_sub_field('ticket_list_memo'); ?></span>
                 <?php endif; ?>
                 </span>
+                <?php endif; ?>
                 <!-- 繰り返しフィールドの内容ここまで -->
                 <?php endwhile; ?>
                 <?php endif; ?>
