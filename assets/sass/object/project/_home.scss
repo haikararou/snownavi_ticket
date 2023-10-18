@@ -125,44 +125,50 @@
   position: absolute;
   z-index: 1;
   top: 59px;
+  // top: 59px;
+  //top: 41px;
   left: 0;
   width: 100vw;
-  height: 100vw;
-  max-height: 35vh;
-  max-height: 32vh;
+  // height: 100vw;
+  //max-height: 35vh;
+  aspect-ratio: 2352 / 1092;
+  // max-height: 32vh;
 	@include mq(lap) {
-    top: 0;
-		max-height: 62vh;
+    top: -2px;
+    border-bottom: 2px solid #F5F5F5;
 	}
-  @include mq(vr) {
-		max-height: 77vh;
-	}
-  @include mq(full) {
-		max-height: 92vh;
-	}
+  // @include mq(vr) {
+	// 	max-height: 77vh;
+	// }
+  // @include mq(full) {
+	// 	max-height: 92vh;
+	// }
   overflow: hidden;
   .slider {
     width: 100vw;
-    height: 100vw;
+    // height: 100vw;
+    // max-height: 32vh;
     z-index: 2;
+    aspect-ratio: 2352 / 1092;
     * {
       outline: none;
     }
     .item {
-      height: 100vw;
-      max-height: 35vh;
-      max-height: 32vh;
-      @include mq(lap) {
-        max-height: 62vh;
-      }
-      @include mq(vr) {
-        top: 0;
-        max-height: 77vh;
-      }
-      @include mq(full) {
-        top: 0;
-        max-height: 92vh;
-      }
+      //height: 100vw;
+      aspect-ratio: 2352 / 1092;
+      // max-height: 35vh;
+      // max-height: 32vh;
+      // @include mq(lap) {
+      //   max-height: 62vh;
+      // }
+      // @include mq(vr) {
+      //   top: 0;
+      //   max-height: 77vh;
+      // }
+      // @include mq(full) {
+      //   top: 0;
+      //   max-height: 92vh;
+      // }
       width: 100vw;
       position: relative;
       overflow: hidden;
@@ -172,7 +178,9 @@
       }
       img {
         min-width: 101%;
-        min-height: 101%;
+        // min-height: 101%;
+        // min-width: 100%;
+        // min-height: 100%;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -181,7 +189,7 @@
     }
   }
   .slick-dots {
-    display: none;
+    display: none!important;
     li {
       display: block;
       width: 100%;
@@ -218,6 +226,7 @@
     z-index: 1;
     width: 50vw;
     pointer-events: none;
+    aspect-ratio: 1176 / 1092;
     .slider {
       left: 0;
       position: absolute;
@@ -226,12 +235,14 @@
 }
 .slideshow-text {
   position: absolute;
-  top: 60px;
+  //top: 60px;
+  top: 45px;
   left: 0;
   z-index: 100;
   font-size: 14px;
   width: 100vw;
-  height: 35vh;
+  // height: 32vh;
+  aspect-ratio: 2352 / 1092;
   text-align: center;
   color: #fff;
   font-weight: 700;
@@ -246,20 +257,20 @@
     margin-bottom: 4px;
     display: inline-block;
   }
-  @include mq(lap) {
-    top: 0;
-    height: 62vh;
-    font-size: 18px;
-    span {
-      font-size: 36px;
-    }
-  }
-  @include mq(vr) {
-    height: 77vh;
-  }
-  @include mq(full) {
-    height: 92vh;
-  }
+  // @include mq(lap) {
+  //   top: 0;
+  //   height: 62vh;
+  //   font-size: 18px;
+  //   span {
+  //     font-size: 36px;
+  //   }
+  // }
+  // @include mq(vr) {
+  //   height: 77vh;
+  // }
+  // @include mq(full) {
+  //   height: 92vh;
+  // }
 }
 
 

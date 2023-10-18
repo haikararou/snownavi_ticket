@@ -8,15 +8,19 @@
   main
 ----------*/
 body.index main {
-	padding-top: 32vh;
+	// padding-top: 32vh;
+	//padding-top: 27vh;
+	padding-top: calc( 46.43vw + 5vw );
 	@include mq(lap) {
-		padding-top: 60vh;
+		padding-top: calc( 46.43vw - 32px );
+		//padding-top: 60vh;
 	}
 	@include mq(vr) {
-		padding-top: 75vh;
+		//padding-top: 75vh;
 	}
 	@include mq(full) {
-		padding-top: 90vh;
+		//padding-top: 78vh;
+		//padding-top: calc( 46.43vw - 36px );
 	}
 }
 
