@@ -122,7 +122,6 @@
     background: #f9f9f9;
     align-items: center;
     display: flex;
-    //cursor: pointer;
     display :block;
     position: relative;
     &:before,
@@ -177,19 +176,6 @@
       font-weight: 700;
       padding: 1rem;
       color: #aaa;
-      // &:after {
-      //   position: absolute;
-      //   content: "";
-      //   display: block;
-      //   width: 6px;
-      //   height: 6px;
-      //   top: calc(50% - 3px);
-      //   right: 1rem;
-      //   border-top: 2px solid $color-black;
-      //   border-right: 2px solid $color-black;
-      //   transform: rotate(45deg);
-      //   transition: 0.3s;
-      // }
     }
 
     & > span > span > span {
@@ -257,43 +243,4 @@
     }
   }
 }
-
-/*
-.slinky-theme-default {
-  background: #f6f7f8; }
-  .slinky-theme-default .title {
-    color: #333;
-    padding: 1em; }
-  .slinky-theme-default li {
-    line-height: 1; }
-  .slinky-theme-default a:not(.back) {
-    color: #333;
-    padding: 1em; }
-    .slinky-theme-default a:not(.back):hover {
-      background: rgba(90, 200, 250, 0.25); }
-    .slinky-theme-default a:not(.back):active {
-      background: rgba(90, 200, 250, 0.5); }
-  .slinky-theme-default .next::after,
-  .slinky-theme-default .back::before {
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+ICAgIDxwYXRoIGQ9Ik0xMi4yMTkgMi4yODFMMTAuNzggMy43MiAxOC4wNjIgMTFIMnYyaDE2LjA2M2wtNy4yODIgNy4yODEgMS40MzggMS40MzggOS05IC42ODctLjcxOS0uNjg3LS43MTl6IiAvPjwvc3ZnPg==) center no-repeat;
-    background-size: 1em;
-    content: '';
-    height: 1em;
-    opacity: 0.25;
-    transition: 200ms;
-    width: 1em; }
-  .slinky-theme-default .next::after {
-    margin-left: 1em; }
-  .slinky-theme-default .back::before {
-    padding: 1em;
-    transform: scaleX(-1); }
-  .slinky-theme-default .next:hover::after,
-  .slinky-theme-default .back:hover::before {
-    opacity: 0.75; }
-  .slinky-theme-default .next:active::after,
-  .slinky-theme-default .back:active::before {
-    opacity: 1; }
-*/
-
-
 

@@ -32,7 +32,6 @@
   &__meta {
     font-size: rem(12);
     font-weight: 700;
-    //margin-bottom: 1rem;
     &__cat {
       margin-left: 2em;
       font-size: rem(11);
@@ -98,7 +97,6 @@
       margin: 0 0 20px;
     }
     dl {
-      
       div {
         padding: 1em 0;
         border-bottom: 1px solid $color-litegray;
@@ -131,8 +129,6 @@
     ul {
       position: relative;
       clear: both;
-      //overflow: hidden;
-      //height: 3em;
       font-size: rem(13);
       li {
         width: 20%;
@@ -165,7 +161,6 @@
           text-align: center;
           background: $color-black;
           color: $color-white;
-          //padding: .5em;
           line-height: 100%;
           display:flex;
           flex-direction:column;
@@ -174,7 +169,6 @@
           height: 3rem;
           span {
             position: relative;
-            //display: inline-block;
             display:flex;
             flex-direction:column;
             justify-content:center;
@@ -187,7 +181,6 @@
               display: block;
               width: 6px;
               height: 6px;
-              //top: .75em;
               transform: rotate(45deg);
             }
           }

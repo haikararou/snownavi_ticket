@@ -5,8 +5,6 @@
   gooddeal
 ----------*/
 .c-gooddeal {
-  //background: $color-bg-gray;
-  // padding: 3.8rem 0;
   padding: 3rem 0 0rem;
   & + .c-gooddeal {
     padding-top: 1.5rem;
@@ -32,19 +30,13 @@
   &__heading {
     width: 100%;
     max-width: 1286px;
-    // margin: 0 auto !important;
-    //max-width: 1248px;
     margin-left: 0;
-    // padding: 1.1em 0 1em;
     display:flex; flex-direction:column; justify-content:center;;
     font-size: rem(24);
     @include mq(desk) {
       font-size: rem(30);
       margin-left: calc(50% - 643px);
     }
-    // @include mq(lap) {
-    //   padding: 2em 0 1.6em;
-    // }
     span {
       display: block;
       font-weight: 700;
@@ -53,11 +45,7 @@
       @include mq(desk) {
         margin-left: 5rem;
       }
-      // @include mq(lap) {
-      //   margin-left: 9%;
-      // }
     }
-    
   }
   &__wrapper {
     margin-top: -.6rem;
@@ -71,18 +59,6 @@
     @include mq(desk) {
       margin-left: calc(50% - 560px);
     }
-    // @include mq(lap) {
-    //   margin-left: 5%;
-    //   padding-right: calc(5% + 5%);
-    // }
-    // @include mq(desk) {
-    //   margin-left: 7%;
-    //   padding-right: calc(5% + 7%);
-    // }
-    // @include mq(vr) {
-    //   margin-left: 14%;
-    //   padding-right: calc(5% + 14%);
-    // }
   }
   &__box {
     width: 100%;
@@ -251,7 +227,6 @@
       li {
         position: relative;
         padding-left: 1em;
-        //margin-bottom: .5em;
         font-weight: 700;
         &:before {
           content:'';

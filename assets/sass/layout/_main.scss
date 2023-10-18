@@ -9,9 +9,6 @@
 ----------*/
 body.index main {
 	padding-top: 32vh;
-	// @include mq(tab) {
-	// 	padding-top: 60vh;
-	// }
 	@include mq(lap) {
 		padding-top: 60vh;
 	}

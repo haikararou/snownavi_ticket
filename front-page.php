@@ -73,14 +73,15 @@ get_header(); ?>
 			<div class="p-index__news__heading">
 				<?php $locale = get_locale(); if($locale == 'ja'):?>
 				<h2>NEWS<span>ニュース</span></h2>
-				<div class="p-index__news__more"><a href="<?php echo home_url(); ?>/news" class="c-arw">ニュース一覧</a></div>
+				<div class="p-index__news__more"><a href="<?php echo home_url(); ?>/news" class="c-arw">一覧</a></div>
 				<?php else:?>
 				<h2>NEWS</h2>
 				<div class="p-index__news__more"><a href="<?php echo home_url('/en/news'); ?>" class="c-arw">More</a></div>
 				<?php endif;?>
 			</div>
-			<?php $news_posts = get_posts('post_type=news&posts_per_page=3'); if ( !empty($news_posts) ): ?>
+
 			<div class="p-index__news__post">
+				<?php $news_posts = get_posts('post_type=news&posts_per_page=3'); if ( !empty($news_posts) ): ?>
 				<ul>
 				<?php foreach ( $news_posts as $post ): setup_postdata($post); ?>
 					<li><span><a href="<?php the_permalink();?>"><dl><dt><?php the_time('Y.m.d') ?></dt><dd><?php the_title(); ?></dd></dl></a></span></li>
@@ -88,7 +89,7 @@ get_header(); ?>
 				</ul>
 				<?php endif; ?>
 				<?php $locale = get_locale(); if($locale == 'ja'):?>
-				<div class="p-index__news__more"><a href="<?php echo home_url(); ?>/news" class="c-arw">ニュース一覧</a></div>
+				<div class="p-index__news__more"><a href="<?php echo home_url(); ?>/news" class="c-arw">一覧</a></div>
 				<?php else:?>
 				<div class="p-index__news__more"><a href="<?php echo home_url('/en/news'); ?>" class="c-arw">More</a></div>
 				<?php endif;?>
@@ -119,14 +120,18 @@ get_header(); ?>
 			<div class="c-portal">
 				<a target="_blank" href="https://www.snownavi.com/wp/en">
 					<div class="c-portal__wrapper">
-						<div class="c-portal__txt">
+						<!-- <div class="c-portal__txt"> -->
 							<div class="c-portal__txt__box">
-								<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
-								<em>Info Portal</em>
-								<span class="c-sp">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
-								<span class="c-pc">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
+								<div class="c-portal__txt__box__L">
+									<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
+									<em>Info Portal</em>
+								</div>
+								<div class="c-portal__txt__box__R">
+									<span class="c-sp">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
+									<span class="c-pc">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
+								</div>
 							</div>
-						</div>
+						<!-- </div> -->
 						<!-- <div class="c-portal__img">
 							<img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal.png" alt="" class="pc"><img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal_sp.png" alt="" class="sp">
 						</div> -->
@@ -220,7 +225,7 @@ get_header(); ?>
 					</div>
 					<div id="map01" class="panel c-tab__area c-gooddeal__map">
 						<div id="ticket__map__nagano">
-							<?php get_template_part('inc/map/nagano_en'); ?>
+							<?php get_template_part('inc/map/ticket_nagano_en'); ?>
 						</div>
 					</div>
 				</div>
@@ -246,7 +251,7 @@ get_header(); ?>
 					</div>
 					<div id="map02" class="panel c-tab__area c-gooddeal__map">
 						<div id="ticket__map__japan">
-							<?php get_template_part('inc/map/japan_en'); ?>
+							<?php get_template_part('inc/map/ticket_japan_en'); ?>
 						</div>
 					</div>
 				</div>
@@ -280,7 +285,7 @@ get_header(); ?>
 					</div>
 					<div id="map03" class="panel c-tab__area c-gooddeal__map">
 						<div id="coupon__map__nagano">
-							<?php get_template_part('inc/map/nagano'); ?>
+							<?php get_template_part('inc/map/coupon_nagano'); ?>
 						</div>
 					</div>
 				</div>
@@ -307,7 +312,7 @@ get_header(); ?>
 					</div>
 					<div id="map04" class="panel c-tab__area c-gooddeal__map">
 						<div id="coupon__map__japan">
-							<?php get_template_part('inc/map/japan'); ?>
+							<?php get_template_part('inc/map/coupon_japan'); ?>
 						</div>
 					</div>
 				</div>
@@ -339,7 +344,7 @@ get_header(); ?>
 					</div>
 					<div id="map03" class="panel c-tab__area c-gooddeal__map">
 						<div id="coupon__map__nagano">
-							<?php get_template_part('inc/map/nagano_en'); ?>
+							<?php get_template_part('inc/map/coupon_nagano_en'); ?>
 						</div>
 					</div>
 				</div>
@@ -366,7 +371,7 @@ get_header(); ?>
 					</div>
 					<div id="map04" class="panel c-tab__area c-gooddeal__map">
 						<div id="coupon__map__japan">
-							<?php get_template_part('inc/map/japan_en'); ?>
+							<?php get_template_part('inc/map/coupon_japan_en'); ?>
 						</div>
 					</div>
 				</div>

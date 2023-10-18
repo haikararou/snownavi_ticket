@@ -13,12 +13,10 @@
   align-items: center;
   span,
   a {
-    //display: inline-block;
     margin: 0 .1em;
     border: 1px solid $color-gray;
     width: rem(36);
     height: rem(36);
-    //line-height: rem(50);
     line-height: 100%;
     font-weight: 700;
     background: $color-white;

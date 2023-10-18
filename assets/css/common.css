@@ -553,7 +553,6 @@ body.index .l-header__wrapper {
 @media screen and (min-width: 1390px) {
   .l-header__sitelogo a p {
     display: block;
-    /*width: 15.5em;*/
     margin-left: 5%;
     font-size: 0.6875rem;
     text-align: left;
@@ -1238,7 +1237,7 @@ ul.astarisk li span {
 }
 .c-tabs li a {
   display: block;
-  padding: 0.5em 1em;
+  padding: 0.5em 2em;
 }
 .c-tabs li a strong {
   font-size: 0.75rem;
@@ -1465,6 +1464,7 @@ ul.astarisk li span {
   display: block;
   color: #fff;
   height: 100%;
+  padding: 2rem 10%;
 }
 .c-portal__wrapper {
   display: -webkit-box;
@@ -2468,7 +2468,7 @@ ul.astarisk li span {
   .c-bnr__main {
     border: none;
     padding-top: 0;
-    margin-top: -128px;
+    margin-top: -108px;
     margin-bottom: 4.375rem;
   }
 }
@@ -3318,42 +3318,6 @@ ul.astarisk li span {
 }
 
 /*
-.slinky-theme-default {
-  background: #f6f7f8; }
-  .slinky-theme-default .title {
-    color: #333;
-    padding: 1em; }
-  .slinky-theme-default li {
-    line-height: 1; }
-  .slinky-theme-default a:not(.back) {
-    color: #333;
-    padding: 1em; }
-    .slinky-theme-default a:not(.back):hover {
-      background: rgba(90, 200, 250, 0.25); }
-    .slinky-theme-default a:not(.back):active {
-      background: rgba(90, 200, 250, 0.5); }
-  .slinky-theme-default .next::after,
-  .slinky-theme-default .back::before {
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+ICAgIDxwYXRoIGQ9Ik0xMi4yMTkgMi4yODFMMTAuNzggMy43MiAxOC4wNjIgMTFIMnYyaDE2LjA2M2wtNy4yODIgNy4yODEgMS40MzggMS40MzggOS05IC42ODctLjcxOS0uNjg3LS43MTl6IiAvPjwvc3ZnPg==) center no-repeat;
-    background-size: 1em;
-    content: '';
-    height: 1em;
-    opacity: 0.25;
-    transition: 200ms;
-    width: 1em; }
-  .slinky-theme-default .next::after {
-    margin-left: 1em; }
-  .slinky-theme-default .back::before {
-    padding: 1em;
-    transform: scaleX(-1); }
-  .slinky-theme-default .next:hover::after,
-  .slinky-theme-default .back:hover::before {
-    opacity: 0.75; }
-  .slinky-theme-default .next:active::after,
-  .slinky-theme-default .back:active::before {
-    opacity: 1; }
-*/
-/*
  home body
 -----------------------------------------------------*/
 @media screen and (min-width: 1024px) {
@@ -3430,9 +3394,6 @@ ul.astarisk li span {
  home
 -----------------------------------------------------*/
 .p-index {
-  /*----------
-  swiper
-  ----------*/
   /*----------
   swiper
   ----------*/
@@ -3816,11 +3777,16 @@ ul.astarisk li span {
 .p-index__ticket .tab {
   border: 1px solid #36AFBF;
   color: #36AFBF;
+}
+.p-index__ticket .tab svg {
+  margin-right: 8px;
   fill: #36AFBF;
 }
 .p-index__ticket .tab.is-active {
   background: #36AFBF;
   color: #fff;
+}
+.p-index__ticket .tab.is-active svg {
   fill: #fff;
 }
 .p-index__ticket .c-gooddeal__area__box li:before {
@@ -3852,11 +3818,16 @@ ul.astarisk li span {
 .p-index__coupon .tab {
   border: 1px solid #CA4E51;
   color: #CA4E51;
+}
+.p-index__coupon .tab svg {
+  margin-right: 8px;
   fill: #CA4E51;
 }
 .p-index__coupon .tab.is-active {
   background: #CA4E51;
   color: #fff;
+}
+.p-index__coupon .tab.is-active svg {
   fill: #fff;
 }
 .p-index__coupon .c-gooddeal__area__box li:before {

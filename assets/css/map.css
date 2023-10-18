@@ -22,7 +22,7 @@
 #ticket__map__japan .cls-3 {fill:none;stroke:#088D89;}
 #ticket__map__japan .cls-0 {fill:#f5f5f5;}
 /* #ticket__map__japan .cls-4 {fill:#231815;} */
-#ticket__map__japan .cls-4 {fill:#088d89;} /*丸*/
+#ticket__map__japan .cls-4, #ticket__map__japan .cls-5 {fill:#088d89;} /*丸*/
 #ticket__map__japan .cls-7 {stroke:#fff;stroke-width:.5px;}
 #ticket__map__japan .cls-7,
 #ticket__map__japan .cls-8 {fill:#c1e3e2;stroke-linecap:round;stroke-linejoin:round;}
@@ -42,20 +42,23 @@
 #coupon__map__nagano .st8, #coupon__map__nagano .cls-5 {fill:#A9282E;}
 /* #coupon__map__nagano .st9 {fill:none;stroke:#A9282E;} */
 #coupon__map__nagano .st10, #coupon__map__nagano .cls-15 {fill:#F1D2D8;stroke:#F1D2D8;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
-
+#coupon__map__nagano .cls-9 {fill:none;stroke:#A9282E;}
 
 
 #coupon__map__japan .cls-1,
 #coupon__map__japan .cls-2 {fill:none;}
 /* #coupon__map__japan .cls-3 {clip-path:url(#clippath);} */
+#coupon__map__japan .cls-3 {fill:none;stroke:#A9282E;}
+/* #coupon__map__japan .cls-6 {fill:none;stroke:#A9282E;} */
 #coupon__map__japan .cls-0 {fill:#f5f5f5;}
-#coupon__map__japan .cls-4, #coupon__map__japan .cls-8 {fill:#231815;}
-#coupon__map__japan .cls-5, #coupon__map__japan .cls-3 {fill:#A9282E;}
+#coupon__map__japan .cls-4/*, #coupon__map__japan .cls-8*/ {fill:#231815;}
+#coupon__map__japan .cls-5/*, #coupon__map__japan .cls-3*/ {fill: #A9282E;}
 #coupon__map__japan .cls-7 {stroke:#fff;stroke-width:.5px;}
 #coupon__map__japan .cls-7,
-/* #coupon__map__japan .cls-8 {fill:#F1D2D8;stroke-linecap:round;stroke-linejoin:round;}
-#coupon__map__japan .cls-8 {stroke:#F1D2D8;stroke-width:3px;} */
-#coupon__map__japan .cls-2 {stroke:#A9282E;}
+#coupon__map__japan .cls-8 {fill:#F1D2D8;stroke-linecap:round;stroke-linejoin:round;}
+#coupon__map__japan .cls-8 {stroke:#F1D2D8;stroke-width:3px;}
+#coupon__map__japan .cls-9 {fill:#A9282E;}
+/* #coupon__map__japan .cls-2 {stroke:#A9282E;} */
 
 
 
