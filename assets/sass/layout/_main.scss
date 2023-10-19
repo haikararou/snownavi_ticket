@@ -12,7 +12,8 @@ body.index main {
 	//padding-top: 27vh;
 	padding-top: calc( 69.33vw + 5vw );
 	@include mq(lap) {
-		padding-top: calc( 46.43vw - 32px );
+		//padding-top: calc( 46.43vw - 32px );
+		padding-top: 76vh;
 		//padding-top: 60vh;
 	}
 	@include mq(vr) {

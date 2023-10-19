@@ -974,7 +974,7 @@ body.index main {
 }
 @media screen and (min-width: 1024px) {
   body.index main {
-    padding-top: calc(46.43vw - 32px);
+    padding-top: 76vh;
   }
 }
 .c-main {
@@ -2442,7 +2442,6 @@ ul.astarisk li span {
   position: relative;
   z-index: 100;
   max-width: 1120px;
-  padding-bottom: 0 !important;
   margin-top: -2px;
 }
 .c-bnr__main ul {
@@ -3439,6 +3438,7 @@ ul.astarisk li span {
 @media screen and (min-width: 1024px) {
   .p-index .slideshow {
     aspect-ratio: 2352/1092;
+    height: 87vh;
     top: -2px;
     border-bottom: 2px solid #F5F5F5;
   }
@@ -3451,6 +3451,7 @@ ul.astarisk li span {
 @media screen and (min-width: 1024px) {
   .p-index .slideshow .slider {
     aspect-ratio: 2352/1092;
+    height: 87vh;
   }
 }
 .p-index .slideshow .slider * {
@@ -3466,13 +3467,16 @@ ul.astarisk li span {
 @media screen and (min-width: 1024px) {
   .p-index .slideshow .slider .item {
     aspect-ratio: 2352/1092;
+    height: 87vh;
+    top: 0;
   }
 }
 .p-index .slideshow .slider .item .text {
   display: none;
 }
 .p-index .slideshow .slider .item img {
-  min-width: 101%;
+  width: auto;
+  min-height: 101%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3562,6 +3566,7 @@ ul.astarisk li span {
 @media screen and (min-width: 1024px) {
   .p-index .slideshow-text {
     aspect-ratio: 2352/1092;
+    height: 100vw;
   }
 }
 .p-index .slideshow-text span {
@@ -3569,6 +3574,25 @@ ul.astarisk li span {
   font-weight: 700;
   margin-bottom: 4px;
   display: inline-block;
+}
+@media screen and (min-width: 1024px) {
+  .p-index .slideshow-text {
+    height: 62vh;
+    font-size: 18px;
+  }
+  .p-index .slideshow-text span {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .p-index .slideshow-text {
+    height: 77vh;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .p-index .slideshow-text {
+    height: 92vh;
+  }
 }
 .p-index__news {
   width: 90%;
