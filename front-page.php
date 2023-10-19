@@ -19,7 +19,11 @@ get_header(); ?>
 						$pcimg = wp_get_attachment_image_src($pcId);
 						$pcAlt = get_post_meta ( get_post ($pcId) -> ID , '_wp_attachment_image_alt' , true );
 					?>
-					<div class="item"><img src="<?php echo $pcimg[0]; ?>" alt="<?php echo $pcAlt ; ?>"></div>
+					<?php if(get_sub_field('slider_sp')): ?>
+					<div class="item"><picture><source media="(min-width: 1024px)" srcset="<?php the_sub_field('slider_pc'); ?>"><img src="<?php the_sub_field('slider_sp'); ?>" alt="<?php echo $pcAlt ; ?>"></picture></div>
+					<?php else:?>
+					<div class="item"><img src="<?php the_sub_field('slider_pc'); ?>" alt="<?php echo $pcAlt ; ?>"></div>
+					<?php endif; ?>
 				<?php endif; ?>
 				<?php endwhile; ?>
 				<?php endif; ?>

@@ -970,7 +970,7 @@ body.index .l-header__wrapper {
   main
 ----------*/
 body.index main {
-  padding-top: 51.43vw;
+  padding-top: 74.33vw;
 }
 @media screen and (min-width: 1024px) {
   body.index main {
@@ -3432,11 +3432,13 @@ ul.astarisk li span {
   top: 59px;
   left: 0;
   width: 100vw;
-  aspect-ratio: 2352/1092;
+  aspect-ratio: 900/624;
+  border-bottom: 2px solid #F5F5F5;
   overflow: hidden;
 }
 @media screen and (min-width: 1024px) {
   .p-index .slideshow {
+    aspect-ratio: 2352/1092;
     top: -2px;
     border-bottom: 2px solid #F5F5F5;
   }
@@ -3444,17 +3446,27 @@ ul.astarisk li span {
 .p-index .slideshow .slider {
   width: 100vw;
   z-index: 2;
-  aspect-ratio: 2352/1092;
+  aspect-ratio: 900/624;
+}
+@media screen and (min-width: 1024px) {
+  .p-index .slideshow .slider {
+    aspect-ratio: 2352/1092;
+  }
 }
 .p-index .slideshow .slider * {
   outline: none;
 }
 .p-index .slideshow .slider .item {
-  aspect-ratio: 2352/1092;
+  aspect-ratio: 900/624;
   width: 100vw;
   position: relative;
   overflow: hidden;
   border: none;
+}
+@media screen and (min-width: 1024px) {
+  .p-index .slideshow .slider .item {
+    aspect-ratio: 2352/1092;
+  }
 }
 .p-index .slideshow .slider .item .text {
   display: none;
@@ -3507,7 +3519,12 @@ ul.astarisk li span {
   z-index: 1;
   width: 50vw;
   pointer-events: none;
-  aspect-ratio: 1176/1092;
+  aspect-ratio: 450/624;
+}
+@media screen and (min-width: 1024px) {
+  .p-index .slideshow.slideshow-right {
+    aspect-ratio: 1176/1092;
+  }
 }
 .p-index .slideshow.slideshow-right .slider {
   left: 0;
@@ -3520,7 +3537,7 @@ ul.astarisk li span {
   z-index: 100;
   font-size: 14px;
   width: 100vw;
-  aspect-ratio: 2352/1092;
+  aspect-ratio: 900/624;
   text-align: center;
   color: #fff;
   font-weight: 700;
@@ -3541,6 +3558,11 @@ ul.astarisk li span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .p-index .slideshow-text {
+    aspect-ratio: 2352/1092;
+  }
 }
 .p-index .slideshow-text span {
   font-size: 20px;
