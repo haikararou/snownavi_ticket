@@ -27,9 +27,11 @@ body.index main {
 
 
 .c-main {
-	padding: 5rem 0 8rem;
+	//padding: 5rem 0 8rem;
+	padding: 3rem 0 8rem;
 	&__wrapper {
-		max-width: 1120px;
+		//max-width: 1120px;
+		max-width: 1312px;
 		width: 90%;
 		margin-right: auto;
 		margin-left: auto;
@@ -61,10 +63,17 @@ body.index .l-main {
 		display: flex;
 		justify-content: space-between;
 	}
+	// .c-conts {
+	// 	margin-bottom: 3rem;
+	// 	@include mq(lap) {
+	// 		width: 67%;
+	// 	}
+	// }
 	.c-conts {
 		margin-bottom: 3rem;
 		@include mq(lap) {
-			width: 67%;
+			width: 69%;
+			max-width: 900px;
 		}
 	}
 	.c-sidebar {
