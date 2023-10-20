@@ -31,8 +31,14 @@
 				</div>
 				<div id="menu">
 					<ul class="hierarchy_01">
+						<h2>長野県＆周辺県</h2>
 						<?php
-						$args = ['tax' => 'ticket_cat', 'post' => 'ticket']; //親タームID・タクソノミー・ポストタイプ
+						$args = ['tax' => 'ticket_cat', 'post' => 'ticket', 'id' => '25']; //親タームID・タクソノミー・ポストタイプ
+						get_template_part('inc/hierarchical', null, $args);
+						?>
+						<h2>その他のエリア</h2>
+						<?php
+						$args = ['tax' => 'ticket_cat', 'post' => 'ticket', 'id' => '27']; //親タームID・タクソノミー・ポストタイプ
 						get_template_part('inc/hierarchical', null, $args);
 						?>
 					</ul>
@@ -71,8 +77,14 @@
 				</div>
 				<div id="menu">
 					<ul class="hierarchy_01">
+						<h2>NAGANO and NEIGHBORING</h2>
 						<?php
-						$args = ['tax' => 'ticket_cat', 'post' => 'ticket']; //親タームID・タクソノミー・ポストタイプ
+						$args = ['tax' => 'ticket_cat', 'post' => 'ticket', 'id' => '231']; //親タームID・タクソノミー・ポストタイプ
+						get_template_part('inc/hierarchical', null, $args);
+						?>
+						<h2>OTHER</h2>
+						<?php
+						$args = ['tax' => 'ticket_cat', 'post' => 'ticket', 'id' => '403']; //親タームID・タクソノミー・ポストタイプ
 						get_template_part('inc/hierarchical', null, $args);
 						?>
 					</ul>

@@ -3266,6 +3266,31 @@ ul.astarisk li span {
   display: none;
 }
 
+.c-slinky li {
+  position: static !important;
+  margin-top: 0px !important;
+}
+
+.slinky-menu > ul h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 800px) {
+  .slinky-menu > ul h2 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+  }
+}
+.slinky-menu > ul li + h2 {
+  margin-top: 32px;
+}
+@media screen and (min-width: 800px) {
+  .slinky-menu > ul li + h2 {
+    margin-top: 48px;
+  }
+}
+
 /*
  home body
 -----------------------------------------------------*/

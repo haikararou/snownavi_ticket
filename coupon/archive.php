@@ -31,8 +31,14 @@
 				</div>
 				<div id="menu">
 					<ul class="hierarchy_01">
+						<h2>長野県＆周辺県</h2>
 						<?php
-						$args = ['tax' => 'coupon_cat', 'post' => 'coupon']; //親タームID・タクソノミー・ポストタイプ
+						$args = ['tax' => 'coupon_cat', 'post' => 'coupon', 'id' => '504']; //親タームID・タクソノミー・ポストタイプ
+						get_template_part('inc/hierarchical', null, $args);
+						?>
+						<h2>その他のエリア</h2>
+						<?php
+						$args = ['tax' => 'coupon_cat', 'post' => 'coupon', 'id' => '516']; //親タームID・タクソノミー・ポストタイプ
 						get_template_part('inc/hierarchical', null, $args);
 						?>
 					</ul>
@@ -71,8 +77,14 @@
 				</div>
 				<div id="menu">
 					<ul class="hierarchy_01">
+						<h2>NAGANO and NEIGHBORING</h2>
 						<?php
-						$args = ['tax' => 'coupon_cat', 'post' => 'coupon']; //親タームID・タクソノミー・ポストタイプ
+						$args = ['tax' => 'coupon_cat', 'post' => 'coupon', 'id' => '846']; //親タームID・タクソノミー・ポストタイプ
+						get_template_part('inc/hierarchical', null, $args);
+						?>
+						<h2>OTHER</h2>
+						<?php
+						$args = ['tax' => 'coupon_cat', 'post' => 'coupon', 'id' => '868']; //親タームID・タクソノミー・ポストタイプ
 						get_template_part('inc/hierarchical', null, $args);
 						?>
 					</ul>
