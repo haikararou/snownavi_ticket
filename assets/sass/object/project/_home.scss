@@ -136,10 +136,20 @@
   // max-height: 32vh;
 	@include mq(lap) {
     aspect-ratio: 2352 / 1092;
-    height: 87vh;
+    //height: 87vh;
+    //height: 94vh;
     top: -2px;
     border-bottom: 2px solid #F5F5F5;
 	}
+  @include mq(lap) {
+    height: 87vh;
+  }
+  @include mq(vr) {
+    height: 90vh;
+  }
+  @include mq(full) {
+    height: 94vh;
+  }
   // @include mq(lap) {
   //   max-height: 62vh;
   // }
@@ -158,7 +168,17 @@
     aspect-ratio: 900 / 624;
     @include mq(lap) {
       aspect-ratio: 2352 / 1092;
+      //height: 87vh;
+      //height: 94vh;
+    }
+    @include mq(lap) {
       height: 87vh;
+    }
+    @include mq(vr) {
+      height: 90vh;
+    }
+    @include mq(full) {
+      height: 94vh;
     }
     * {
       outline: none;
@@ -168,8 +188,18 @@
       aspect-ratio: 900 / 624;
       @include mq(lap) {
         aspect-ratio: 2352 / 1092;
-        height: 87vh;
+        //height: 87vh;
+        //height: 94vh;
         top: 0;
+      }
+      @include mq(lap) {
+        height: 87vh;
+      }
+      @include mq(vr) {
+        height: 90vh;
+      }
+      @include mq(full) {
+        height: 94vh;
       }
       // max-height: 35vh;
       // max-height: 32vh;
@@ -202,6 +232,11 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        aspect-ratio: 900 / 624;
+        object-fit: cover;
+        @include mq(lap) {
+          aspect-ratio: 2352 / 1092;
+        }
       }
     }
   }

@@ -28,3 +28,16 @@
     right: .3em;
   }
 }
+
+.l-footer {
+  .c-arw {
+    &:after {
+      right: 1.2em;
+      border-top: 2px solid $color-white;
+      border-right: 2px solid $color-white;
+    }
+    &:hover:after {
+      right: 1.5em;
+    }
+  }
+}
