@@ -68,7 +68,8 @@
         }
       }
       span {
-        font-size: rem(12);
+        //font-size: rem(12);
+        font-size: clamp(0.65rem, 0.472rem + 0.28vw, 0.75rem);
         letter-spacing: .172em;
         line-height: rem(18);
       }

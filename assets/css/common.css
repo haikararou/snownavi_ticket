@@ -1550,7 +1550,7 @@ ul.astarisk li span {
   }
 }
 .c-portal__txt__box span {
-  font-size: 0.75rem;
+  font-size: clamp(0.65rem, 0.472rem + 0.28vw, 0.75rem);
   letter-spacing: 0.172em;
   line-height: 1.125rem;
 }
@@ -3450,11 +3450,10 @@ ul.astarisk li span {
 .p-index .slideshow {
   position: absolute;
   z-index: 1;
-  top: 59px;
+  top: 57px;
   left: 0;
   width: 100vw;
   aspect-ratio: 900/624;
-  border-bottom: 2px solid #F5F5F5;
   overflow: hidden;
 }
 @media screen and (min-width: 1024px) {

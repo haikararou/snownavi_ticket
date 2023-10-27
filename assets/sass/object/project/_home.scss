@@ -124,7 +124,7 @@
 .slideshow {
   position: absolute;
   z-index: 1;
-  top: 59px;
+  top: 57px;
   // top: 59px;
   //top: 41px;
   left: 0;
@@ -132,7 +132,7 @@
   // height: 100vw;
   //max-height: 35vh;
   aspect-ratio: 900 / 624;
-  border-bottom: 2px solid #F5F5F5;
+  //border-bottom: 2px solid #F00;
   // max-height: 32vh;
 	@include mq(lap) {
     aspect-ratio: 2352 / 1092;
