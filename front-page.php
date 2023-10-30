@@ -44,16 +44,16 @@ get_header(); ?>
 	<!-- <div class="c-bnr__main_out"> -->
 		<section class="c-section__home c-section__home__ctr  c-bnr c-bnr__clm02 c-bnr__main">
 			<ul>
-				<li><a href="<?php echo home_url('/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_lift2.png" alt="早割リフト券 全国送料＆事務手数料無料"></a></li>
-				<li><a href="<?php echo home_url('/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_coupon2.png" alt="割引クーポン プリントしてすぐ利用可能"></a></li>
+				<li class="ticket"><a href="<?php echo home_url('/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_lift2.png" alt="早割リフト券 全国送料＆事務手数料無料"><div>早割リフト券<span>全国送料＆事務手数料無料</span></div></a></li>
+				<li class="coupon"><a href="<?php echo home_url('/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_coupon2.png" alt="割引クーポン プリントしてすぐ利用可能"><div>割引クーポン<span>プリントしてすぐ利用可能</span></div></a></li>
 			</ul>
 		</section>
 	<!-- </div> -->
 <?php else:?>
 		<section class="c-section__home c-section__home__ctr  c-bnr c-bnr__clm02 c-bnr__main">
 			<ul>
-				<li><a href="<?php echo home_url('/en/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_lift2.png" alt="ADVANCE TICKET No International Shipping Domestic Bank Transfer Only"></a></li>
-				<li><a href="<?php echo home_url('/en/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_coupon2.png" alt="COUPON Available right after printing"></a></li>
+				<li class="ticket"><a href="<?php echo home_url('/en/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_lift2.png" alt="ADVANCE TICKET No International Shipping Domestic Bank Transfer Only"><div>ADVANCE TICKET<span>No International Shipping Domestic Bank Transfer Only</span></div></a></li>
+				<li class="coupon"><a href="<?php echo home_url('/en/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_coupon2.png" alt="COUPON Available right after printing"><div>COUPON<span>Available right after printing</span></div></a></li>
 			</ul>
 		</section>
 <?php endif;?>

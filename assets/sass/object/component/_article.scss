@@ -15,39 +15,86 @@
 .c-article {
   h3 {
     font-weight: 700;
-    font-size: rem(28);
+    font-size: rem(18);
     margin-bottom: .5em;
+    line-height: 160%;
+    display: inline-flex;
+    align-items: center;
+    @include mq(lap) {
+      font-size: rem(22);
+    }
     span {
       font-weight: 700;
-      font-size: rem(20);
+      // font-size: rem(12);
       margin-right: 1em;
     }
     img {
       display: inline-block;
-      vertical-align: middle;
+      // vertical-align: middle;
       margin-right: .3em;
-      width: 1em;
+      width: 1rem;
     }
   }
   &__meta {
-    font-size: rem(12);
+    font-size: rem(11);
     font-weight: 700;
+    margin-bottom: 1rem;
+    @include mq(lap) {
+      font-size: rem(12);
+    }
     &__cat {
       margin-left: 2em;
-      font-size: rem(11);
+      font-size: rem(10);
       vertical-align: middle;
       a {
         display: inline-block;
         vertical-align: middle;
-        padding: .2em .5em;
-        color: #707070;
-        background: #E6E6E6;
+        padding: .4em .5em;
+        color: $color-darkgray;
+        background: $color-white;
+        border: 1px solid $color-litegray;
+        line-height: 100%;
         &:hover {
           opacity: .8;
         }
       }
     }
   }
+  // h3 {
+  //   font-weight: 700;
+  //   font-size: rem(28);
+  //   margin-bottom: .5em;
+  //   span {
+  //     font-weight: 700;
+  //     font-size: rem(20);
+  //     margin-right: 1em;
+  //   }
+  //   img {
+  //     display: inline-block;
+  //     vertical-align: middle;
+  //     margin-right: .3em;
+  //     width: 1em;
+  //   }
+  // }
+  // &__meta {
+  //   font-size: rem(12);
+  //   font-weight: 700;
+  //   &__cat {
+  //     margin-left: 2em;
+  //     font-size: rem(11);
+  //     vertical-align: middle;
+  //     a {
+  //       display: inline-block;
+  //       vertical-align: middle;
+  //       padding: .2em .5em;
+  //       color: #707070;
+  //       background: #E6E6E6;
+  //       &:hover {
+  //         opacity: .8;
+  //       }
+  //     }
+  //   }
+  // }
   &__body {
     margin-bottom: 6em;
     h3 {

@@ -14,7 +14,7 @@ get_header(); ?>
 			<div class="c-page__wrapepr c-post">
 				<div class="c-conts">
 					<article class="c-article">
-						<div class="c-article__meta"><?php the_time('Y.m.d'); ?></div>
+						<div class="c-article__meta"><?php the_time('Y.m.d'); ?><span class="c-article__meta__cat"><?php echo get_the_term_list($post->ID,'news_cat'); ?></span></div>
 						<h3><?php the_title(); ?></h3>
 						<div class="c-article__body">
 						<?php get_template_part('inc/template'); ?>
@@ -24,18 +24,18 @@ get_header(); ?>
 								<?php
 								$prev = get_adjacent_post(false,'',true);
 								if($prev) {
-									echo '<li class="prev"><a href="'.get_permalink($prev).'"><span>prev</span></a></li>';
+									echo '<li class="prev"><a href="'.get_permalink($prev).'"><span>前へ</span></a></li>';
 								}
 								?>
 								<?php $locale = get_locale(); if($locale == 'ja'):?>
-								<li class="center"><a href="<?php echo home_url('/news'); ?>">一覧へ戻る</a></li>
+								<li class="center"><a href="<?php echo home_url('/news'); ?>">一覧へ</a></li>
 								<?php else:?>
 								<li class="center"><a href="<?php echo home_url('/en/news'); ?>">news</a></li>
 								<?php endif;?>
 								<?php
 								$next = get_adjacent_post(false,'',false);
 								if($next) {
-									echo '<li class="next"><a href="'.get_permalink($next).'"><span>next</span></a></li>';
+									echo '<li class="next"><a href="'.get_permalink($next).'"><span>次へ</span></a></li>';
 								}
 								?>
 							</ul>

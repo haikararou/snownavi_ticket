@@ -14,15 +14,15 @@ body.index main {
 	@include mq(lap) {
 		//padding-top: calc( 46.43vw - 32px );
 		//padding-top: 76vh;
-		padding-top: 77vh;
+		padding-top: 73vh;
 		//padding-top: 60vh;
 	}
 	@include mq(vr) {
 		//padding-top: 75vh;
-		padding-top: 80vh;
+		padding-top: 76vh;
 	}
 	@include mq(full) {
-		padding-top: 84vh;
+		padding-top: 80vh;
 		//padding-top: 78vh;
 		//padding-top: calc( 46.43vw - 36px );
 	}

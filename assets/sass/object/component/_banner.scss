@@ -21,6 +21,7 @@
       a {
         display: block;
         transition: .3s;
+        position: relative;
         img {
           display: block;
           width: 100%;
@@ -28,6 +29,41 @@
         &:hover {
           opacity: .8;
           transition: .3s;
+        }
+        div {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-weight: 600;
+          text-align: center;
+          font-size: clamp(2.25rem, 0.823rem + 4.96vw, 4rem);
+          @include mq(lap) {
+            font-size: 36px;
+          }
+          letter-spacing: 0.25rem;
+          line-height: 1;
+          color: #fff;
+          text-shadow: 3px 3px #227B86;
+          width: 100%;
+          span {
+            display: block;
+            /* font-weight: 600; */
+            font-size: clamp(1rem, 0.184rem + 2.84vw, 2rem);
+            @include mq(lap) {
+              font-size: 16px;
+            }
+            letter-spacing: 0.15rem;
+            margin-top: 21px;
+            text-shadow: none;
+          }
+        }
+      }
+      &.coupon {
+        a {
+          div {
+            text-shadow: 3px 3px #B84748;
+          }
         }
       }
     }
@@ -184,3 +220,50 @@
     }
   }
 }
+
+
+.index.__english {
+  .c-bnr {
+    ul {
+      li {
+        a {
+          div {
+            width: 90%;
+            //font-size: 32px;
+            font-size: clamp(1.5rem, -0.539rem + 7.09vw, 4rem);
+            @include mq(lap) {
+              font-size: 32px;
+            };
+            letter-spacing: 0.15rem;
+            line-height: 1;
+            color: #fff;
+            text-shadow: 3px 3px #227B86;
+            span {
+              //font-size: 14px;
+              font-size: clamp(0.75rem, 0.138rem + 2.13vw, 1.5rem);
+              margin-top: 16px;
+              @include mq(lap) {
+                font-size: 14px;
+                margin-top: 10px;
+              };
+              letter-spacing: 0.1rem;
+              line-height: 1.4;
+            }
+          }
+        }
+        &.coupon {
+          a {
+            div {
+              text-shadow: 3px 3px #B84748;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

@@ -140,4 +140,16 @@ news
 
 
 
+	.c-post{
+		.c-conts {
+			padding: 1rem;
+			background: rgba(255,255,255,0.8);
+			@include mq(swp) {
+				padding: 2rem;
+			}
+		}
+	}
+
+
+
 }

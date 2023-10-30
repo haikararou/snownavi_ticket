@@ -172,13 +172,13 @@
       //height: 94vh;
     }
     @include mq(lap) {
-      height: 87vh;
+      height: 83vh;
     }
     @include mq(vr) {
-      height: 90vh;
+      height: 86vh;
     }
     @include mq(full) {
-      height: 94vh;
+      height: 90vh;
     }
     * {
       outline: none;
@@ -193,13 +193,13 @@
         top: 0;
       }
       @include mq(lap) {
-        height: 87vh;
+        height: 83vh;
       }
       @include mq(vr) {
-        height: 90vh;
+        height: 86vh;
       }
       @include mq(full) {
-        height: 94vh;
+        height: 90vh;
       }
       // max-height: 35vh;
       // max-height: 32vh;
