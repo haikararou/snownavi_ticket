@@ -54,10 +54,10 @@ body.index main {
 	background-color: $color-bg-gray;
 }
 body.index .l-main {
-	background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line13.png"), url("../img/index/bg_pc_line16.png");
+	background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line13.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png");
 	background-repeat: no-repeat;
-	background-position: 10% 50%, 100% 94%, 0% 92%, 111% 92%;
-	background-size: 360px, 292px, 240px, 360px;
+	background-position: 10% 50%, 100% 94%, 0% 92%, 111% 92%, -20% 26%;
+	background-size: 360px, 292px, 240px, 360px, 580px;
 	background-color: $color-bg-gray;
 }
 

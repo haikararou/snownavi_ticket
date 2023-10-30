@@ -114,7 +114,7 @@
   &__black {
     background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
     background-repeat: no-repeat;
-    background-position: 20% 100%, 15% 100%, 115% 70%, 70% 110%, 0% 20%;
+    background-position: 20% 30%, 15% 30%, 115% 20%, 70% 110%, 0% 20%;
     background-size: 360px, 292px, 360px, 580px, 140px;
     background-color: $color-bg-gray;
   }
@@ -142,13 +142,13 @@
     border-bottom: 2px solid #F5F5F5;
 	}
   @include mq(lap) {
-    height: 87vh;
+    height: 83vh;
   }
   @include mq(vr) {
-    height: 90vh;
+    height: 86vh;
   }
   @include mq(full) {
-    height: 94vh;
+    height: 90vh;
   }
   // @include mq(lap) {
   //   max-height: 62vh;

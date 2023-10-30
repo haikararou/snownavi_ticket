@@ -3,8 +3,7 @@ $taxonomy_slug = $args['tax']; // タクソノミースラッグを指定
 $post_type_slug = $args['post']; // ポストタイプの指定
 $parent_id = $args['id']; // ポストタイプの指定
 $parents = get_terms($taxonomy_slug,'parent=0'); // 親のいないタームを取り出します、つまり親
-
-//foreach ( $parents as $parent ) { // 親タームのループを開始
+foreach ( $parents as $parent ) { // 親タームのループを開始
 // echo '<li><a href="#">' . esc_html($parent->name). '<span>' . esc_html($parent->description). '</span></a>';
 // echo '<ul class="hierarchy_01_' . esc_html($parent->term_id). '">';
 // echo '<li class="c-slinky__heading">' . esc_html($parent->name). '</li>';
@@ -13,7 +12,6 @@ $parents = get_terms($taxonomy_slug,'parent=0'); // 親のいないタームを�
 <?php
 //$children = get_terms($taxonomy_slug,'hierarchical=0&parent='.$parent->term_id);
 $children = get_terms($taxonomy_slug,'hierarchical=0&parent='.$parent_id);
-  
 foreach ( $children  as $child ) { // 子タームのループを開始
 echo '<li><a href="#">' . esc_html($child->name). '</a>';
 echo '<ul class="hierarchy_01_' . esc_html($parent->term_id). '_' . esc_html($child->term_id). '">';
@@ -71,6 +69,6 @@ $myquery = new WP_Query( $args ); // クエリのセット
 <?php } // 子ターム終了 ?>
 <!-- </ul>
 </li> -->
-<?php //} // 親ターム終了 ?>
+<?php } // 親ターム終了 ?>
 
 

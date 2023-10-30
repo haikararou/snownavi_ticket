@@ -1012,10 +1012,10 @@ body.index main {
 }
 
 body.index .l-main {
-  background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line13.png"), url("../img/index/bg_pc_line16.png");
+  background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line13.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png");
   background-repeat: no-repeat;
-  background-position: 10% 50%, 100% 94%, 0% 92%, 111% 92%;
-  background-size: 360px, 292px, 240px, 360px;
+  background-position: 10% 50%, 100% 94%, 0% 92%, 111% 92%, -20% 26%;
+  background-size: 360px, 292px, 240px, 360px, 580px;
   background-color: #F5F5F5;
 }
 
@@ -3527,7 +3527,7 @@ ul.astarisk li span {
 .p-index__black {
   background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
   background-repeat: no-repeat;
-  background-position: 20% 100%, 15% 100%, 115% 70%, 70% 110%, 0% 20%;
+  background-position: 20% 30%, 15% 30%, 115% 20%, 70% 110%, 0% 20%;
   background-size: 360px, 292px, 360px, 580px, 140px;
   background-color: #F5F5F5;
 }
@@ -3549,17 +3549,17 @@ ul.astarisk li span {
 }
 @media screen and (min-width: 1024px) {
   .p-index .slideshow {
-    height: 87vh;
+    height: 83vh;
   }
 }
 @media screen and (min-width: 1366px) {
   .p-index .slideshow {
-    height: 90vh;
+    height: 86vh;
   }
 }
 @media screen and (min-width: 1600px) {
   .p-index .slideshow {
-    height: 94vh;
+    height: 90vh;
   }
 }
 .p-index .slideshow .slider {
