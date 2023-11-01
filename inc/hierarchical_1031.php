@@ -39,7 +39,7 @@ $myquery = new WP_Query( $args ); // クエリのセット
 <?php if ( $myquery->have_posts()): ?>
 <!-- ?php echo '<li><span">' . esc_html($grandson->name). '</span>'; ? -->
 <!-- ?php echo '<ul class="hierarchy_01_' . esc_html($parent->term_id). '_' . esc_html($child->term_id). '_' . esc_html($grandson->term_id). '">'; ? -->
-<li class="c-slinky__heading target" id="<?php echo 'd_' . esc_html($grandson->term_id) ;?>"><?php echo esc_html($grandson->name); ?></li>
+<li class="c-slinky__heading <?php echo 'hierarchy_01_25' . esc_html($parent->term_id). '_' . esc_html($child->term_id). '_' . esc_html($grandson->term_id) ;?>"><?php echo esc_html($grandson->name); ?></li>
 <?php while($myquery->have_posts()): $myquery->the_post(); ?>
     <?php if(have_rows('ticket_list')): ?>
     <?php while(have_rows('ticket_list')): the_row(); ?>
@@ -74,3 +74,5 @@ $myquery = new WP_Query( $args ); // クエリのセット
 <!-- </ul>
 </li> -->
 <?php //} // 親ターム終了 ?>
+
+

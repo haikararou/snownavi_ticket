@@ -93,20 +93,31 @@
 if(isset($_GET['a'])) { $a = $_GET['a']; }
 if(isset($_GET['b'])) { $b = $_GET['b']; }
 if(isset($_GET['c'])) { $c = $_GET['c']; }
-if(isset($_GET['d'])) { $d = $_GET['d']; }
+//if(isset($_GET['d'])) { $d = $_GET['d']; }
 $hierarchy01 = '.hierarchy'.$a;
 $hierarchy02 = '.hierarchy'.$a.$b;
 $hierarchy03 = '.hierarchy'.$a.$b.$c;
-$hierarchy04 = '.hierarchy'.$a.$b.$c.$d;
+//$hierarchy04 = '.hierarchy'.$a.$b.$c.$d;
 echo "<script>$(window).on('load', function() {";
 echo "$('".$hierarchy02."').css({'display':'block'});";
 echo "$('".$hierarchy03."').css({'display':'block'});";
-echo "$('".$hierarchy04."').css({'display':'block'});";
-echo "$('".$hierarchy01."').css({'left':'-300%'});";
-echo "var height = $('".$hierarchy04."').height();";
+//echo "$('".$hierarchy04."').css({'display':'block'});";
+//echo "$('".$hierarchy01."').css({'left':'-300%'});";
+echo "$('".$hierarchy01."').css({'left':'-100%'});";
+echo "var height = $('".$hierarchy03."').height();";
+//echo "var height = $('".$hierarchy04."').height();";
 echo "$('.slinky-menu').css({'height':height});";
 echo "});</script>";
 ?>
+<script>
+$(window).load(function() {
+	var height = $(".l-header").height();
+	var ahash = location.hash;
+	var gotoNum = $(ahash).offset().top - height;
+	$('html,body').delay(1000).animate({ scrollTop: gotoNum }, 'slow');
+	return false;
+});
+</script>
 <?php endif; ?>
 
 <?php if (is_post_type_archive('hotel-voucher')): ?>

@@ -304,8 +304,14 @@ body.index .l-header__wrapper {
         }
       }
       &:last-of-type {
-        margin-top: 2rem;
+        // margin-top: 2rem;
+        // justify-content: center;
+        margin-top: 3rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
         @include mq(lap) {
           display: none;
         }

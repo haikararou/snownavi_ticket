@@ -241,6 +241,9 @@
     &:after {
       display: none;
     }
+    &.target {
+      padding-top: 2rem;
+    }
   }
 }
 

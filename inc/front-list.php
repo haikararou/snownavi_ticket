@@ -21,7 +21,7 @@ foreach ( $parents as $parent ) { // 親タームのループを開始
             $myquery = new WP_Query( $args ); // クエリのセット
 ?>
             <?php if ( $myquery->have_posts()): ?>
-                <li><a href="<?php echo home_url(); ?>/<?php echo $post_type_slug; ?>/?a=_01&b=_<?php echo $term_id; ?>&c=_<?php echo $child->term_id; ?>&d=_<?php echo $grandson->term_id; ?>#menu"><?php echo esc_html($grandson->name); ?>
+                <li><a href="<?php echo home_url(); ?>/<?php echo $post_type_slug; ?>/?a=_01&b=_<?php echo $term_id; ?>&c=_<?php echo $child->term_id; ?>#d_<?php echo $grandson->term_id; ?>"><?php echo esc_html($grandson->name); ?>
             <?php while($myquery->have_posts()): $myquery->the_post(); ?>
                 <!-- <span><?php the_title(); ?></span> -->
                 <?php if(have_rows('ticket_list')): ?>

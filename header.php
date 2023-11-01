@@ -165,6 +165,7 @@ c-0.5-1.3-1.5-2.3-2.8-2.8c-0.7-0.3-1.5-0.4-2.3-0.4C13,0.5,12.6,0.5,10,0.5z"/>
 				<li><a href="<?php echo home_url('/coupon'); ?>">LIFT COUPONS</a></li>
 				<li><a href="<?php echo home_url('/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
 				<li><a href="<?php echo home_url('/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
+				<li><a href="<?php echo home_url('/news'); ?>">NEWS</a></li>
 			</ul>
 			<?php else:?>
 			<ul>
@@ -172,6 +173,7 @@ c-0.5-1.3-1.5-2.3-2.8-2.8c-0.7-0.3-1.5-0.4-2.3-0.4C13,0.5,12.6,0.5,10,0.5z"/>
 				<li><a href="<?php echo home_url('/en/coupon'); ?>">LIFT COUPONS</a></li>
 				<li><a href="<?php echo home_url('/en/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
 				<li><a href="<?php echo home_url('/en/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
+				<li><a href="<?php echo home_url('/en/news'); ?>">NEWS</a></li>
 			</ul>
 			<?php endif;?>
 		</div>
@@ -181,14 +183,14 @@ c-0.5-1.3-1.5-2.3-2.8-2.8c-0.7-0.3-1.5-0.4-2.3-0.4C13,0.5,12.6,0.5,10,0.5z"/>
 				<div class="l-header__nav__box">
 					<?php $locale = get_locale(); if($locale == 'ja'):?>
 					<ul>
-						<li><a href="<?php echo home_url('/'); ?>">TOP</a></li>
-						<li><a href="<?php echo home_url('/en'); ?>">ENGLISH TOP</a></li>
+						<li><a href="<?php echo home_url('/'); ?>">トップ</a></li>
+						<li><a href="<?php echo home_url('/en'); ?>">ENGLISH</a></li>
 					</ul>
 					<ul>
-						<li><a href="<?php echo home_url('/ticket'); ?>">LIFT TICKETS</a></li>
-						<li><a href="<?php echo home_url('/coupon'); ?>">LIFT COUPONS</a></li>
-						<li><a href="<?php echo home_url('/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
-						<li><a href="<?php echo home_url('/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
+						<li><a href="<?php echo home_url('/ticket'); ?>">早割リフト券</a></li>
+						<li><a href="<?php echo home_url('/coupon'); ?>">割引クーポン</a></li>
+						<li><a href="<?php echo home_url('/hotel-voucher'); ?>">提携宿泊施設</a></li>
+						<li><a href="<?php echo home_url('/shop-voucher'); ?>">提携ショップ</a></li>
 						<li><a href="<?php echo home_url('/news'); ?>">NEWS</a></li>
 					</ul>
 					<ul>

@@ -29,6 +29,19 @@
   }
 }
 
+.l-header__nav__box {
+  .c-arw {
+    &:after {
+      right: 1.2em;
+      border-top: 2px solid #fff;
+      border-right: 2px solid #fff;
+    }
+    &:hover:after {
+      right: 1.5em;
+    }
+  }
+}
+
 .l-footer {
   .c-arw {
     &:after {

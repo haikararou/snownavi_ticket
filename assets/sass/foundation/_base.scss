@@ -14,7 +14,10 @@
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-
+  // scroll-padding-top: 60px;
+  // @include mq(wide) {
+  //   scroll-padding-top: 91px;
+  // }
   font-size: spvw(14);
 
   @include mq(desk) {
@@ -44,7 +47,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   transition: background-color 1s, color 1s;
-
+  scroll-padding-top: 60px;
+  @include mq(wide) {
+    scroll-padding-top: 91px;
+  }
   @include mq(lap) {
     line-height: 2; //設定
   }

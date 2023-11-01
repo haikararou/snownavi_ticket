@@ -84,7 +84,7 @@
 		</div>
 		<?php endif; ?>
 		<?php endif;?>
-
+		<div class="c-page__wrapepr">
 		<div class="c-tab-select">
 			<div class="c-tab-select__nav">
 				<div class="c-tab-select__nav__button-outer">
@@ -108,6 +108,7 @@
 					</select>
 				</div>
 			</div>
+			<div class="c-panels">
 			<?php
 			$terms = get_terms('hotel-voucher_cat','hide_empty=0');
 			foreach ( $terms as $term ) :
@@ -126,12 +127,19 @@
 						<ul class="c-page__clm04">
 						<?php if(have_rows('hotel_voucher')): ?>
 						<?php while(have_rows('hotel_voucher')): the_row(); ?>
-						<?php
-							$bnrCId = get_sub_field('hotel-voucher_img');
-							$bnrCimg = wp_get_attachment_image_src($bnrCId);
-							$bnrCAlt = get_post_meta ( get_post ($bnrCId) -> ID , '_wp_attachment_image_alt' , true );
-						?>
-						<li><a href="<?php the_sub_field('hotel-voucher_url'); ?>" target="_blank"><img src="<?php echo $bnrCimg[0]; ?>"  alt="<?php echo $bnrCAlt ; ?>"><?php the_sub_field('hotel-voucher_name'); ?></a></li>
+						<li>
+							<a target="_blank" href="<?php the_sub_field('hotel-voucher_url'); ?>">
+								<em><?php the_sub_field('hotel-voucher_name'); ?></em>
+								<?php the_sub_field('hotel-voucher_txt'); ?>
+								<?php if(have_rows('hotel-voucher_ul')): ?>
+								<ul class="astarisk">
+								<?php while(have_rows('hotel-voucher_ul')): the_row(); ?>
+								<li><?php the_sub_field('hotel-voucher_ul_li'); ?></li>
+								<?php endwhile; ?>
+								</ul>
+								<?php endif; ?>
+							</a>
+						</li>
 						<?php endwhile; ?>
 						<?php endif; ?>
 						</ul>
@@ -148,6 +156,8 @@
 					</div>
 				<?php endif; ?>
 			<?php endforeach; ?>
+			</div>
+		</div>
 		</div>
 	</section>
 

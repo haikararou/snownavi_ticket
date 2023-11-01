@@ -100,7 +100,7 @@ get_header(); ?>
 			</div>
 			<?php $locale = get_locale(); if($locale == 'ja'):?>
 			<div class="c-portal">
-				<a target="_blank" href="https://www.snownavi.com/wp/">
+				<a target="_blank" href="https://www.snownavi.com/">
 					<div class="c-portal__wrapper">
 						<!-- <div class="c-portal__txt"> -->
 							<div class="c-portal__txt__box">
@@ -122,7 +122,7 @@ get_header(); ?>
 			</div>
 			<?php else:?>
 			<div class="c-portal">
-				<a target="_blank" href="https://www.snownavi.com/wp/en">
+				<a target="_blank" href="https://www.snownavi.com/en">
 					<div class="c-portal__wrapper">
 						<!-- <div class="c-portal__txt"> -->
 							<div class="c-portal__txt__box">
