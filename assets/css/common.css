@@ -565,6 +565,22 @@ body.index .l-header__wrapper {
     line-height: 1.2rem;
   }
 }
+.l-header__sitelogo a.-en {
+  max-width: 540px;
+}
+.l-header__sitelogo a.-en p {
+  margin-left: 4.5%;
+}
+@media screen and (min-width: 600px) {
+  .l-header__sitelogo a.-en p {
+    width: calc(100% - 132px);
+  }
+}
+@media screen and (min-width: 1390px) {
+  .l-header__sitelogo a.-en p {
+    width: calc(100% - 232px);
+  }
+}
 .l-header__pcnav {
   display: none;
 }
@@ -1466,7 +1482,6 @@ ul.astarisk li span {
 @media screen and (min-width: 1024px) {
   .c-portal {
     width: 25%;
-    padding: 0;
   }
 }
 .c-portal a {
@@ -1474,6 +1489,11 @@ ul.astarisk li span {
   color: #fff;
   height: 100%;
   padding: 2rem 10%;
+}
+@media screen and (min-width: 1024px) {
+  .c-portal a {
+    padding: 0;
+  }
 }
 .c-portal__wrapper {
   display: -webkit-box;
@@ -1577,6 +1597,38 @@ ul.astarisk li span {
   border-color: #257CCC;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
+}
+
+.bnr_portal_pc {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .bnr_portal_pc {
+    display: block;
+  }
+  .bnr_portal_pc img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.bnr_portal_sp {
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .bnr_portal_sp {
+    display: none;
+  }
+}
+
+.c-portal.-jp {
+  background: url("../img/index/bg_portal.jpg") no-repeat 30% 50%;
+}
+@media screen and (min-width: 1024px) {
+  .c-portal.-jp {
+    background: none;
+    padding: 0;
+  }
 }
 
 /*----------
@@ -2134,9 +2186,9 @@ ul.astarisk li span {
 .wp-pagenavi a {
   margin: 0 0.1em;
   border: 1px solid #ccc;
-  width: 2.25rem;
-  height: 2.25rem;
-  line-height: 100%;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
   font-weight: 700;
   background: #fff;
   display: -webkit-box;
@@ -2156,8 +2208,9 @@ ul.astarisk li span {
 @media screen and (min-width: 800px) {
   .wp-pagenavi span,
   .wp-pagenavi a {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
   }
 }
 .wp-pagenavi span.prev, .wp-pagenavi span.next, .wp-pagenavi span.previouspostslink, .wp-pagenavi span.nextpostslink,
@@ -2167,8 +2220,9 @@ ul.astarisk li span {
 .wp-pagenavi a.nextpostslink {
   position: relative;
   color: transparent;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
 }
 @media screen and (min-width: 800px) {
   .wp-pagenavi span.prev, .wp-pagenavi span.next, .wp-pagenavi span.previouspostslink, .wp-pagenavi span.nextpostslink,
@@ -2176,8 +2230,9 @@ ul.astarisk li span {
   .wp-pagenavi a.next,
   .wp-pagenavi a.previouspostslink,
   .wp-pagenavi a.nextpostslink {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
   }
 }
 .wp-pagenavi span.prev:before, .wp-pagenavi span.next:before, .wp-pagenavi span.previouspostslink:before, .wp-pagenavi span.nextpostslink:before,
@@ -3388,6 +3443,10 @@ ul.astarisk li span {
 }
 .slinky-menu .c-slinky__heading.target {
   padding-top: 2rem;
+}
+
+.-en.slinky-menu .header a:after {
+  content: "BACK";
 }
 
 .c-slinky li {

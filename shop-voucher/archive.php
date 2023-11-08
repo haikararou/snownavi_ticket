@@ -3,7 +3,7 @@
 <?php $locale = get_locale(); if($locale == 'ja'):?>
 	<div class="c-main__wrapper">
 	<section class="c-section c-page">
-		<h1>ご宿泊割引券について</h1>
+		<h1>ショップ割引券について</h1>
 		<h2>利用方法</h2>
 		<div class="c-page__box">
 			<div class="c-page__box__img">
@@ -58,14 +58,13 @@
 				<img src="<?php bloginfo('template_url') ?>/assets/img/common/sample_coupon.jpg" alt="">
 			</div>
 			<div class="c-page__box__txt">
-				<p><strong>You can get the shop discount coupon for JPY500 off the price</strong></p>
+				<p><strong>You can get coupon for JPY500 off the price</strong></p>
 				<p>A discount coupon is available by the purchase of the advance ticket. You will get JPY500 off discount at the purchase in the following tie-up shops.</p>
 				<ul class="astarisk">
 					<li>Some shops offer other services than JPY500 off discount.</li>
 					<li>The discount shall be available with 1 coupon per person.</li>
 					<li>The valid period is from Dec. 1, 2020 to Apr. 30, 2021.</li>
 					<li>The list of the tie-up shops will be added or changed during the valid period. Please check on the latest information before using.</li>
-					<li>This ticket can be combined with the coupons of Go To Travel Campaigne.</li>
 				</ul>
 				<h3>[How to Use]</h3>
 				<ol>

@@ -54,8 +54,8 @@
 				<div class="c-gooddeal__head">
 					<h2>Choose from Map</h2>
 					<ul class="c-tabs">
-						<li class="tab is-active"><a href="#map-nagano"><strong>NAGANO and NEIGHBORING</strong></a></li>
-						<li class="tab"><a href="#map-other"><strong>OTHER</strong></a></li>
+						<li class="tab is-active"><a href="#map-nagano"><strong>AROUND NAGANO</strong></a></li>
+						<li class="tab"><a href="#map-other"><strong>OTHER AREAS</strong></a></li>
 					</ul>
 				</div>
 				<div class="c-panels">
@@ -75,14 +75,14 @@
 				<div class="c-gooddeal__head">
 					<h2>Choose from Area</h2>
 				</div>
-				<div id="menu">
+				<div id="menu" class="-en">
 					<ul class="hierarchy_01">
-						<h2>NAGANO and NEIGHBORING</h2>
+						<h2>AROUND NAGANO</h2>
 						<?php
 						$args = ['tax' => 'coupon_cat', 'post' => 'coupon', 'id' => '846']; //親タームID・タクソノミー・ポストタイプ
 						get_template_part('inc/hierarchical', null, $args);
 						?>
-						<h2>OTHER</h2>
+						<h2>OTHER AREAS</h2>
 						<?php
 						$args = ['tax' => 'coupon_cat', 'post' => 'coupon', 'id' => '868']; //親タームID・タクソノミー・ポストタイプ
 						get_template_part('inc/hierarchical', null, $args);

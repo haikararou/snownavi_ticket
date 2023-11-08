@@ -52,7 +52,7 @@ get_header(); ?>
 <?php else:?>
 		<section class="c-section__home c-section__home__ctr  c-bnr c-bnr__clm02 c-bnr__main">
 			<ul>
-				<li class="ticket"><a href="<?php echo home_url('/en/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_lift2.png" alt="ADVANCE TICKET No International Shipping Domestic Bank Transfer Only"><div>ADVANCE TICKET<span>No International Shipping Domestic Bank Transfer Only</span></div></a></li>
+				<li class="ticket"><a href="<?php echo home_url('/en/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_lift2.png" alt="EARLY-BIRD TICKETS Domestic Shipping Only"><div>EARLY-BIRD TICKETS<span>Domestic Shipping Only</span></div></a></li>
 				<li class="coupon"><a href="<?php echo home_url('/en/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_coupon2.png" alt="COUPON Available right after printing"><div>COUPON<span>Available right after printing</span></div></a></li>
 			</ul>
 		</section>
@@ -99,11 +99,14 @@ get_header(); ?>
 				<?php endif;?>
 			</div>
 			<?php $locale = get_locale(); if($locale == 'ja'):?>
-			<div class="c-portal">
+			<div class="c-portal -jp">
 				<a target="_blank" href="https://www.snownavi.com/">
 					<div class="c-portal__wrapper">
-						<!-- <div class="c-portal__txt"> -->
-							<div class="c-portal__txt__box">
+						<div class="c-portal__txt__box">
+							<div class="bnr_portal_pc">
+								<img src="<?php bloginfo('template_url') ?>/assets/img/common/bnr_portal_pc.jpg" alt="Snoenavi 情報ポータル 白馬・志賀・野沢・妙高・菅平等のスキー場、ホテル、飲食、観光情報">
+							</div>
+							<div class="bnr_portal_sp">
 								<div class="c-portal__txt__box__L">
 									<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
 									<em>情報ポータル</em>
@@ -113,10 +116,7 @@ get_header(); ?>
 									<span class="c-pc">白馬・志賀・野沢・妙高・菅平等の<br>スキー場、ホテル、飲食、観光情報</span>
 								</div>
 							</div>
-						<!-- </div> -->
-						<!-- <div class="c-portal__img">
-							<img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal.png" alt="" class="pc"><img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal_sp.png" alt="" class="sp">
-						</div> -->
+						</div>
 					</div>
 				</a>
 			</div>
@@ -124,265 +124,22 @@ get_header(); ?>
 			<div class="c-portal">
 				<a target="_blank" href="https://www.snownavi.com/en">
 					<div class="c-portal__wrapper">
-						<!-- <div class="c-portal__txt"> -->
-							<div class="c-portal__txt__box">
-								<div class="c-portal__txt__box__L">
-									<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
-									<em>Info Portal</em>
-								</div>
-								<div class="c-portal__txt__box__R">
-									<span class="c-sp">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
-									<span class="c-pc">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
-								</div>
+						<div class="c-portal__txt__box">
+							<div class="c-portal__txt__box__L">
+								<img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi">
+								<em>WEB PORTAL</em>
 							</div>
-						<!-- </div> -->
-						<!-- <div class="c-portal__img">
-							<img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal.png" alt="" class="pc"><img src="<?php bloginfo('template_url') ?>/assets/img/index/bg_portal_sp.png" alt="" class="sp">
-						</div> -->
+							<div class="c-portal__txt__box__R">
+								<span class="c-sp">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
+								<span class="c-pc">Sightseeing information of the Hakuba, Shiga, Nozawa, Myoko, Sugadaira and more.</span>
+							</div>
+						</div>
 					</div>
 				</a>
 			</div>
 			<?php endif;?>
 		</section>
 	</div>
-
-<?php $locale = get_locale(); if($locale == 'ja'):?>
-	<section class="p-index__ticket c-gooddeal">
-		<h2 class="c-gooddeal__heading"><span>早割チケット券購入</span></h2>
-		<div class="c-gooddeal__wrapper">
-			<div class="c-gooddeal__box">
-				<div class="c-gooddeal__head">
-					<h3>長野県＆周辺県</h3>
-					<ul class="c-tabs">
-						<li class="tab is-active"><a href="#area01"><?php get_template_part('inc/svg/list'); ?><strong>エリア</strong>から選ぶ</a></li>
-						<li class="tab"><a href="#map01"><?php get_template_part('inc/svg/pin'); ?><strong>マップ</strong>から選ぶ</a></li>
-					</ul>
-				</div>
-				<div class="c-panels">
-					<div id="area01" class="panel c-tab__area c-gooddeal__area is-active">
-						<div class="c-gooddeal__area__wrapper">
-							<div class="c-gooddeal__area__container clearfix">
-								<?php
-								$args = ['id' => '25', 'tax' => 'ticket_cat', 'post' => 'ticket']; //親タームID・タクソノミー・ポストタイプ
-								get_template_part('inc/front-list', null, $args);
-								?>
-							</div>
-						</div>
-					</div>
-					<div id="map01" class="panel c-tab__area c-gooddeal__map">
-						<div id="ticket__map__nagano">
-							<?php get_template_part('inc/map/ticket_nagano'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="c-gooddeal__box">
-				<div class="c-gooddeal__head">
-					<h3>その他のエリア</h3>
-					<ul class="c-tabs">
-						<li class="tab is-active"><a href="#area02"><?php get_template_part('inc/svg/list'); ?><strong>エリア</strong>から選ぶ</a></li>
-						<li class="tab"><a href="#map02"><?php get_template_part('inc/svg/pin'); ?><strong>マップ</strong>から選ぶ</a></li>
-					</ul>
-				</div>
-				<div class="c-panels">
-					<div id="area02" class="panel c-tab__area c-gooddeal__area is-active">
-						<div class="c-gooddeal__area__wrapper">
-							<div class="c-gooddeal__area__container clearfix">
-								<?php
-								$args = ['id' => '27', 'tax' => 'ticket_cat', 'post' => 'ticket']; //親タームID・タクソノミー・ポストタイプ
-								get_template_part('inc/front-list', null, $args);
-								?>
-							</div>
-						</div>
-					</div>
-					<div id="map02" class="panel c-tab__area c-gooddeal__map">
-						<div id="ticket__map__japan">
-							<?php get_template_part('inc/map/ticket_japan'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<?php else:?>
-	<section class="p-index__ticket c-gooddeal">
-		<h2 class="c-gooddeal__heading"><span>ADVANCE TICKET</span></h2>
-		<div class="c-gooddeal__wrapper">
-			<div class="c-gooddeal__box">
-				<div class="c-gooddeal__head">
-					<h3>NAGANO and NEIGHBORING</h3>
-					<ul class="c-tabs">
-						<li class="tab is-active"><a href="#area01"><?php get_template_part('inc/svg/list'); ?><strong>AREA</strong></a></li>
-						<li class="tab"><a href="#map01"><?php get_template_part('inc/svg/pin'); ?><strong>MAP</strong></a></li>
-					</ul>
-				</div>
-				<div class="c-panels">
-					<div id="area01" class="panel c-tab__area c-gooddeal__area is-active">
-						<div class="c-gooddeal__area__wrapper">
-							<div class="c-gooddeal__area__container clearfix">
-								<?php
-								$args = ['id' => '231', 'tax' => 'ticket_cat', 'post' => 'ticket']; //親タームID・タクソノミー・ポストタイプ
-								get_template_part('inc/front-list', null, $args);
-								?>
-							</div>
-						</div>
-					</div>
-					<div id="map01" class="panel c-tab__area c-gooddeal__map">
-						<div id="ticket__map__nagano">
-							<?php get_template_part('inc/map/ticket_nagano_en'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="c-gooddeal__box">
-				<div class="c-gooddeal__head">
-					<h3>OTHER</h3>
-					<ul class="c-tabs">
-						<li class="tab is-active"><a href="#area02"><?php get_template_part('inc/svg/list'); ?><strong>AREA</strong></a></li>
-						<li class="tab"><a href="#map02"><?php get_template_part('inc/svg/pin'); ?><strong>MAP</strong></a></li>
-					</ul>
-				</div>
-				<div class="c-panels">
-					<div id="area02" class="panel c-tab__area c-gooddeal__area is-active">
-						<div class="c-gooddeal__area__wrapper">
-							<div class="c-gooddeal__area__container clearfix">
-								<?php
-								$args = ['id' => '403', 'tax' => 'ticket_cat', 'post' => 'ticket']; //親タームID・タクソノミー・ポストタイプ
-								get_template_part('inc/front-list', null, $args);
-								?>
-							</div>
-						</div>
-					</div>
-					<div id="map02" class="panel c-tab__area c-gooddeal__map">
-						<div id="ticket__map__japan">
-							<?php get_template_part('inc/map/ticket_japan_en'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<?php endif;?>
-
-<?php $locale = get_locale(); if($locale == 'ja'):?>
-	<section class="p-index__coupon c-gooddeal">
-		<h2 class="c-gooddeal__heading"><span>割引クーポン</span></h2>
-		<div class="c-gooddeal__wrapper">
-			<div class="c-gooddeal__box">
-				<div class="c-gooddeal__head">
-					<h3>長野県＆周辺県</h3>
-					<ul class="c-tabs">
-						<li class="tab is-active"><a href="#area03"><?php get_template_part('inc/svg/list'); ?><strong>エリア</strong>から選ぶ</a></li>
-						<li class="tab"><a href="#map03"><?php get_template_part('inc/svg/pin'); ?><strong>マップ</strong>から選ぶ</a></li>
-					</ul>
-				</div>
-				<div class="c-panels">
-					<div id="area03" class="panel c-tab__area c-gooddeal__area is-active">
-						<div class="c-gooddeal__area__wrapper">
-							<div class="c-gooddeal__area__container clearfix">
-							<?php
-								$args = ['id' => '504', 'tax' => 'coupon_cat', 'post' => 'coupon']; //親タームID・タクソノミー・ポストタイプ
-								get_template_part('inc/front-list', null, $args);
-								?>
-							</div>
-						</div>
-					</div>
-					<div id="map03" class="panel c-tab__area c-gooddeal__map">
-						<div id="coupon__map__nagano">
-							<?php get_template_part('inc/map/coupon_nagano'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="c-gooddeal__box">
-				<div class="c-gooddeal__head">
-					<h3>その他のエリア</h3>
-					<ul class="c-tabs">
-						<li class="tab is-active"><a href="#area04"><?php get_template_part('inc/svg/list'); ?><strong>エリア</strong>から選ぶ</a></li>
-						<li class="tab"><a href="#map04"><?php get_template_part('inc/svg/pin'); ?><strong>マップ</strong>から選ぶ</a></li>
-					</ul>
-				</div>
-				<div class="c-panels">
-					<div id="area04" class="panel c-tab__area c-gooddeal__area is-active">
-						<div class="c-gooddeal__area__wrapper">
-							<div class="c-gooddeal__area__container clearfix">
-							<?php
-								$args = ['id' => '516', 'tax' => 'coupon_cat', 'post' => 'coupon']; //親タームID・タクソノミー・ポストタイプ
-								get_template_part('inc/front-list', null, $args);
-								?>
-							</div>
-						</div>
-					</div>
-					<div id="map04" class="panel c-tab__area c-gooddeal__map">
-						<div id="coupon__map__japan">
-							<?php get_template_part('inc/map/coupon_japan'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<?php else:?>
-	<section class="p-index__coupon c-gooddeal">
-		<h2 class="c-gooddeal__heading"><span>COUPON</span></h2>
-		<div class="c-gooddeal__wrapper">
-			<div class="c-gooddeal__box">
-				<div class="c-gooddeal__head">
-					<h3>NAGANO and NEIGHBORING</h3>
-					<ul class="c-tabs">
-						<li class="tab is-active"><a href="#area03"><?php get_template_part('inc/svg/list'); ?><strong>AREA</strong></a></li>
-						<li class="tab"><a href="#map03"><?php get_template_part('inc/svg/pin'); ?><strong>MAP</strong></a></li>
-					</ul>
-				</div>
-				<div class="c-panels">
-					<div id="area03" class="panel c-tab__area c-gooddeal__area is-active">
-						<div class="c-gooddeal__area__wrapper">
-							<div class="c-gooddeal__area__container clearfix">
-							<?php
-								$args = ['id' => '846', 'tax' => 'coupon_cat', 'post' => 'coupon']; //親タームID・タクソノミー・ポストタイプ
-								get_template_part('inc/front-list', null, $args);
-								?>
-							</div>
-						</div>
-					</div>
-					<div id="map03" class="panel c-tab__area c-gooddeal__map">
-						<div id="coupon__map__nagano">
-							<?php get_template_part('inc/map/coupon_nagano_en'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="c-gooddeal__box">
-				<div class="c-gooddeal__head">
-					<h3>OTHER</h3>
-					<ul class="c-tabs">
-						<li class="tab is-active"><a href="#area04"><?php get_template_part('inc/svg/list'); ?><strong>AREA</strong></a></li>
-						<li class="tab"><a href="#map04"><?php get_template_part('inc/svg/pin'); ?><strong>MAP</strong></a></li>
-					</ul>
-				</div>
-				<div class="c-panels">
-					<div id="area04" class="panel c-tab__area c-gooddeal__area is-active">
-						<div class="c-gooddeal__area__wrapper">
-							<div class="c-gooddeal__area__container clearfix">
-							<?php
-								$args = ['id' => '868', 'tax' => 'coupon_cat', 'post' => 'coupon']; //親タームID・タクソノミー・ポストタイプ
-								get_template_part('inc/front-list', null, $args);
-								?>
-							</div>
-						</div>
-					</div>
-					<div id="map04" class="panel c-tab__area c-gooddeal__map">
-						<div id="coupon__map__japan">
-							<?php get_template_part('inc/map/coupon_japan_en'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<?php endif;?>
 
 <?php $locale = get_locale(); if($locale == 'ja'):?>
 	<section class="c-section__home c-section__home__ctr  p-index__affiliated">
@@ -407,11 +164,11 @@ get_header(); ?>
 			<ul>
 				<li><a href="./hotel-voucher">
 					<img src="<?php bloginfo('template_url') ?>/assets/img/common/sample_ticket.jpg" alt="">
-					<p>Accommodation Discount Coupon<span>You can get the accommodation discount coupon for JPY1, 000 off the price</span></p>
+					<p>Accommodation <br>Discount Coupon<span>You can get coupon for JPY1, 000 off the price</span></p>
 				</a></li>
 				<li><a href="./shop-voucher">
 					<img src="<?php bloginfo('template_url') ?>/assets/img/common/sample_coupon.jpg" alt="">
-					<p>Shop & Restaurant Discount Coupon<span>You can get the shop discount coupon for JPY500 off the price</span></p>
+					<p>Shop & Restaurant Discount Coupon<span>You can get coupon for JPY500 off the price</span></p>
 				</a></li>
 			</ul>
 		</div>

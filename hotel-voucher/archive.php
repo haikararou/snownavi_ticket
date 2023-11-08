@@ -33,13 +33,12 @@
 				<img src="<?php bloginfo('template_url') ?>/assets/img/common/sample_ticket.jpg" alt="">
 			</div>
 			<div class="c-page__box__txt">
-				<p><strong>You can get the accommodation discount coupon for JPY1, 000 off the price</strong></p>
+				<p><strong>You can get coupon for JPY1, 000 off the price</strong></p>
 				<p>A discount coupon is available by every purchase of 4 advance tickets. You will get JPY1,000 off discount for the accommodation plans which are carried in websites of the following tie-up hotels by using this coupon.</p>
 				<ul class="astarisk">
 					<li>Per one night for one group (2 persons or more), 1 discount coupon is available.<br>From the second night (consecutive stay), the way of use will conform to the regulation of the hotel.</li>
 					<li>The discount coupon is available only for the accommodation plan that is carried in the website of the tie-up hotels.<br>The coupon is unavailable for plans of travel agencies and tourism agent websites, such as "Jalan" and "Rakuten".</li>
-					<li>Valid period is from Dec. 1, 2020 to Apr. 30, 2021.</li>
-					<li>This ticket can be combined with Go To Travel Campaigne.</li>
+					<li>Valid period is from Dec. 1, 2023 to Apr. 30, 2024.</li>
 				</ul>
 				<h3>[How to Use]</h3>
 				<ol>

@@ -14,16 +14,16 @@
 				<li><a href="<?php echo home_url('/en'); ?>">ENGLISH</a></li>
 			</ul>
 			<ul>
-				<li><a href="<?php echo home_url('/ticket'); ?>">LIFT TICKETS</a></li>
-				<li><a href="<?php echo home_url('/coupon'); ?>">LIFT COUPONS</a></li>
-				<li><a href="<?php echo home_url('/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
-				<li><a href="<?php echo home_url('/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
+				<li><a href="<?php echo home_url('/ticket'); ?>">早割リフト券</a></li>
+				<li><a href="<?php echo home_url('/coupon'); ?>">割引クーポン</a></li>
+				<li><a href="<?php echo home_url('/hotel-voucher'); ?>">提携宿泊施設</a></li>
+				<li><a href="<?php echo home_url('/shop-voucher'); ?>">提携宿泊ショップ</a></li>
 				<li><a href="<?php echo home_url('/news'); ?>">NEWS</a></li>
 			</ul>
 			<ul>
-				<li><a target="_blank" href="https://www.snownavi.com/wp/contact" class="c-arw">お問い合わせ</a></li>
-				<li><a target="_blank" href="https://www.snownavi.com/wp/company">会社案内</a></li>
-				<li><a target="_blank" href="https://www.snownavi.com/wp/privacy">プライバシーポリシー</a></li>
+				<li><a target="_blank" href="https://www.snownavi.com/contact" class="c-arw">お問い合わせ</a></li>
+				<li><a target="_blank" href="https://www.snownavi.com/company">会社案内</a></li>
+				<li><a target="_blank" href="https://www.snownavi.com/privacy">プライバシーポリシー</a></li>
 			</ul>
 		</nav>
 		<div class="l-footer__logo">
@@ -45,8 +45,8 @@
 	<div class="l-footer__inner">
 		<nav class="l-footer__nav" role="navigation">
 			<ul>
-				<li><a href="/wp/">JP</a></li>
-				<li><a href="<?php echo home_url('/en'); ?>">EN</a></li>
+				<li><a href="<?php echo home_url('/en'); ?>">TOP</a></li>
+				<li><a href="/">JP</a></li>
 			</ul>
 			<ul>
 				<li><a href="<?php echo home_url('/en/ticket'); ?>">LIFT TICKETS</a></li>
@@ -56,15 +56,15 @@
 				<li><a href="<?php echo home_url('/en/news'); ?>">NEWS</a></li>
 			</ul>
 			<ul>
-				<li><a target="_blank" href="https://www.snownavi.com/wp/en/contact" class="c-arw">CONTACT US</a></li>
-				<li><a target="_blank" href="https://www.snownavi.com/wp/en/company">ABOUT US</a></li>
-				<li><a target="_blank" href="https://www.snownavi.com/wp/en/privacy">PRIVACY POLICY</a></li>
+				<li><a target="_blank" href="https://www.snownavi.com/en/contact_en" class="c-arw">CONTACT US</a></li>
+				<li><a target="_blank" href="https://www.snownavi.com/en/company_en">ABOUT US</a></li>
+				<li><a target="_blank" href="https://www.snownavi.com/en/privacy_en">PRIVACY POLICY</a></li>
 			</ul>
 		</nav>
 		<div class="l-footer__logo">
 			<a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/common/logo_w.svg" alt="Snownavi"></a>
 			<div class="l-footer__add">
-				<address>Snownavi Co., Ltd.<br>6330-3, Hokujo, Hakuba-mura Kitaazumi-gun, NAGANO<br>TEL：<a href="tel:0261711302">TEL.0261-71-1302</a>（8:30-17:00 Holidays: Sat. & Sun.）</address>
+				<address>Snownavi Co., Ltd.<br>6330-3, Hokujo, Hakuba-mura Kitaazumi-gun, NAGANO<br>TEL.<a href="tel:0261711302">0261-71-1302</a>（8:30-17:00 Holidays: Sat. & Sun.）</address>
 				<ul class="l-footer__sns">
 					<li><a target="_blank" href="https://twitter.com/snownavi"><img src="<?php bloginfo('template_url') ?>/assets/img/common/icn_tw_w.svg" alt="twitter@snownavi"></a></li>
 					<li><a target="_blank" href="https://www.facebook.com/snownavijp"><img src="<?php bloginfo('template_url') ?>/assets/img/common/icn_fb_w.svg" alt="facebook@snownavi"></a></li>

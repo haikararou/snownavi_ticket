@@ -9,7 +9,6 @@
   padding: 1rem 2rem;
   @include mq(lap) {
     width: 25%;
-    padding: 0;
   }
   background: url("../img/index/bg_portal.jpg") no-repeat 30% 50%;
   background-size: cover;
@@ -18,6 +17,9 @@
     color: $color-white;
     height: 100%;
     padding: 2rem 10%;
+    @include mq(lap) {
+      padding: 0;
+    }
   }
   &__wrapper {
     display:flex; flex-direction:column; justify-content:center; align-items:center;
@@ -91,4 +93,29 @@
       }
     }
   }
+}
+
+.bnr_portal_pc {
+  display: none;
+  @include mq(lap) {
+    display: block;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.bnr_portal_sp {
+  display: block;
+  @include mq(lap) {
+    display: none;
+  }
+}
+
+.c-portal.-jp {
+  @include mq(lap) {
+    background: none;
+    padding: 0;
+  }
+  background: url("../img/index/bg_portal.jpg") no-repeat 30% 50%;
 }
