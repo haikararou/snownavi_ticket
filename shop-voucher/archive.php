@@ -15,7 +15,7 @@
 				<ul class="astarisk">
 					<li>500円の割引でなく、その他サービスの提供となる店舗もございます。</li>
 					<li>当割引券はお1人様につき1枚のご利用とさせていただきます。</li>
-					<li>有効期間は2021年12月1日～2022年4月30日です。</li>
+					<li>有効期間は2023年12月1日～2024年4月30日です。</li>
 					<li>提携ショップは期間途中で追加・変更がございます。ご利用前に最新情報をお確かめください。</li>
 				</ul>
 				<h3>［ご利用方法］</h3>
@@ -63,7 +63,7 @@
 				<ul class="astarisk">
 					<li>Some shops offer other services than JPY500 off discount.</li>
 					<li>The discount shall be available with 1 coupon per person.</li>
-					<li>The valid period is from Dec. 1, 2020 to Apr. 30, 2021.</li>
+					<li>The valid period is from Dec. 1, 2023 to Apr. 30, 2024.</li>
 					<li>The list of the tie-up shops will be added or changed during the valid period. Please check on the latest information before using.</li>
 				</ul>
 				<h3>[How to Use]</h3>

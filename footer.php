@@ -114,7 +114,7 @@ $(window).load(function() {
 	var height = $(".l-header").height();
 	var ahash = location.hash;
 	var gotoNum = $(ahash).offset().top - height;
-	$('html,body').delay(1000).animate({ scrollTop: gotoNum }, 'slow');
+	$('html,body').delay(500).animate({ scrollTop: gotoNum }, 'slow');
 	return false;
 });
 </script>

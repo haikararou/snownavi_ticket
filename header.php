@@ -192,6 +192,7 @@ c-0.5-1.3-1.5-2.3-2.8-2.8c-0.7-0.3-1.5-0.4-2.3-0.4C13,0.5,12.6,0.5,10,0.5z"/>
 						<li><a href="<?php echo home_url('/hotel-voucher'); ?>">提携宿泊施設</a></li>
 						<li><a href="<?php echo home_url('/shop-voucher'); ?>">提携ショップ</a></li>
 						<li><a href="<?php echo home_url('/news'); ?>">NEWS</a></li>
+						<li><a href="https://www.snownavi.com/" target="_blank" class="blank">snownavi.com</a></li>
 					</ul>
 					<ul>
 						<li><a target="_blank" href="https://www.snownavi.com/contact" class="c-arw">お問い合わせ</a></li>
@@ -209,6 +210,7 @@ c-0.5-1.3-1.5-2.3-2.8-2.8c-0.7-0.3-1.5-0.4-2.3-0.4C13,0.5,12.6,0.5,10,0.5z"/>
 						<li><a href="<?php echo home_url('/en/hotel-voucher'); ?>">TIE-UP HOTELS</a></li>
 						<li><a href="<?php echo home_url('/en/shop-voucher'); ?>">TIE-UP SHOPS</a></li>
 						<li><a href="<?php echo home_url('/en/news'); ?>">NEWS</a></li>
+						<li><a href="https://www.snownavi.com/en/home" target="_blank" class="blank">snownavi.com</a></li>
 					</ul>
 					<ul>
 						<li><a target="_blank" href="https://www.snownavi.com/en/contact_en" class="c-arw">CONTACT US</a></li>
