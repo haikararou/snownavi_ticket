@@ -50,7 +50,7 @@ CSS・JSを登録する
 -------------------------------------------------------------------------*/
 function register_files() {
 //wp_register_style( 'animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
-wp_register_style( 'theme-common', get_template_directory_uri() . '/assets/css/common.css');
+// wp_register_style( 'theme-common', get_template_directory_uri() . '/assets/css/common.css');
 wp_register_style( 'editor-style', get_template_directory_uri() . '/assets/css/editor-style.css');
 wp_register_style( 'theme-font', 'https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 wp_deregister_script('jquery');
@@ -179,6 +179,9 @@ $page_template = dirname( __FILE__ ) . "/shop-voucher/single.php";
 if(is_singular('news')) {
 $page_template = dirname( __FILE__ ) . "/news/single.php";
 }
+if(is_singular('print')) {
+    $page_template = dirname( __FILE__ ) . "/print/single.php";
+    }
 
 
 //archive

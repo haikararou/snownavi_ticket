@@ -68,6 +68,7 @@ $myquery = new WP_Query( $args ); // クエリのセット
 
 </li>
 <?php } // 子ターム終了 ?>
+
 </ul>
 </li>
 <?php } // 子ターム終了 ?>

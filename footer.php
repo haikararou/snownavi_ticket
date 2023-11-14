@@ -111,9 +111,9 @@ echo "});</script>";
 ?>
 <script>
 $(window).load(function() {
-	var height = $(".l-header").height();
+	var headH = $(".l-header").height();
 	var ahash = location.hash;
-	var gotoNum = $(ahash).offset().top - height;
+	var gotoNum = $(ahash).offset().top - headH;
 	$('html,body').delay(500).animate({ scrollTop: gotoNum }, 'slow');
 	return false;
 });

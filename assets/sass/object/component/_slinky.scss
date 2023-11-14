@@ -204,28 +204,35 @@
       display: none;
     }
     a {
-      width: 100%;
+      width: 90px;
       height: 2rem;
+      background: #000;
+      display:flex; flex-direction:column; justify-content:center; align-items:center;
       &:before {
         border: 0;
         width: 6px;
         height: 6px;
-        left: 2px;
-        top: calc(50% - 6px);
-        border-bottom: 2px solid $color-litegray;
-        border-left: 2px solid $color-litegray;
+        left: 14px;
+        top: calc(50% - 2px);
+        // border-bottom: 2px solid $color-litegray;
+        // border-left: 2px solid $color-litegray;
+        border-bottom: 2px solid #fff;
+        border-left: 2px solid #fff;
         transform: rotate(45deg);
         transition: 0.3s;
       }
       &:after {
         content: "戻る";
         width: calc( 100% - 2rem);
-        top: 0;
-        left: 1rem;
+        // top: 0;
+        // left: 1rem;
         height: 2em;
         border: 0;
-        color: $color-litegray;
+        //color: $color-litegray;
+        color: #fff;
         font-weight: 700;
+        text-align: center;
+        position: static;
       }
     }
   }

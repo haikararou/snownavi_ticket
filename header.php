@@ -33,6 +33,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+<link rel='stylesheet' id='theme-common-css' href='/wp/wp-content/themes/cojp_wp/assets/css/common.css?ver=6.4.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='theme-common-css' href='/wp/wp-content/themes/cojp_wp/assets/css/print.css?ver=6.4.1' type='text/css' media='print' />
+
 <?php if(is_home() || is_front_page()): ?>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
@@ -124,11 +127,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<?php endif;?>
 				<li><a target="_blank" href="https://twitter.com/snownavi">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-						<path id="icn_twitter" d="M19.6,4.1c-0.7,0.3-1.5,0.5-2.3,0.6c0.8-0.5,1.4-1.3,1.7-2.2c-0.8,0.5-1.6,0.8-2.5,1
-	c-1.5-1.6-4-1.7-5.6-0.2C10.2,4,9.8,5.1,9.8,6.2c0,0.3,0,0.6,0.1,0.9C6.7,6.9,3.8,5.4,1.8,2.9C0.7,4.7,1.2,7,3,8.2
-	C2.3,8.2,1.7,8,1.2,7.7v0c0,1.9,1.3,3.5,3.1,3.9c-0.3,0.1-0.7,0.1-1,0.1c-0.2,0-0.5,0-0.7-0.1c0.5,1.6,2,2.7,3.7,2.7
-	c-1.4,1.1-3.1,1.7-4.9,1.7c-0.3,0-0.6,0-0.9-0.1c5.2,3.3,12.1,1.8,15.4-3.4c1.1-1.8,1.8-3.9,1.8-6c0-0.2,0-0.3,0-0.5
-	C18.4,5.6,19,4.9,19.6,4.1L19.6,4.1z"/>
+						<path id="icn_twitter" d="M11.6,8.5L18.9,0h-1.7l-6.3,7.4L5.8,0H0l7.6,11.1L0,20h1.7l6.7-7.8l5.3,7.8h5.8L11.6,8.5L11.6,8.5z M9.3,11.2l-0.8-1.1
+						L2.3,1.3H5l5,7.1l0.8,1.1l6.5,9.2h-2.7L9.3,11.2L9.3,11.2z"/>
 					</svg>
 				</a></li>
 				<li><a target="_blank" href="https://www.facebook.com/snownavijp">
@@ -245,10 +245,4 @@ c-0.5-1.3-1.5-2.3-2.8-2.8c-0.7-0.3-1.5-0.4-2.3-0.4C13,0.5,12.6,0.5,10,0.5z"/>
 <?php else : ?>
 <main class="c-main" role="main">
 <?php endif; ?>
-
-
-
-
-
-
 

@@ -189,7 +189,24 @@ function create_post_type() {
 			)
 		)
 	);
-
+	//PRINT 割引クーポン印刷　カスタム投稿タイプを追加 //////////////////////////////////////////////////////////////////
+	register_post_type( 'print', // 投稿タイプ名(スラッグ)
+		array(
+			'labels' => array(
+				'name' => __( '割引クーポン印刷' ), // 投稿タイプ名(表示名)
+				'singular_name' => __( '割引クーポン印刷' )// 投稿タイプ名(表示名)
+			),
+			'menu_icon' => 'dashicons-clipboard',
+			'public' => true,
+			'menu_position' =>5,
+			'supports' => array('title', 'editor', 'thumbnail'), // この投稿タイプでサポートする機能。
+			'has_archive' => true,
+			'show_in_rest' => true,
+			'rewrite' => array(
+			'slug' => 'print',//投稿タイプ名(スラッグ) アーカイブページのURLになります
+			'with_front' => false)
+		)
+	);
 }
 
 

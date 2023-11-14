@@ -1033,6 +1033,21 @@ body.index main {
   margin-left: auto;
 }
 
+.d-main {
+  padding: 3rem 0 8rem;
+  background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line13.png");
+  background-repeat: no-repeat;
+  background-position: 90% 0%, 108% 100%, 95% 0%, 0% 0%;
+  background-size: 360px, 292px, 360px, 140px;
+  background-color: #F5F5F5;
+}
+.d-main__wrapper {
+  max-width: 760px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .l-main {
   background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
   background-repeat: no-repeat;
@@ -1151,6 +1166,16 @@ ul.astarisk li span {
 @media screen and (min-width: 1024px) {
   .c-section h2 {
     font-size: 1.5rem;
+  }
+}
+.c-section h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .c-section h3 {
+    font-size: 1.25rem;
   }
 }
 
@@ -2711,8 +2736,11 @@ ul.astarisk li span {
   margin-bottom: 6em;
 }
 .c-article__body h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1em;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #000;
+  display: block;
 }
 .c-article__body a {
   color: #35B0E6;
@@ -2880,6 +2908,84 @@ ul.astarisk li span {
   opacity: 0.5;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+.flex_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.flex_img figcaption {
+  font-size: 12px;
+}
+
+.coupon_title {
+  background: #000;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 800px) {
+  .coupon_title {
+    font-size: 1.5rem;
+    margin-bottom: 48px;
+  }
+}
+
+.coupon_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+  margin-bottom: 64px;
+}
+@media screen and (min-width: 800px) {
+  .coupon_img {
+    margin-bottom: 80px;
+  }
+}
+
+.print {
+  margin-top: 16px;
+  max-width: 400px;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  padding: 4rem 1rem 1rem;
+  margin: 0 auto;
+}
+
+.print span {
+  color: #fff;
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.print span:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../img/common/icn_prt.svg) no-repeat 50% 50%;
+  background-size: contain;
+  position: absolute;
+  top: -46px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
 }
 
 /*----------
@@ -3405,17 +3511,31 @@ ul.astarisk li span {
   display: none;
 }
 .slinky-menu .header a {
-  width: 100%;
+  width: 90px;
   height: 2rem;
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .slinky-menu .header a:before {
   border: 0;
   width: 6px;
   height: 6px;
-  left: 2px;
-  top: calc(50% - 6px);
-  border-bottom: 2px solid #ccc;
-  border-left: 2px solid #ccc;
+  left: 14px;
+  top: calc(50% - 2px);
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   -webkit-transition: 0.3s;
@@ -3424,12 +3544,12 @@ ul.astarisk li span {
 .slinky-menu .header a:after {
   content: "戻る";
   width: calc(100% - 2rem);
-  top: 0;
-  left: 1rem;
   height: 2em;
   border: 0;
-  color: #ccc;
+  color: #fff;
   font-weight: 700;
+  text-align: center;
+  position: static;
 }
 .slinky-menu .c-slinky__heading {
   -webkit-box-flex: 1;

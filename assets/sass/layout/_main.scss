@@ -45,6 +45,20 @@ body.index main {
 	background-size: 360px, 292px, 360px, 140px;
 	background-color: $color-bg-gray;
 }
+.d-main {
+	padding: 3rem 0 8rem;
+	&__wrapper {
+		max-width: 760px;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line13.png");
+	background-repeat: no-repeat;
+	background-position: 90% 0%, 108% 100%, 95% 0%, 0% 0%;
+	background-size: 360px, 292px, 360px, 140px;
+	background-color: $color-bg-gray;
+}
 
 .l-main {
 	background-image: url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line15.png"), url("../img/index/bg_pc_line16.png"), url("../img/index/bg_pc_line14.png"), url("../img/index/bg_pc_line13.png");
