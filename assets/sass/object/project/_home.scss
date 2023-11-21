@@ -606,3 +606,23 @@
   }
 
 }
+
+
+
+.asterisk {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: rem(11);
+  margin: -2rem 0 2.5rem;
+  text-align: left;
+  @include mq(min) {
+    text-align: center;
+  }
+  @include mq(lap) {
+    font-size: rem(12);
+    margin: 0;
+  }
+}

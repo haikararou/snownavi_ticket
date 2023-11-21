@@ -2479,7 +2479,6 @@ ul.astarisk li span {
   }
 }
 .c-bnr__clm04 ul {
-  margin-top: 8%;
   gap: 0.5rem 5%;
 }
 @media screen and (min-width: 1024px) {
@@ -4248,6 +4247,28 @@ ul.astarisk li span {
 .__english .p-index__affiliated p span {
   margin-top: 10px;
   line-height: 140%;
+}
+
+.asterisk {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 0.6875rem;
+  margin: -2rem 0 2.5rem;
+  text-align: left;
+}
+@media screen and (min-width: 560px) {
+  .asterisk {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .asterisk {
+    font-size: 0.75rem;
+    margin: 0;
+  }
 }
 
 /*
