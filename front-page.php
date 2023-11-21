@@ -44,7 +44,7 @@ get_header(); ?>
 	<!-- <div class="c-bnr__main_out"> -->
 		<section class="c-section__home c-section__home__ctr  c-bnr c-bnr__clm02 c-bnr__main">
 			<ul>
-				<li class="ticket"><a href="<?php echo home_url('/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_lift2.png" alt="早割リフト券 全国送料＆事務手数料無料"><div>早割リフト券<span>全国送料＆事務手数料無料 ※</span></div></a></li>
+				<li class="ticket"><a href="<?php echo home_url('/ticket'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_lift2.png" alt="早割リフト券 全国送料＆事務手数料無料"><div>早割リフト券<span>全国送料＆事務手数料無料<?php $locale = get_locale(); if($locale == 'ja'):?> ※<?php endif;?></span></div></a></li>
 				<li class="coupon"><a href="<?php echo home_url('/coupon'); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/banner/bottom_coupon2.png" alt="割引クーポン プリントしてすぐ利用可能"><div>割引クーポン<span>プリントしてすぐ利用可能</span></div></a></li>
 			</ul>
 		</section>
@@ -77,7 +77,6 @@ get_header(); ?>
 		<section>
 			<p class="asterisk">※1回19,000円以上のお買上げで送料無料。19,000円未満の場合、送料は500円。</p>
 		</section>
-		<?php else:?>
 		<?php endif;?>
 
 		<section class="c-section__home  p-index__news">

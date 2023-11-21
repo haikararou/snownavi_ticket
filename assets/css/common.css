@@ -4256,7 +4256,7 @@ ul.astarisk li span {
   margin-right: auto;
   margin-left: auto;
   font-size: 0.6875rem;
-  margin: -2rem 0 2.5rem;
+  margin: -2.5rem 0 2.5rem;
   text-align: left;
 }
 @media screen and (min-width: 560px) {
@@ -4267,7 +4267,6 @@ ul.astarisk li span {
 @media screen and (min-width: 1024px) {
   .asterisk {
     font-size: 0.75rem;
-    margin: 0;
   }
 }
 
